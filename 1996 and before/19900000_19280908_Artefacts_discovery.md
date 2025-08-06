@@ -26,7 +26,7 @@ Symbol Inscription
 
 The artifact is inscribed with a series of complex symbols arranged in a circular pattern around its perimeter. These symbols do not correspond to any known ancient writing systems. Linguists and cryptographers are currently attempting to decipher their meaning and possible significance.
 
-The cover stone's outer ring depicts the artifact with it's symbols. Inside the artifact depiction on the cover stone, there are early hieroglyphic inscriptions. In the center, there is an ornamentem cartouche with 6 of the symbols from the outer ring.
+The cover stone's outer ring depicts the artifact with it's symbols. Inside the artifact depiction on the cover stone, there are early hieroglyphic inscriptions. In the center, there is an ornamental cartouche with 6 of the symbols from the outer ring.
 
 We are excited by three new unknown symbols. They could be a writing system of an older civilization and the hieroglyphics accompanying them would typically be their translation.
 
