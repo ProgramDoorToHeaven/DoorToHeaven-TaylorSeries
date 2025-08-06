@@ -35,7 +35,7 @@ The two buried bodies were discovered with unhealed broken bones, suggesting the
 Archaeological Context
 ----------------------
 
-The presence of the two sets of armor and staffs alongside the artifact suggests a possible ceremonial or protective role. Further investigation is needed to determine their exact nature and relationship to the artifact.
+The presence of the two guardians alongside the artifact suggests a possible ceremonial or protective role. They might have died protecting the artefact or in a brutal sacrificial ritual. Further investigation is needed to determine their exact nature and relationship to the artifact.
 
 Conclusion
 ----------
