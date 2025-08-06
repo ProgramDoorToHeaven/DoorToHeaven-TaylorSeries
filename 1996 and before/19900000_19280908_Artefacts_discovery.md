@@ -30,7 +30,7 @@ The cover stone's outer ring depicts the artifact with it's symbols. Inside the 
 
 Buried guardians
 
-
+The two buried bodies were discovered with unhealed broken bones, suggesting they may have met a violent end. Their jackal masks were made of metal and contained mechanical parts which used to move. The ornamental staffs don't have any sharp edges. Although they could be used as weapons, their primary use was probably purely decorative.
 
 Archaeological Context
 ----------------------
