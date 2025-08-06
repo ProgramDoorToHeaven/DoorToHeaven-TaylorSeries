@@ -11,7 +11,7 @@ Prepared by: Prof. Paul Langford, Lead Archaeologist
 Introduction
 ------------
 
-A significant archaeological discovery was made near the Great Pyramids in Giza, Egypt. This report details the unearthing and initial analysis of a large, circular artifact found beneath a cover stone, accompanied by 2 buried humans in ritual armor with jackal heads and decorated staffs.
+A significant archaeological discovery was made near the Great Pyramids in Giza, Egypt. This report details the unearthing and initial analysis of a large, circular artifact found beneath a cover stone, accompanied by 2 buried human bodies in ritual armor with jackal heads and decorated staffs.
 
 Discovery
 ---------
@@ -32,6 +32,8 @@ The artifact is inscribed with a series of complex symbols arranged in a circula
 The cover stone's outer ring depicts the artifact with it's symbols. Inside the artifact depiction on the cover stone, there are early hieroglyphic inscriptions. In the center, there is an ornamental cartouche with 6 of the symbols from the outer ring.
 
 We are excited by the new unknown symbols. They could be a writing system of an older civilization and the hieroglyphics accompanying them would typically be their translation.
+
+None of the symbols on the artefact is used twice. This indicates a logographic writing system. The text contains 39 distinct symbols. From this, we expect the writing system to use thousands of different symbols. The cartouche in the middle is probably a summary or a headline.
 
 Buried guardians
 
