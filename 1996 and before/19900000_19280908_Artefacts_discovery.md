@@ -28,7 +28,7 @@ The artifact is inscribed with a series of complex symbols arranged in a circula
 
 The cover stone's outer ring depicts the artifact with it's symbols. Inside the artifact depiction on the cover stone, there are early hieroglyphic inscriptions. In the center, there is an ornamental cartouche with 6 of the symbols from the outer ring.
 
-We are excited by three new unknown symbols. They could be a writing system of an older civilization and the hieroglyphics accompanying them would typically be their translation.
+We are excited by the new unknown symbols. They could be a writing system of an older civilization and the hieroglyphics accompanying them would typically be their translation.
 
 Buried guardians
 
