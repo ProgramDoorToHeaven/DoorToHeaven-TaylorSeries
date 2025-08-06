@@ -35,7 +35,7 @@ We are excited by the new unknown symbols. They could be a writing system of an 
 
 Buried guardians
 
-The two buried bodies were discovered with unhealed broken bones, suggesting they may have met a violent end. Their jackal masks were made of metal and contained mechanical parts which used to move. The ornamental staffs don't have any sharp edges. Although they could be used as weapons, their primary use was probably purely decorative.
+The two buried bodies were discovered with unhealed broken bones, suggesting they may have met a violent end. Their jackal masks are made of metal and they contain mechanical parts which used to move. The ornamental staffs don't have any sharp edges. Although they could be used as weapons, their primary use was probably purely decorative or showing their social status.
 
 Archaeological Context
 ----------------------
