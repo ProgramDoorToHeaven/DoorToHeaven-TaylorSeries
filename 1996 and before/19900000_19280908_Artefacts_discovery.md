@@ -8,12 +8,12 @@ Date: September 8, 1928
 Introduction
 ------------
 
-A significant archaeological discovery was made near the Great Pyramids in Giza, Egypt. This report details the unearthing and initial analysis of a large, circular artifact found beneath a cover stone.
+A significant archaeological discovery was made near the Great Pyramids in Giza, Egypt. This report details the unearthing and initial analysis of a large, circular artifact found beneath a cover stone, accompanied by 2 buried humans in ritual armor with jackal heads and decorated staffs.
 
 Discovery
 ---------
 
-While leading an archaeological expedition near the Great Pyramids, my team and I uncovered a large, circular artifact buried beneath a substantial cover stone. The artifact itself is composed of what appears to be a melted meteorite, exhibiting a metallic structure unlike any known materials from the historical or geological record.
+While leading an archaeological expedition near the Great Pyramids, my team and I uncovered a large, circular artifact buried beneath a substantial cover stone. Accompanying the artifact were two remains of human bodies, which we initially hypothesized could be remnants of an ancient burial ritual or guardians of the artifact. The artifact itself is composed of what appears to be a melted meteorite, exhibiting a metallic structure unlike any known materials from the historical or geological record.
 
 Initial Analysis
 ----------------
@@ -28,16 +28,22 @@ The artifact is inscribed with a series of complex symbols arranged in a circula
 
 The cover stone's outer ring depicts the artifact with it's symbols. Inside the artifact depiction on the cover stone, there are early hieroglyphic inscriptions. In the center, there is an ornamentem cartouche with 6 of the symbols from the outer ring.
 
+Buried guardians
+
+
+
 Archaeological Context
 ----------------------
 
-The presence of the two petrified figures alongside the artifact suggests a possible ceremonial or protective role. Further investigation is needed to determine their exact nature and relationship to the artifact.
+The presence of the two sets of armor and staffs alongside the artifact suggests a possible ceremonial or protective role. Further investigation is needed to determine their exact nature and relationship to the artifact.
 
-**Conclusion:**
+Conclusion
+----------
 
-The discovery of this artifact represents a significant advancement in our understanding of ancient metallurgy and symbolism. Further interdisciplinary research is essential to unravel the mysteries surrounding its origin, purpose, and the civilization responsible for its creation.
+The discovery of this artifact represents a significant advancement in our understanding of ancient metallurgy and symbolism. Further interdisciplinary research is essential to unravel the mysteries surrounding its origin and purpose.
 
-**Recommendations:**
+Recommendations
+---------------
 
 - Establish a dedicated research team comprising archaeologists, linguists, material scientists, and historians.
 - Conduct non-invasive imaging and analysis to preserve the artifact's integrity.
