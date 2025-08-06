@@ -28,6 +28,8 @@ The artifact is inscribed with a series of complex symbols arranged in a circula
 
 The cover stone's outer ring depicts the artifact with it's symbols. Inside the artifact depiction on the cover stone, there are early hieroglyphic inscriptions. In the center, there is an ornamentem cartouche with 6 of the symbols from the outer ring.
 
+We are excited by three new unknown symbols. They could be a writing system of an older civilization and the hieroglyphics accompanying them would typically be their translation.
+
 Buried guardians
 
 The two buried bodies were discovered with unhealed broken bones, suggesting they may have met a violent end. Their jackal masks were made of metal and contained mechanical parts which used to move. The ornamental staffs don't have any sharp edges. Although they could be used as weapons, their primary use was probably purely decorative.
