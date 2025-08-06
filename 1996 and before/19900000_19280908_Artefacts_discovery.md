@@ -1,6 +1,6 @@
 ```
 Discovery and initial analysis of the circular artifacts
-≠=======================================================
+========================================================
 
 Location: Giza Plateau, Egypt
 
