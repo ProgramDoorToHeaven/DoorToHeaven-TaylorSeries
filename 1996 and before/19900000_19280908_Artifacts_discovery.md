@@ -43,6 +43,10 @@ Egypt switched to the metric system in 1981.
 And Germany (where prof. Langford was from) has been using metric since 1870s.
 The whole world went crazy and switched to this abstract system instead of the natural and relatable one.
 
+I mean scientists like the metric system because of the ease of conversation between units.
+And that is probably the reason why most of the world adopted it.
+TODO: The Metric Conversion Act of 1975
+
 ```
 Symbol Inscription
 
