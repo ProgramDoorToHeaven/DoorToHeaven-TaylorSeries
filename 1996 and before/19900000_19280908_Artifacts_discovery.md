@@ -24,7 +24,7 @@ Discovery
 While leading an archaeological expedition near the Great Pyramids, my team and I uncovered a large, circular artifact buried beneath a substantial cover stone. Accompanying the artifact were two remains of human bodies, which we initially hypothesized could be remnants of an ancient burial ritual or guardians of the artifact. The artifact itself is composed of what appears to be a melted meteorite, exhibiting a metallic structure unlike any known materials from the historical or geological record.
 ```
 
-Maybe the military isn't interested in history, but rather in the material.
+Maybe the military isn't interested in history, but rather in the material?
 
 
 ```
