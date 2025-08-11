@@ -39,7 +39,7 @@ It weighs around 30 000 kg and its diameter is 6.7 m.
 ```
 
 That's 65 000 pounds and 22 feet in the imperial units. 
-Egypt switched to the metric system in 1981.
+Egypt switched to the metric system in 1891.
 And Germany (where prof. Langford was from) has been using metric since 1870s.
 The whole world went crazy and switched to this abstract system instead of the natural and relatable one.
 
