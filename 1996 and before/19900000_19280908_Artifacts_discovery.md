@@ -38,14 +38,22 @@ Preliminary analysis of the artifact indicates that it is composed of a unique m
 It weighs around 30 000 kg and its diameter is 6.7 m.
 ```
 
-That's 65 000 pounds and 22 feet in our units. 
+That's 65 000 pounds and 22 feet in the imperial units. 
 Egypt switched to the metric system in 1981.
 And Germany (where prof. Langford was from) has been using metric since 1870s.
 The whole world went crazy and switched to this abstract system instead of the natural and relatable one.
 
-I mean scientists like the metric system because of the ease of conversation between units.
+I mean scientists like the metric system because of the ease of conversion between units.
 And that is probably the reason why most of the world adopted it.
-TODO: The Metric Conversion Act of 1975
+We even had the Metric Conversion Act of 1975 as an effort to join the rest of the world. 
+It established the U.S. Metric Board, which was tasked with coordinating and planning the voluntary conversion to the metric system.
+But it was just voluntary and the general public did not feel a pressing need to change their everyday measurement habits.
+So the Board was eventually disbanded in 1982 due to lack of progress and funding.
+
+And here I am. 
+Tasked with auditing military programs, tracking their progress and suggesting changes to their funding.
+Keeping the national expenses efficient and preventing wasting of taxpayer's money. 
+So I hope the Air Force has some break through with the materials and they already started experimenting with new stealth bombers or fighters made of something based on this Egyptian metallurgy.
 
 ```
 Symbol Inscription
