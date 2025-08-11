@@ -35,6 +35,8 @@ Material Composition
 
 Preliminary analysis of the artifact indicates that it is composed of a unique metallic substance, potentially from a melted meteorite. The material exhibits unusual properties, and further study is required to fully understand its composition and potential origins.
 
+It weighs around 65 000 pounds (30 000 kg) and its diameter is 22 feet (6.7 m).
+
 Symbol Inscription
 
 The artifact is inscribed with a series of complex symbols arranged in a circular pattern around its perimeter. These symbols do not correspond to any known ancient writing systems. Linguists and cryptographers are currently attempting to decipher their meaning and possible significance.
