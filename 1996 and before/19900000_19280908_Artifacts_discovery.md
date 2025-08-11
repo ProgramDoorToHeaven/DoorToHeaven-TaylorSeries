@@ -53,7 +53,7 @@ So the Board was eventually disbanded in 1982 due to lack of progress and fundin
 And here I am. 
 Tasked with auditing military programs, tracking their progress and suggesting changes to their funding.
 Keeping the national expenses efficient and preventing wasting of taxpayer's money. 
-So I hope the Air Force has some break through with the materials and they already started experimenting with new stealth bombers or fighters made of something based on this Egyptian metallurgy.
+So I hope the Air Force has some break through with the materials, and they already started experimenting with new stealth bombers or fighters made of something based on this Egyptian metallurgy.
 
 ```
 Symbol Inscription
@@ -64,7 +64,7 @@ The cover stone's outer ring depicts the artifact with it's symbols. Inside the 
 
 We are excited by the new unknown symbols. They could be a writing system of an older civilization and the hieroglyphics accompanying them would typically be their translation.
 
-None of the symbols on the artefact is used twice. This indicates a logographic writing system. The text contains 39 distinct symbols. Therefore, we expect the whole writing system to use thousands of different symbols. The cartouche in the middle is probably a summary or a headline containing the most important words from the text.
+None of the symbols on the artifact is used twice. This indicates a logographic writing system. The text contains 39 distinct symbols. Therefore, we expect the whole writing system to use thousands of different symbols. The cartouche in the middle is probably a summary or a headline containing the most important words from the text.
 
 Buried guardians
 
@@ -73,7 +73,7 @@ The two buried bodies were discovered with unhealed broken bones, suggesting the
 Archaeological Context
 ----------------------
 
-The presence of the two guardians alongside the artifact suggests a possible ceremonial or protective role. They might have died protecting the artefact or in a brutal sacrificial ritual. Further investigation is needed to determine their exact nature and relationship to the artifact.
+The presence of the two guardians alongside the artifact suggests a possible ceremonial or protective role. They might have died protecting the artifact or in a brutal sacrificial ritual. Further investigation is needed to determine their exact nature and relationship to the artifact.
 
 Conclusion
 ----------
