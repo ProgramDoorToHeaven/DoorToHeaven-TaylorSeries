@@ -12,12 +12,22 @@ Introduction
 ------------
 
 A significant archaeological discovery was made near the Great Pyramids in Giza, Egypt. This report details the unearthing and initial analysis of a large, circular artifact found beneath a cover stone, accompanied by 2 buried human bodies in ritual armor with jackal heads and decorated staffs.
+```
 
+Ok, that must be the artifact this program is interested in.
+But since when is our military interested in ancient history?
+
+```
 Discovery
 ---------
 
 While leading an archaeological expedition near the Great Pyramids, my team and I uncovered a large, circular artifact buried beneath a substantial cover stone. Accompanying the artifact were two remains of human bodies, which we initially hypothesized could be remnants of an ancient burial ritual or guardians of the artifact. The artifact itself is composed of what appears to be a melted meteorite, exhibiting a metallic structure unlike any known materials from the historical or geological record.
+```
 
+Maybe the military isn't interested in history, but rather in the material.
+
+
+```
 Initial Analysis
 ----------------
 
