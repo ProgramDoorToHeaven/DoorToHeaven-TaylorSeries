@@ -57,12 +57,16 @@ The whole world went crazy and switched to this abstract system instead of the n
 
 I mean scientists like the metric system because of the ease of conversion between units.
 And that is probably the reason why most of the world adopted it.
+But you usually don't need to do any unit conversions anyway.
+And in the rare occasions when 5-tomatoes are necessary, calculator has your back.
+
 We even had the Metric Conversion Act of 1975 as an effort to join the rest of the world. 
 It established the U.S. Metric Board, which was tasked with coordinating and planning the voluntary conversion to the metric system.
 But it was just voluntary and the general public did not feel a pressing need to change their everyday measurement habits.
 So the Board was eventually disbanded in 1982 due to lack of progress and funding.
 
 And here I am. 
+Like my colleagues before me.
 Tasked with auditing military programs, tracking their progress and suggesting changes to their funding.
 Keeping the national expenses efficient and preventing wasting of taxpayer's money. 
 So I hope the Air Force has some break through with the materials, and they already started experimenting with new stealth bombers or fighters made of something based on this Egyptian metallurgy.
@@ -86,7 +90,7 @@ their translation.
 
 None of the symbols on the artifact is used twice. This indicates a logographic
 writing system. The text contains 39 distinct symbols. Therefore, we expect the
-whole writing system to use thousands of different symbols. The cartouche in the
+whole writing system to use at least thousands of different symbols. The cartouche in the
 middle is probably a summary or a headline containing the most important words
 from the text.
 
