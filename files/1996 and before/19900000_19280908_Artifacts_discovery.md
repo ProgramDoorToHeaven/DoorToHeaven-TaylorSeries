@@ -129,3 +129,24 @@ Recommendations
 - Explore potential connections to other archaeological sites and historical
   records that may provide additional context.
 ```
+
+> Document summary
+> ================
+> 
+> by Taylor Jones
+>
+> |          |                                         |
+> |----------|-----------------------------------------|
+> | Document | Discovery and initial analysis of the circular artifacts | 
+> | Date     | 1928-09-08                              |
+> | Author   | Prof. Paul Langford                     |
+> 
+> In 1928, prof. Langford discovered a circular artefact in Egypt.
+> It was made of an interesting metal.
+> 
+> Recommendation
+> --------------
+> 
+> This document probably does not need to have any access restrictions.
+>
+> I can't imagine how keeping this artefact secret could help the national security.
