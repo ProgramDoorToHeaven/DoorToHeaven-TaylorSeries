@@ -17,7 +17,7 @@ circular artifact found beneath a cover stone, accompanied by 2 buried human
 bodies in ritual armor with jackal heads and decorated staffs.
 ```
 
-Ok, that must be the artifact this program is interested in.
+Ok, that must be the "Door" this program is interested in.
 But since when is our military interested in ancient history?
 
 ```
