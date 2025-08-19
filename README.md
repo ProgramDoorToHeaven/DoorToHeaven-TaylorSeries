@@ -4,7 +4,7 @@ N.I.D. IS
 |                             |                                   |
 |-----------------------------|-----------------------------------|
 | User logged in              | Taylor Jones                      |
-| Division                    | Military projects oversight       |
+| N.I.D. division             | Military projects oversight       |
 | National security clearance | Top secret                        |
 | NATO security clearance     | NATO CTS                          |
 |                             |                                   |
