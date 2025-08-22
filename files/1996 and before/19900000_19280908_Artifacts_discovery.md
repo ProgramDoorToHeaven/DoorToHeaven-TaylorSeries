@@ -83,8 +83,8 @@ inscriptions. In the center, there is an ornamental cartouche with 6 of the
 symbols from the outer ring.
 
 We are excited by the new unknown symbols. They could be a writing system of an
-older civilization and the hieroglyphics accompanying them would typically be
-their translation.
+older civilization and the hieroglyphics accompanying them would typically (on 
+similar bilingual artefacts) be their translation.
 
 None of the symbols on the artifact is used twice. This indicates a logographic
 writing system. The text contains 39 distinct symbols. Therefore, we expect the
