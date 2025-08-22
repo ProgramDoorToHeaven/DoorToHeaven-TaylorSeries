@@ -93,7 +93,7 @@ Either a 39-character phonetic alphabet with one word written in the cartouche i
 Or it could be a logographic
 writing system. The text contains 39 distinct symbols.
 Based on their complexity, we expect the
-whole writing system to use just afew hundreds of distinct symbols. On the other hand, we would expect some symbols to occur multiple times unless the writing system contains thousands of characters or unless the 39-character text is specially crafted (some kind of art or poetry). The cartouche in the
+whole writing system to use just afew hundreds of distinct symbols. On the other hand, we would expect some symbols to occur multiple times unless the writing system contains thousands of characters or unless the 39-character text is specially crafted (some kind of art or poetry, enumerating synonyms of a list of gods). The cartouche in the
 middle is probably a summary or a headline containing the most important words
 from the text.
 
