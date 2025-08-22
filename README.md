@@ -9,7 +9,7 @@ N.I.D. IS
 | NATO security clearance     | NATO CTS                          |
 |                             |                                   |
 | Current agenda              | Program "Door To Heaven"          |
-| Classification              | Top secret - do not obtain copies |
+| Agenda classification       | Top secret - do not obtain copies |
 |                             |                                   |
 
 Wellcome to the **Program "Door To Heaven"** agenda home page.
