@@ -86,9 +86,11 @@ We are excited by the new unknown symbols. They could be a writing system of an
 older civilization and the hieroglyphics accompanying them would typically (on 
 similar bilingual artifacts) be their translation.
 
+The hieroglyphs on the cover stone are the early form or proto-hierohlyphs. Probably from 3000 BCE, which is 500 years older than the other artifacts found in this area.
+
 None of the symbols on the artifact is used twice. This indicates one of tho possibilities: 
 
-Either a 39-character phonetic alphabet with one word written in the cartouche in the middle. However, phonetic alphabets are not probable before 2000 BC.
+Either a 39-character phonetic alphabet with one word written in the cartouche in the middle. However, phonetic alphabets are not probable before 2000 BCE.
 
 Or it could be a logographic
 writing system. The text contains 39 distinct symbols.
