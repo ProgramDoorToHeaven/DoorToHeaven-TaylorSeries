@@ -91,8 +91,9 @@ None of the symbols on the artifact is used twice. This indicates one of tho pos
 Either a 39-character phonetic alphabet with one word written in the cartouche in the middle. However, phonetic alphabets are not probable before 2000 BC.
 
 Or it could be a logographic
-writing system. The text contains 39 distinct symbols. Therefore, we expect the
-whole writing system to use at least thousands of different symbols. The cartouche in the
+writing system. The text contains 39 distinct symbols.
+Based on their complexity, we expect the
+whole writing system to use just afew hundreds of distinct symbols. On the other hand, we would expect some symbols to occur multiple times unless the writing system contains thousands of characters or unless the 39-character text is specially crafted (some kind of art or poetry). The cartouche in the
 middle is probably a summary or a headline containing the most important words
 from the text.
 
