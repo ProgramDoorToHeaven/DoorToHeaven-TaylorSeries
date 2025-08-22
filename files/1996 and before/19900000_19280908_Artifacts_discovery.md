@@ -88,13 +88,13 @@ similar bilingual artifacts) be their translation.
 
 None of the symbols on the artifact is used twice. This indicates one of tho possibilities: 
 
-Either a logographic
+Either a 39-character phonetic alphabet with one word written in the cartouche in the middle. However, phonetic alphabets are not probable before 2000 BC.
+
+Or it could be a logographic
 writing system. The text contains 39 distinct symbols. Therefore, we expect the
 whole writing system to use at least thousands of different symbols. The cartouche in the
 middle is probably a summary or a headline containing the most important words
 from the text.
-
-Or it could be a 39-character phonetic alphabet with one word in the middle. However, alphabets are not probable before 2000 BC.
 
 Buried guardians
 
