@@ -137,11 +137,11 @@ purpose.
 > 
 > by Taylor Jones
 >
-> |          |                                         |
-> |----------|-----------------------------------------|
+> |          |                                                          |
+> |----------|----------------------------------------------------------|
 > | Document | Discovery and initial analysis of the circular artifacts | 
-> | Date     | 1928-09-08                              |
-> | Author   | Prof. Paul Langford                     |
+> | Date     | 1928-09-08                                               |
+> | Author   | Prof. Paul Langford                                      |
 > 
 > In 1928, prof. Langford discovered a circular artefact in Egypt.
 > It was made of an interesting metal.
