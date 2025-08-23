@@ -26,7 +26,7 @@ While leading an archaeological expedition near the Great Pyramids, my team and
 I uncovered a large, circular artifact buried beneath a substantial cover stone.
 Accompanying the artifact were two remains of human bodies, which we initially
 hypothesized could be remnants of an ancient burial ritual or guardians of the
-artifact. The artifact itself is composed of what appears to be a melted
+artifact. The artifact itself is composed of what appears to be melted
 meteorite, exhibiting a metallic structure unlike any known materials from the
 historical or geological record.
 ```
@@ -56,7 +56,7 @@ The whole world went crazy and switched to this abstract system instead of the n
 I mean scientists like the metric system because of the ease of conversion between units.
 And that is probably the reason why most of the world adopted it.
 But you usually don't need to do any unit conversions anyway.
-And in the rare occasions when 5-tomatoes are necessary, calculator has your back.
+And in the rare occasions when 5-to-mat-oes are necessary, calculator has your back.
 
 We even had the Metric Conversion Act of 1975 as an effort to join the rest of the world. 
 It established the U.S. Metric Board, which was tasked with coordinating and planning the voluntary conversion to the metric system.
@@ -83,21 +83,28 @@ inscriptions. In the center, there is an ornamental cartouche with 6 of the
 symbols from the outer ring.
 
 We are excited by the new unknown symbols. They could be a writing system of an
-older civilization and the hieroglyphics accompanying them would typically (on 
+older civilization and the hieroglyphs accompanying them would typically (on 
 similar bilingual artifacts) be their translation.
 
-The hieroglyphs on the cover stone are the early form or proto-hierohlyphs. Probably from 3000 BCE, which is 500 years older than the other artifacts found in this area.
+The hieroglyphs on the cover stone are the early form or proto-hierohlyphs.
+Probably from 3000 BCE, which is 500 years older than the other artifacts found
+in this area.
 
-None of the symbols on the artifact is used twice. This indicates one of tho possibilities: 
+None of the symbols on the artifact is used twice. This indicates one of tho
+possibilities: 
 
-Either a 39-character phonetic alphabet with one word written in the cartouche in the middle. However, phonetic alphabets are not probable before 2000 BCE.
+Either it is a 39-character phonetic alphabet with one word written in the
+cartouche in the middle. (However, phonetic alphabets are not probable before
+2000 BCE.)
 
-Or it could be a logographic
-writing system. The text contains 39 distinct symbols.
-Based on their complexity, we expect the
-whole writing system to use just afew hundreds of distinct symbols. On the other hand, we would expect some symbols to occur multiple times unless the writing system contains thousands of characters or unless the 39-character text is specially crafted (some kind of art or poetry, enumerating synonyms of a list of gods). The cartouche in the
-middle is probably a summary or a headline containing the most important words
-from the text.
+Or it could be a logographic writing system. The text contains 39 distinct
+symbols. Based on their relatively low complexity, we expect the whole writing
+system to use just a few hundreds of distinct symbols. On the other hand, we
+would expect some symbols to occur multiple times unless the writing system
+contains thousands of characters or unless the 39-character text is specially
+crafted (some kind of art or poetry, enumerating synonyms of a word or a list
+of gods). The cartouche in the middle is probably a summary or a headline
+containing the most important words from the text.
 
 Buried guardians
 
@@ -123,16 +130,6 @@ The discovery of this artifact represents a significant advancement in our
 understanding of ancient metallurgy and symbolism. Further interdisciplinary
 research is essential to unravel the mysteries surrounding its origin and
 purpose.
-
-Recommendations
----------------
-
-- Establish a dedicated research team comprising archaeologists, linguists,
-  material scientists, and historians.
-- Conduct non-invasive imaging and analysis to preserve the artifact's
-  integrity.
-- Explore potential connections to other archaeological sites and historical
-  records that may provide additional context.
 ```
 
 > Document summary
@@ -153,5 +150,5 @@ Recommendations
 > --------------
 > 
 > This document probably does not need to have any access restrictions.
->
-> I can't imagine how keeping this artefact secret could help the national security.
+
+I can't imagine how keeping this artefact secret could help the national security.
