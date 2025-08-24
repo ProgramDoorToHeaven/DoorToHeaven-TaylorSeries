@@ -51,7 +51,7 @@ class PageBlock(Printable):
         for part in self.parts:
             part_encoded: Iterable[HtmlTag | str]
             if self.block_type is PageBlockType.MONOTYPE:
-                markdown_params = MarkDownParams(is_monospace=True, break_lines=self.break_lines)
+                markdown_params = MarkDownParams().set_monospace(self.break_lines)
                 part_encoded = part.get_markdown(markdown_params, first_line_special_prefix=None)
             else:
                 part_encoded = (part.get_html(),)
@@ -70,9 +70,17 @@ class PageBlock(Printable):
             if part_index != 0:
                 yield ""  # space between parts
             markdown_params_for_part = markdown_params.add_prefix(block_type.markdown_each_line_prefix)
+            if self.block_type is PageBlockType.MONOTYPE:
+                markdown_params_for_part = markdown_params_for_part.set_monospace(self.break_lines)
             yield from part.get_markdown(markdown_params_for_part, first_line_special_prefix=first_line_special_prefix)
         if block_type.markdown_end:
             yield block_type.markdown_end
+
+
+@dataclass(frozen=True)
+class PageBlockTypeWriter(PageBlock):
+    block_type: PageBlockType = PageBlockType.MONOTYPE
+    break_lines: int = 80
 
 
 @dataclass(frozen=True)

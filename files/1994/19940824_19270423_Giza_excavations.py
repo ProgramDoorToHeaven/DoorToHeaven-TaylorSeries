@@ -1,4 +1,4 @@
-from tools import Page, PageBlock, PageBlockType, HeadLine, HorizontalLine, ListOfItems, Paragraph, Table
+from tools import Page, PageBlock, PageBlockType, PageBlockTypeWriter, HeadLine, HorizontalLine, ListOfItems, Paragraph, Table
 
 PAGE = Page(blocks=(
     PageBlock(parts=(
@@ -17,7 +17,7 @@ PAGE = Page(blocks=(
             Once I'm done with this one, I can finally go for lunch.
         """,)),
     )),
-    PageBlock(block_type=PageBlockType.MONOTYPE, parts=(
+    PageBlockTypeWriter(parts=(
         HeadLine(level=1, text="Archaeological Report: Discovery of the Tomb of Queen Meresankh III"),
         Paragraph(is_literal=True, text=("""
             Location:              Giza Plateau, East Field, Egypt
@@ -65,7 +65,7 @@ PAGE = Page(blocks=(
             He's really into history, and since his parents are from Egypt, he might have some interesting insights to share.
         """,)),
     )),
-    PageBlock(block_type=PageBlockType.MONOTYPE, parts=(
+    PageBlockTypeWriter(parts=(
         HeadLine(level=2, text="Discovery and Initial Observations"),
         Paragraph(text=("""
             The tomb, designated G 7530-7540, was located near the pyramid complex of Khafre.
