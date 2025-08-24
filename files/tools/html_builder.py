@@ -27,9 +27,26 @@ def new_tag(
         class_: str | Iterable[str] | None = None,
         **kw_attributes: str | Iterable[str],
 ) -> HtmlTag:
-    kw_attributes[CLASS_ATTRIBUTE_NAME] = _join_classes(class_, kw_attributes.get(CLASS_ATTRIBUTE_NAME, None))
-    return SOUP.new_tag(tag, string=string, **kw_attributes)
+    joint_classes = _join_classes(class_, kw_attributes.get(CLASS_ATTRIBUTE_NAME, None))
+    if joint_classes:
+        kw_attributes[CLASS_ATTRIBUTE_NAME] = joint_classes
+    return SOUP.new_tag(tag, string=string, attrs=kw_attributes)
 
 
 def html_to_string(tag: HtmlTag) -> str:
     return str(tag)
+
+
+def build_html(main_div: HtmlTag) -> HtmlTag:
+    html_doc = new_tag("html")
+    html_head = new_tag("head")
+    html_head.append(new_tag("link", rel="stylesheet", href="../tools/main.css"))
+    # TODO: favicon: html_head.append(new_tag("link", rel="shortcut icon", type="image/png", href="../tools/main.css"))
+    # TODO: title: html_head.append(new_tag("title", string=""))
+    html_head.append(new_tag("meta", charset="utf-8"))
+    html_head.append(new_tag("meta", name="color-scheme", content="dark light"))
+    html_doc.append(html_head)
+    html_body = new_tag("body")
+    html_body.append(main_div)
+    html_doc.append(html_body)
+    return html_doc

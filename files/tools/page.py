@@ -7,7 +7,7 @@ import sys
 from typing import Iterable, Iterator
 
 from tools.basic_printables import Printable
-from tools.html_builder import html_to_string, HtmlTag, new_tag
+from tools.html_builder import build_html, html_to_string, HtmlTag, new_tag
 from tools.markdown_params import MarkDownParams
 
 
@@ -19,7 +19,7 @@ class PageBlockTypeItem:
     markdown_end: str | None = None
     markdown_each_line_prefix: str = ""
 
-    def get_html(self) -> HtmlTag:
+    def get_html_tag(self) -> HtmlTag:
         return new_tag(self.html_tag, class_=self.html_classes)
 
 
@@ -28,7 +28,7 @@ class PageBlockType(Enum):
         html_tag="div",
     )
     MONOTYPE = PageBlockTypeItem(
-        html_tag="pre",
+        html_tag="pre", html_classes=("typewriter",),
         markdown_start="```", markdown_end="```",
     )
     QUOTATION = PageBlockTypeItem(
@@ -36,8 +36,8 @@ class PageBlockType(Enum):
         markdown_each_line_prefix="> ",
     )
 
-    def get_html(self) -> HtmlTag:
-        return self.value.get_html()
+    def get_html_tag(self) -> HtmlTag:
+        return self.value.get_html_tag()
 
 
 @dataclass(frozen=True)
@@ -47,12 +47,15 @@ class PageBlock(Printable):
     break_lines: int | None = None
 
     def get_html(self) -> HtmlTag:
-        result = self.block_type.get_html()
+        result = self.block_type.get_html_tag()
         for part in self.parts:
             part_encoded: Iterable[HtmlTag | str]
             if self.block_type is PageBlockType.MONOTYPE:
                 markdown_params = MarkDownParams().set_monospace(self.break_lines)
-                part_encoded = part.get_markdown(markdown_params, first_line_special_prefix=None)
+                part_encoded = (
+                    line + "\n"
+                    for line in part.get_markdown(markdown_params, first_line_special_prefix=None)
+                )
             else:
                 part_encoded = (part.get_html(),)
             result.extend(part_encoded)
@@ -89,7 +92,7 @@ class Page(Printable):
     blocks: tuple[PageBlock, ...]
 
     def get_html(self) -> HtmlTag:
-        result = new_tag("div")
+        result = new_tag("div", class_="page")
         for block in self.blocks:
             result.append(block.get_html())
         return result
@@ -117,4 +120,6 @@ class Page(Printable):
                 for line in self.get_markdown()
             ))
         with open(filename + ".html", encoding="utf-8", mode="w") as f:
-            f.write(html_to_string(self.get_html()))
+            main_div = self.get_html()
+            whole_html = build_html(main_div)
+            f.write(html_to_string(whole_html))
