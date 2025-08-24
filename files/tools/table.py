@@ -71,10 +71,10 @@ class Table(Printable):
 
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
         widths = self.get_widths()
-        if not self.header_is_empty():
-            yield self.get_markdown_row(self.header, widths)
-            yield self.get_markdown_row(
+        if not self.header_is_empty() or not markdown_params.is_monospace:
+            yield markdown_params.line_prefix + self.get_markdown_row(self.header, widths)
+            yield markdown_params.line_prefix + self.get_markdown_row(
                 [" "] * len(self.header), widths
             ).replace(" ", "-")
         for row in self.items:
-            yield self.get_markdown_row(row, widths)
+            yield markdown_params.line_prefix + self.get_markdown_row(row, widths)

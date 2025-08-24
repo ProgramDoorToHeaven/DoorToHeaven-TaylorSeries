@@ -66,9 +66,9 @@ class HeadLine(Printable):
                 if not markdown_params.is_monospace:
                     prefix = "#" * self.level + " "
         result = prefix + self.text
-        yield result
+        yield markdown_params.line_prefix + result
         if underline is not None:
-            yield underline * len(result)
+            yield markdown_params.line_prefix + (underline * len(result))
 
 
 @dataclass(frozen=True)
