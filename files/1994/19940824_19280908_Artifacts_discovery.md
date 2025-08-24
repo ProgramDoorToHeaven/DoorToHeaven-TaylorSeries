@@ -79,8 +79,8 @@ decipher their meaning and possible significance.
 
 The cover stone's outer ring depicts the artifact with it's symbols. Inside the
 artifact depiction on the cover stone, there are early hieroglyphic
-inscriptions. In the center, there is an ornamental cartouche with 6 of the
-symbols from the outer ring.
+inscriptions (estimated to come from the era around 3000 BCE). In the center,
+there is an ornamental cartouche with 6 of the symbols from the outer ring.
 
 We are excited by the new unknown symbols. They could be a writing system of an
 older civilization and the hieroglyphs accompanying them would typically (on 
@@ -89,8 +89,8 @@ similar bilingual artifacts) be their translation.
 None of the symbols on the artifact is used twice. This indicates, it could be a
 39-character phonemic alphabet with one word written in the cartouche in the
 middle. Another argument for a phonemic alphabet is the fact that the symbols do
-not resemble aby daily use or religious items as we would expect in a
-logographic alphabet.
+not resemble the shape of aby daily use or religious items as we would expect in
+a logographic alphabet.
 
 The word in the cartouche in the middle of the cover stone is probably a name of
 a god or a king. At least in the hieroglyphic writing system, that is what
@@ -102,7 +102,7 @@ Buried guardians
 The two buried bodies were discovered with unhealed broken bones, suggesting
 they may have met a violent end. Their jackal masks are made of metal and they
 contain mechanical parts which used to move. This level of craftsmanship also
-doesn't match anythink known from this age. The ornamental staffs are well
+doesn't match anything known from this age. The ornamental staffs are well
 preserved and don't have any sharp edges. Although they could be used as blunt
 weapons, their primary use was probably purely decorative or an indication of
 social status.
