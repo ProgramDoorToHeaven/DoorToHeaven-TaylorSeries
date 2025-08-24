@@ -3,13 +3,14 @@ from tools import Page, PageBlock, PageBlockType, PageBlockTypeWriter, HeadLine,
 PAGE = Page(blocks=(
     PageBlock(parts=(
         Paragraph(text=("""
-            They just assigned me to monitor this new Air Force program.
-            Like if I didn't already have enough on my plate.
+            Just got handed a new Air Force program to monitor - \"Door to Heaven\".
+            Seriously, who names these things?
         """,)),
         Paragraph(text=("""
-            Program \"Door to Heaven\" - who even comes up with these code names?
-            Still, etymology is always fascinating.
-            Maybe it's about soaring into the sky - what else could it possibly mean?
+            The name’s got me curious, though.
+            Is it about soaring into the sky?
+            What else could it possibly mean?
+            Guess I'll find somewhere in this pile of reports.
         """,)),
         HorizontalLine(),
         Paragraph(text=("""
