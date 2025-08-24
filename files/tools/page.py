@@ -10,7 +10,7 @@ from markdown_params import MarkDownParams
 
 
 @dataclass(frozen=True)
-class DocumentBlockTypeItem:
+class PageBlockTypeItem:
     html_tag: str
     html_classes: tuple[str, ...] = ()
     markdown_start: str | None = None
@@ -21,15 +21,15 @@ class DocumentBlockTypeItem:
         return new_tag(self.html_tag, class_=self.html_classes)
 
 
-class DocumentBlockType(Enum):
-    NORMAL = DocumentBlockTypeItem(
+class PageBlockType(Enum):
+    NORMAL = PageBlockTypeItem(
         html_tag="div",
     )
-    MONOTYPE = DocumentBlockTypeItem(
+    MONOTYPE = PageBlockTypeItem(
         html_tag="pre",
         markdown_start="```", markdown_end="```",
     )
-    QUOTATION = DocumentBlockTypeItem(
+    QUOTATION = PageBlockTypeItem(
         html_tag="div", html_classes=("quotation",),
         markdown_each_line_prefix="> ",
     )
@@ -39,16 +39,16 @@ class DocumentBlockType(Enum):
 
 
 @dataclass(frozen=True)
-class DocumentBlock(Printable):
+class PageBlock(Printable):
     parts: tuple[Printable, ...]
-    block_type: DocumentBlockType = DocumentBlockType.NORMAL
+    block_type: PageBlockType = PageBlockType.NORMAL
     break_lines_before_chars: int | None = None
 
     def get_html(self) -> HtmlTag:
         result = self.block_type.get_html()
         for part in self.parts:
             part_encoded: Iterable[HtmlTag | str]
-            if self.block_type is DocumentBlockType.MONOTYPE:
+            if self.block_type is PageBlockType.MONOTYPE:
                 markdown_params = MarkDownParams(is_monospace=True, break_lines_before=self.break_lines_before_chars)
                 part_encoded = part.get_markdown(markdown_params, first_line_special_prefix=None)
             else:
@@ -74,8 +74,8 @@ class DocumentBlock(Printable):
 
 
 @dataclass(frozen=True)
-class Document(Printable):
-    blocks: tuple[DocumentBlock]
+class Page(Printable):
+    blocks: tuple[PageBlock, ...]
 
     def get_html(self) -> HtmlTag:
         result = new_tag("div")

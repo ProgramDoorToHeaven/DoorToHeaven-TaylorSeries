@@ -34,7 +34,7 @@ class Paragraph(Printable):
         return result
 
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
-        for item_index, item in zip(self.text):
+        for item_index, item in enumerate(self.text):
             yield from markdown_params.get_formated_markdown_line(
                 item_index, item, first_line_special_prefix, self.is_literal
             )

@@ -11,7 +11,7 @@ from markdown_params import MarkDownParams
 @dataclass(frozen=True)
 class Table(Printable):
     header: tuple[str, ...]
-    items: tuple[tuple[str, ...]]
+    items: tuple[tuple[str, ...], ...]
 
     def __post_init__(self):
         header_length = len(self.header)
@@ -22,6 +22,10 @@ class Table(Printable):
                 f"Length of row #{index} is {len(row)}."
                 + f" That does not match the length of header which is {header_length}."
             )
+
+    @classmethod
+    def new_table_without_header(cls, items: tuple[tuple[str, ...], ...]):
+        return cls(header=tuple([""] * len(items[0])), items=items)
 
     def header_is_empty(self) -> bool:
         for item in self.header:
