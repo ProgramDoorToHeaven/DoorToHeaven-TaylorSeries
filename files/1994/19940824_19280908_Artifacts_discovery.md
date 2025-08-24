@@ -2,9 +2,9 @@
 Discovery and initial analysis of the circular artifacts
 ========================================================
 
-Location: Giza Plateau, Egypt
-Date: September 8, 1928
-Report prepared by: Prof. Paul Langford, Lead Archaeologist
+Location:              Giza Plateau, Egypt
+Date:                  September 8, 1928
+Report prepared by:    Prof. Paul Langford, Lead Archaeologist
 
 Introduction
 ------------
