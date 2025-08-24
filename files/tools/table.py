@@ -3,9 +3,9 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Iterable, Iterator
 
-from basic_printables import Printable
-from html_builder import new_tag, HtmlTag
-from markdown_params import MarkDownParams
+from tools.basic_printables import Printable
+from tools.html_builder import new_tag, HtmlTag
+from tools.markdown_params import MarkDownParams
 
 
 @dataclass(frozen=True)
@@ -65,7 +65,7 @@ class Table(Printable):
     @staticmethod
     def get_markdown_row(row: Iterable[str], widths: list[int]) -> str:
         return "| " + " | ".join(
-            item.rjust(width)
+            item.ljust(width)
             for item, width in zip(row, widths)
         ) + " |"
 

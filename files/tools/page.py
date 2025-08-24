@@ -2,11 +2,13 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from enum import Enum
+import os
+import sys
 from typing import Iterable, Iterator
 
-from basic_printables import Printable
-from html_builder import HtmlTag, new_tag
-from markdown_params import MarkDownParams
+from tools.basic_printables import Printable
+from tools.html_builder import html_to_string, HtmlTag, new_tag
+from tools.markdown_params import MarkDownParams
 
 
 @dataclass(frozen=True)
@@ -61,16 +63,16 @@ class PageBlock(Printable):
             markdown_params: MarkDownParams = MarkDownParams(),
             first_line_special_prefix: str | None = None,
     ) -> Iterator[str]:
+        block_type = self.block_type.value
+        if block_type.markdown_start:
+            yield block_type.markdown_start
         for part_index, part in enumerate(self.parts):
             if part_index != 0:
                 yield ""  # space between parts
-            block_type = self.block_type.value
-            if block_type.markdown_start:
-                yield block_type.markdown_start
             markdown_params_for_part = markdown_params.add_prefix(block_type.markdown_each_line_prefix)
             yield from part.get_markdown(markdown_params_for_part, first_line_special_prefix=first_line_special_prefix)
-            if block_type.markdown_end:
-                yield block_type.markdown_end
+        if block_type.markdown_end:
+            yield block_type.markdown_end
 
 
 @dataclass(frozen=True)
@@ -92,3 +94,18 @@ class Page(Printable):
             if block_index != 0:
                 yield ""  # space between blocks
             yield from block.get_markdown()
+
+    def to_file(self, filename: str | None = None) -> None:
+        if not filename:
+            main_script = sys.argv[0]
+            filename = os.path.abspath(main_script)
+        extension_py = ".py"
+        if filename.endswith(extension_py):
+            filename = filename[:-len(extension_py)]
+        with open(filename + ".md", encoding="utf-8", mode="w") as f:
+            f.writelines((
+                line + "\n"
+                for line in self.get_markdown()
+            ))
+        with open(filename + ".html", encoding="utf-8", mode="w") as f:
+            f.write(html_to_string(self.get_html()))

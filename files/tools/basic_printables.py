@@ -4,8 +4,8 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from typing import Iterator
 
-from html_builder import new_tag, HtmlTag
-from markdown_params import MarkDownParams
+from tools.html_builder import new_tag, HtmlTag
+from tools.markdown_params import MarkDownParams
 
 
 class Printable(ABC):

@@ -55,8 +55,10 @@ class MarkDownParams:
                 yield word
 
     def _generate_lines(self, line: str, is_literal: bool = False) -> Iterator[str]:
+        line=line.strip()
         if is_literal or (self.break_lines_before is None):
-            yield from line.splitlines(keepends=False)
+            for row in line.splitlines(keepends=False):
+                yield row.strip()
             return
 
         prefix_length = len(self.line_prefix)
@@ -84,6 +86,6 @@ class MarkDownParams:
         iterator = self._generate_lines(line, is_literal)
         first_line = next(iterator, None)
         if first_line is not None:
-            yield self.get_line_prefix(index, first_line_special_prefix) + line
-        for line in iterator:
-            yield self.line_prefix + line
+            yield self.get_line_prefix(index, first_line_special_prefix) + first_line
+        for row in iterator:
+            yield self.line_prefix + row

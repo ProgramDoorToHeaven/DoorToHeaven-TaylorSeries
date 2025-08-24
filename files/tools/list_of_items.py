@@ -1,24 +1,34 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from types import MethodType
 from typing import Callable, Iterator
 
-from basic_printables import Paragraph, Printable
-from html_builder import new_tag, HtmlTag
-from markdown_params import MarkDownParams
+from tools.basic_printables import Paragraph, Printable
+from tools.html_builder import new_tag, HtmlTag
+from tools.markdown_params import MarkDownParams
 
 
 @dataclass(frozen=True)
 class ListOfItems(Printable):
     items: tuple[Paragraph, ...]
     html_ordered: str | None = None
-    enumeration_to_prefix: Callable[[ListOfItems, int], str] = lambda self, index: "-"
+    index_to_prefix: Callable[[ListOfItems, int], str] = lambda self, index: "-"
     max_prefix_length: Callable[[ListOfItems], int] = lambda self: 1
 
+    @property
+    def translate_enumeration_to_prefix(self):
+        return MethodType(self.index_to_prefix, self)
+
+    @property
+    def get_max_prefix_length(self):
+        return MethodType(self.max_prefix_length, self)
+
     def get_markdown_prefix(self, index: int) -> str:
-        prefix = self.enumeration_to_prefix(index)
-        to_length = self.max_prefix_length() + 1
+        prefix = self.translate_enumeration_to_prefix(index)
+        to_length = self.get_max_prefix_length() + 1
         return prefix.ljust(to_length)
+
 
     def get_html(self) -> HtmlTag:
         if self.html_ordered is None:
@@ -43,7 +53,7 @@ class ListOfItems(Printable):
 class NumberedList(ListOfItems):
     html_ordered: str = "1"
     prefix_format: str = "{})"
-    enumeration_to_prefix: Callable[[NumberedList, int], str] = (
+    index_to_prefix: Callable[[NumberedList, int], str] = (
         lambda self, index: self.prefix_format.format(index + 1)
     )
     max_prefix_length: Callable[[NumberedList], int] = lambda self: len(self.prefix_format.format(len(self.items)))
@@ -53,7 +63,7 @@ class NumberedList(ListOfItems):
 class LetteredList(ListOfItems):
     html_ordered: str = "a"
     prefix_format: str = "{})"
-    enumeration_to_prefix: Callable[[LetteredList, int], str] = (
+    index_to_prefix: Callable[[LetteredList, int], str] = (
         lambda self, index: self.prefix_format.format(ord(self.html_ordered) + index)
     )
     max_prefix_length: Callable[[LetteredList], int] = lambda self: len(self.prefix_format.format("a"))

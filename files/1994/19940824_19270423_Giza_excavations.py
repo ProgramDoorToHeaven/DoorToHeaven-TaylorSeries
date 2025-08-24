@@ -7,9 +7,9 @@ PAGE = Page(blocks=(
             Like if I didn't already have enough on my plate.
         """,)),
         Paragraph(text=("""
-            Program \"Door to Heaven\" - who even comes up with these code names?"
-            Still, etymology is always fascinating."
-            Maybe it's about soaring into the sky - what else could it possibly mean?"
+            Program \"Door to Heaven\" - who even comes up with these code names?
+            Still, etymology is always fascinating.
+            Maybe it's about soaring into the sky - what else could it possibly mean?
         """,)),
         HorizontalLine(),
         Paragraph(text=("""
@@ -175,5 +175,11 @@ PAGE = Page(blocks=(
         """,)),
     )),
 ))
-Paragraph(text=("""
-        """,)),
+
+
+def main():
+    PAGE.to_file()
+
+
+if __name__ == "__main__":
+    main()

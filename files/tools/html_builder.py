@@ -29,3 +29,7 @@ def new_tag(
 ) -> HtmlTag:
     kw_attributes[CLASS_ATTRIBUTE_NAME] = _join_classes(class_, kw_attributes.get(CLASS_ATTRIBUTE_NAME, None))
     return SOUP.new_tag(tag, string=string, **kw_attributes)
+
+
+def html_to_string(tag: HtmlTag) -> str:
+    return str(tag)
