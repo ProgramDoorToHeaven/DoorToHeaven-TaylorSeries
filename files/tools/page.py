@@ -19,8 +19,12 @@ class PageBlockTypeItem:
     markdown_end: str | None = None
     markdown_each_line_prefix: str = ""
 
-    def get_html_tag(self) -> HtmlTag:
-        return new_tag(self.html_tag, class_=self.html_classes)
+    def get_html_tag(self, contents: Iterable[HtmlTag | str]) -> HtmlTag:
+        result = new_tag(self.html_tag)
+        result.extend(contents)
+        wrapper = new_tag("div", class_=self.html_classes)
+        wrapper.append(result)
+        return wrapper
 
 
 class PageBlockType(Enum):
@@ -36,8 +40,8 @@ class PageBlockType(Enum):
         markdown_each_line_prefix="> ",
     )
 
-    def get_html_tag(self) -> HtmlTag:
-        return self.value.get_html_tag()
+    def get_html_tag(self, contents: Iterable[HtmlTag | str]) -> HtmlTag:
+        return self.value.get_html_tag(contents)
 
 
 @dataclass(frozen=True)
@@ -47,7 +51,7 @@ class PageBlock(Printable):
     break_lines: int | None = None
 
     def get_html(self) -> HtmlTag:
-        result = self.block_type.get_html_tag()
+        contents: list[HtmlTag | str] = []
         for part in self.parts:
             part_encoded: Iterable[HtmlTag | str]
             if self.block_type is PageBlockType.MONOTYPE:
@@ -58,8 +62,8 @@ class PageBlock(Printable):
                 )
             else:
                 part_encoded = (part.get_html(),)
-            result.extend(part_encoded)
-        return result
+            contents.extend(part_encoded)
+        return self.block_type.get_html_tag(contents)
 
     def get_markdown(
             self,
