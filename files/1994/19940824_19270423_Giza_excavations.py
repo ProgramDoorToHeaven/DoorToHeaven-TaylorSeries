@@ -1,0 +1,179 @@
+from tools import Page, PageBlock, PageBlockType, HeadLine, HorizontalLine, ListOfItems, Paragraph, Table
+
+PAGE = Page(blocks=(
+    PageBlock(parts=(
+        Paragraph(text=("""
+            They just assigned me to monitor this new Air Force program.
+            Like if I didn't already have enough on my plate.
+        """,)),
+        Paragraph(text=("""
+            Program \"Door to Heaven\" - who even comes up with these code names?"
+            Still, etymology is always fascinating."
+            Maybe it's about soaring into the sky - what else could it possibly mean?"
+        """,)),
+        HorizontalLine(),
+        Paragraph(text=("""
+            Alright, another report to read.
+            Once I'm done with this one, I can finally go for lunch.
+        """,)),
+    )),
+    PageBlock(block_type=PageBlockType.MONOTYPE, parts=(
+        HeadLine(level=1, text="Archaeological Report: Discovery of the Tomb of Queen Meresankh III"),
+        Paragraph(is_literal=True, text=("""
+            Location:              Giza Plateau, East Field, Egypt
+            Date of Discovery:     April 1927
+            Excavation Director:   George Andrew Reisner, Ph.D
+            Report prepared by:    Prof. Paul Langford, Deputy Field Director
+        """,)),
+        HeadLine(level=2, text="Introduction"),
+        Paragraph(text=("""
+            On April 23, 1927, during systematic excavations in the East Field of the Giza necropolis,
+            the entrance to a previously unknown mastaba tomb was uncovered.
+            The tomb was identified as belonging to Queen Meresankh III, granddaughter of Pharaoh Khufu and wife of Pharaoh Khafre, based on inscriptions found within the structure.
+        """,)),
+    )),
+    PageBlock(parts=(
+        Paragraph(text=("""
+            Reading a report on Egyptian excavations isn't exactly what I pictured when I got my international law degree - but it's an interesting detour.
+            Ancient history wasn't my strongest subject in school.
+            I always wondered why the curriculum obsessed over medieval Europe and barely touched the rest of the world or what happened here before Columbus.
+        """,)),
+        Paragraph(text=("""
+            The only pyramids I've learnt about were ones like the Ponzi scheme.
+            Coincidentally, Carlo Ponzi carried out his fraud as well in the 1920s.
+            His pyramid scheme was neither the first one, nor the last one, but he got a lot of media attention, because it was colossal.
+            His business began legitimately - he claimed to invest in international postage stamps, or something along those lines.
+            But he quickly realized the venture wasn't sustainable.
+            To maintain the illusion of profitability, he resorted to paying returns to earlier investors using the funds from new ones.
+        """,)),
+        Paragraph(text=("""
+            In general, this is how a pyramid scheme works:
+            They offer you an investment opportunity with suspiciously high and stable interest rate and little or even no risk at all.
+            They lack proper financial licensing, but they have a new secret complicated idea that supposedly guarantees wealth.
+            At first, early investors receive their promised payouts - this builds trust and attracts new participants.
+            The scheme grows as each new wave of investors funds the returns for the previous ones.
+            As long as the pyramid keeps expanding, with each new layer larger than the last, the illusion holds.
+            But the cracks appear when investors try to withdraw their money.
+            The scheme simply doesn't have enough funds to cover everyone's payouts.
+            Once trust collapses and withdrawals surge, the fraudster vanishes with all the remaining money boarding a one-way flight to an exotic country with no extradition treaty.
+        """,)),
+        Paragraph(text=("""
+            Back to the Egyptian pyramids.
+            I hope I won't fall asleep on the report.
+            I'd rather not spend my lunch break dozing at my desk.
+            Luckily, I'm meeting my colleague Youssef for lunch today.
+            He's really into history, and since his parents are from Egypt, he might have some interesting insights to share.
+        """,)),
+    )),
+    PageBlock(block_type=PageBlockType.MONOTYPE, parts=(
+        HeadLine(level=2, text="Discovery and Initial Observations"),
+        Paragraph(text=("""
+            The tomb, designated G 7530-7540, was located near the pyramid complex of Khafre.
+            The entrance was sealed with a limestone slab, indicating the tomb had remained undisturbed since its original sealing.
+            Upon entry, the team discovered a descending corridor leading to a series of decorated chambers.
+        """,)),
+        HeadLine(level=2, text="Methodology"),
+        Paragraph(text=("""
+            The excavation followed the standard archaeological practices of the modern time:
+            careful stratigraphic excavation, documentation through photography and sketches, and meticulous cataloging of artifacts.
+            The site was divided into a grid system to ensure systematic exploration and recording.
+        """,)),
+        HeadLine(level=2, text="Findings"),
+        HeadLine(level=3, text="Chambers and Artifacts"),
+        Paragraph(text=("""
+            Antechamber:
+            The walls were adorned with finely carved reliefs depicting Queen Meresankh III in ceremonial poses, accompanied by hieroglyphic inscriptions invoking offerings and protection.
+            The reliefs were remarkably well-preserved, with traces of original paint still visible.
+        """, """
+            See appendix A-1.
+        """,)),
+        Paragraph(text=("""
+            Burial Chamber: The sarcophagus, made of black granite and decorated with palace façade motifs, was found intact.
+            Inside, the remains of the queen were discovered, along with a variety of funerary goods:
+        """,)),
+        ListOfItems(items=(
+            Paragraph(text=(
+                "Jewelry: Gold bracelets, necklaces, and a pectoral bearing the queen's cartouche.",
+            )),
+            Paragraph(text=(
+                "Statues: Alabaster and limestone statues of the queen, including a notable statue depicting her mother, Queen Hetepheres II, embracing her.",
+            )),
+            Paragraph(text=(
+                "Canopic Jars: Among the earliest known examples, these jars were inscribed with the queen's titles and contained her viscerally preserved organs.",
+            )),
+        )),
+        Paragraph(text=("See appendices B-1 to B-4.",)),
+        Paragraph(text=("""
+            Inscription Chamber: A stela was found detailing Meresankh III's lineage, confirming her as the daughter of Prince Kawab and Queen Hetepheres II, and the wife of Khafre.
+            This stela provided critical genealogical information about the Fourth Dynasty royal family.
+        """, """
+            See appendix C-1.
+        """,)),
+        HeadLine(level=2, text="Significance"),
+        Paragraph(text=("""
+            The discovery of Meresankh III's tomb is of profound historical importance.
+            It offers unique insights into the role of royal women in the Old Kingdom and provides tangible evidence of the dynastic connections between Khufu, Khafre, and their descendants.
+            The artifacts and inscriptions found within the tomb are invaluable for understanding the funerary practices and royal lineage of the Fourth Dynasty.
+        """,)),
+        HeadLine(level=2, text="Conclusion"),
+        Paragraph(text=("""
+            The tomb of Queen Meresankh III remains one of the most significant archaeological finds from the Giza plateau so far.
+            The preservation of the tomb and its contents has allowed scholars to reconstruct aspects of royal life, religion, and artistry during the Old Kingdom.
+        """,)),
+    )),
+    PageBlock(parts=(
+        Paragraph(text=("""
+            Nothing earth-shattering here.
+            I doubt my boss will notice if I skip the full catalog of findings in the appendices.
+            Let's call it “applying the Pareto principle.”
+        """,)),
+        Paragraph(text=("""
+            A century ago, Vilfredo Pareto observed that 80% of Italy's wealth belonged to 20% of its people.
+            Fifty years later, someone generalized it into: 80% of results come from 20% of causes.
+            My favorite spin: 80% of my work gets done in 20% of my time.
+            Chasing the remaining 20% of results would take five times longer - and probably isn't worth it.
+        """,)),
+    )),
+    PageBlock(block_type=PageBlockType.QUOTATION, parts=(
+        HeadLine(level=1, text="Document summary"),
+        Paragraph(text=("by Taylor Jones",)),
+        Table.new_table_without_header(items=(
+            (
+                "Document",
+                "Archaeological Report: Discovery of the Tomb of Queen Meresankh III",
+            ), (
+                "Date",
+                "1927-04-xx",
+            ), (
+                "Author",
+                "Prof. Paul Langford",
+            ),
+        )),
+        Paragraph(text=("""
+            In 1927, Dr. Reisner and Prof. Langford conducted an archaeological dig in Egypt.
+            No indication of any Air Force-related activity.
+        """,)),
+        HeadLine(level=2, text="Recommendation"),
+        Paragraph(text=("This document likely requires no access restrictions.",)),
+    )),
+    PageBlock(parts=(
+        Paragraph(text=("""
+            When I asked Youssef about these archaeologists, he told me they went their separate ways after the 1927 season.
+            Dr. Reisner continued his previous work - excavating mummies and broken vases from the sand.
+            Prof. Langford also conducted digs for a year, but on a different part of the Giza plateau.
+            After that, he spent a decade researching and cataloging artifacts at the Cairo Museum.
+            Just before the war, he moved to the United States, where he carried out some minor research that went largely unnoticed.
+            And my gut feeling is that it was classified and never published.
+        """,)),
+        Paragraph(text=("""
+            Youssef suggests that Prof. Langford likely met the classic fate of all Egyptologists and found a better job.
+            Once Giza's major discoveries were exhausted, funding for new excavations dried up.
+            With little money left in uncovering artifacts, the field's most prominent figures turned to teaching Egyptology at universities.
+            It usually takes a year for students to realize the harsh truth:
+            the only way to make a living in Egyptology now is to earn a Ph.D. and start teaching the next generation.
+            And so, as Youssef puts it, Egyptology became something of a pyramid scheme.
+        """,)),
+    )),
+))
+Paragraph(text=("""
+        """,)),
