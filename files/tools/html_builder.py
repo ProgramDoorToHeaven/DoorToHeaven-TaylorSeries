@@ -33,8 +33,9 @@ def new_tag(
     return SOUP.new_tag(tag, string=string, attrs=kw_attributes)
 
 
-def html_to_string(tag: HtmlTag) -> str:
-    return "<!DOCTYPE html>" + str(tag)
+def html_to_string(tag: HtmlTag, omit_doctype: bool = False) -> str:
+    doctype: str = "" if omit_doctype else "<!DOCTYPE html>"
+    return doctype + str(tag)
 
 
 def build_html(main_div: HtmlTag) -> HtmlTag:
