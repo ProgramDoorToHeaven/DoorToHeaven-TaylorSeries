@@ -67,7 +67,8 @@ And here I am.
 Like my colleagues before me.
 Tasked with auditing military programs, tracking their progress and suggesting changes to their funding.
 Keeping the national expenses efficient and preventing wasting of taxpayer's money. 
-So I hope the Air Force has some break through with the materials, and they already started experimenting with new stealth bombers or fighters made of something based on this Egyptian metallurgy.
+So I hope the Air Force has some break through with the materials,
+and they already started experimenting with new stealth bombers or fighters made of something based on this Egyptian metallurgy.
 
 ```
 Symbol Inscription
