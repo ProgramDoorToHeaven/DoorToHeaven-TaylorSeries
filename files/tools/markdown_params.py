@@ -7,15 +7,15 @@ from typing import Iterator
 @dataclass(frozen=True)
 class MarkDownParams:
     is_monospace: bool = False
-    break_lines_before: int | None = None
+    break_lines: int | None = None
     line_prefix: str = ""
 
     def __post_init__(self):
         minimum_width = 20
-        if (self.break_lines_before is not None) and (self.break_lines_before - len(self.line_prefix) < minimum_width):
+        if (self.break_lines is not None) and (self.break_lines - len(self.line_prefix) < minimum_width):
             raise ValueError(
                 f"Minimum width is {minimum_width}."
-                + f" Got {self.break_lines_before}-{len(self.line_prefix)} instead."
+                + f" Got {self.break_lines}-{len(self.line_prefix)} instead."
             )
 
     def add_prefix(self, prefix: str) -> MarkDownParams:
@@ -24,11 +24,11 @@ class MarkDownParams:
             line_prefix=prefix + self.line_prefix,
         )
 
-    def set_monospace(self, break_lines_before: int | None) -> MarkDownParams:
+    def set_monospace(self, break_lines: int | None) -> MarkDownParams:
         return replace(
             self,
             is_monospace=True,
-            break_lines_before=break_lines_before,
+            break_lines=break_lines,
         )
 
     def get_line_prefix(self, index: int, first_line_special_prefix: str | None) -> str:
@@ -56,7 +56,7 @@ class MarkDownParams:
 
     def _generate_lines(self, line: str, is_literal: bool = False) -> Iterator[str]:
         line=line.strip()
-        if is_literal or (self.break_lines_before is None):
+        if is_literal or (self.break_lines is None):
             for row in line.splitlines(keepends=False):
                 yield row.strip()
             return
@@ -64,11 +64,11 @@ class MarkDownParams:
         prefix_length = len(self.line_prefix)
         result = ""
         for word in self._generate_words(line):
-            if len(result) + len(word) > self.break_lines_before - prefix_length:
+            if len(result) + len(word) > self.break_lines - prefix_length:
                 if result == "":
                     raise ValueError(
                         f"Word '{word}' is too long."
-                        + f" It does not fit on an empty line of length {self.break_lines_before}-{prefix_length}"
+                        + f" It does not fit on an empty line of length {self.break_lines}-{prefix_length}"
                     )
                 yield result.strip()
                 result = ""

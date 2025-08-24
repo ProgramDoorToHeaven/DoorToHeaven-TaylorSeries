@@ -78,5 +78,5 @@ class HorizontalLine(Printable):
         return new_tag("hr")
 
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
-        width = markdown_params.break_lines_before or 8
+        width = markdown_params.break_lines or 8
         yield "-" * width

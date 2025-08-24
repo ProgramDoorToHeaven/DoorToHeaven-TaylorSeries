@@ -44,14 +44,14 @@ class PageBlockType(Enum):
 class PageBlock(Printable):
     parts: tuple[Printable, ...]
     block_type: PageBlockType = PageBlockType.NORMAL
-    break_lines_before_chars: int | None = None
+    break_lines: int | None = None
 
     def get_html(self) -> HtmlTag:
         result = self.block_type.get_html()
         for part in self.parts:
             part_encoded: Iterable[HtmlTag | str]
             if self.block_type is PageBlockType.MONOTYPE:
-                markdown_params = MarkDownParams(is_monospace=True, break_lines_before=self.break_lines_before_chars)
+                markdown_params = MarkDownParams(is_monospace=True, break_lines=self.break_lines)
                 part_encoded = part.get_markdown(markdown_params, first_line_special_prefix=None)
             else:
                 part_encoded = (part.get_html(),)
