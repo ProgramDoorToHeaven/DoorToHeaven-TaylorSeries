@@ -34,7 +34,7 @@ def new_tag(
 
 
 def html_to_string(tag: HtmlTag) -> str:
-    return str(tag)
+    return "<!DOCTYPE html>" + str(tag)
 
 
 def build_html(main_div: HtmlTag) -> HtmlTag:
