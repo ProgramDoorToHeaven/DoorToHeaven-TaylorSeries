@@ -74,8 +74,8 @@ Symbol Inscription
 
 The artifact is inscribed with a series of complex symbols arranged in a
 circular pattern around its perimeter. These symbols do not correspond to any
-known ancient writing systems. Linguists and cryptographers are currently
-attempting to decipher their meaning and possible significance.
+known writing system. Linguists and cryptographers are currently attempting to
+decipher their meaning and possible significance.
 
 The cover stone's outer ring depicts the artifact with it's symbols. Inside the
 artifact depiction on the cover stone, there are early hieroglyphic
@@ -89,7 +89,7 @@ similar bilingual artifacts) be their translation.
 None of the symbols on the artifact is used twice. This indicates, it could be a
 39-character phonemic alphabet with one word written in the cartouche in the
 middle. Another argument for a phonemic alphabet is the fact that the symbols do
-not resemble aby dayly use or religious items as we would expect in a
+not resemble aby daily use or religious items as we would expect in a
 logographic alphabet.
 
 The word in the cartouche in the middle of the cover stone is probably a name of
@@ -101,13 +101,11 @@ Buried guardians
 
 The two buried bodies were discovered with unhealed broken bones, suggesting
 they may have met a violent end. Their jackal masks are made of metal and they
-contain mechanical parts which used to move. The ornamental staffs are well
+contain mechanical parts which used to move. This level of craftsmanship also
+doesn't match anythink known from this age. The ornamental staffs are well
 preserved and don't have any sharp edges. Although they could be used as blunt
 weapons, their primary use was probably purely decorative or an indication of
 social status.
-
-Archaeological Context
-----------------------
 
 The presence of the two guardians alongside the artifact suggests a possible
 ceremonial or protective role. They might have died protecting the artifact or
