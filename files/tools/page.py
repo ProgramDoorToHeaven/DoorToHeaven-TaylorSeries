@@ -64,12 +64,13 @@ class PageBlock(Printable):
             first_line_special_prefix: str | None = None,
     ) -> Iterator[str]:
         block_type = self.block_type.value
+        markdown_params = markdown_params.add_prefix(block_type.markdown_each_line_prefix)
         if block_type.markdown_start:
             yield block_type.markdown_start
         for part_index, part in enumerate(self.parts):
             if part_index != 0:
-                yield ""  # space between parts
-            markdown_params_for_part = markdown_params.add_prefix(block_type.markdown_each_line_prefix)
+                yield markdown_params.line_prefix.rstrip()  # space between parts
+            markdown_params_for_part = markdown_params
             if self.block_type is PageBlockType.MONOTYPE:
                 markdown_params_for_part = markdown_params_for_part.set_monospace(self.break_lines)
             yield from part.get_markdown(markdown_params_for_part, first_line_special_prefix=first_line_special_prefix)
