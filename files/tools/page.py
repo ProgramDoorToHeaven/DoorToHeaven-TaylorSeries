@@ -63,6 +63,7 @@ class PageBlock(Printable):
             else:
                 part_encoded = (part.get_html(),)
             contents.extend(part_encoded)
+            contents.extend("\n")
         return self.block_type.get_html_tag(contents)
 
     def get_markdown(

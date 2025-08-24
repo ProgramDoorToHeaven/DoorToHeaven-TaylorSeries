@@ -3,14 +3,15 @@ body {
     Helvetica,
     Arial,
     sans-serif;
+    line-height: 1.5;
 
     div.page {
         display: inline-block;
-        width: 100ex;
+        width: 100%;
+        max-width: 100ex;
 
         table {
             border-collapse: collapse;
-            width: 100%;
 
             td, th {
                 border: 1px solid grey;
@@ -22,6 +23,8 @@ body {
             font-family: monospace;
             background-color: rgba(255, 255, 0, 0.07);
             padding: 10ex;
+            line-height: 1.8;
+            overflow: auto;
 
             pre {
                 transform-origin: center;
