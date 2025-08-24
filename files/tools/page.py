@@ -28,8 +28,8 @@ class PageBlockTypeItem:
 
 
 class PageBlockType(Enum):
-    NORMAL = PageBlockTypeItem(
-        html_tag="div",
+    THOUGHTS = PageBlockTypeItem(
+        html_tag="div", html_classes=("thoughts",),
     )
     MONOTYPE = PageBlockTypeItem(
         html_tag="pre", html_classes=("typewriter",),
@@ -47,7 +47,7 @@ class PageBlockType(Enum):
 @dataclass(frozen=True)
 class PageBlock(Printable):
     parts: tuple[Printable, ...]
-    block_type: PageBlockType = PageBlockType.NORMAL
+    block_type: PageBlockType = PageBlockType.THOUGHTS
     break_lines: int | None = None
 
     def get_html(self) -> HtmlTag:

@@ -19,6 +19,12 @@ body {
             }
         }
 
+        div.thoughts {
+            p {
+                padding: 0 2ex;
+            }
+        }
+
         div.typewriter {
             font-family: monospace;
             background-color: rgba(255, 255, 0, 0.07);
