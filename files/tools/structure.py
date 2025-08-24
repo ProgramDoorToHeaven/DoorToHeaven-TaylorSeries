@@ -330,7 +330,7 @@ class DocumentBlockType(Enum):
 
 @dataclass(frozen=True)
 class DocumentBlock(Printable):
-    parts: tuple[Paragraph | ListOfItems | HorizontalLine, ...]
+    parts: tuple[Printable, ...]
     block_type: DocumentBlockType = DocumentBlockType.NORMAL
     break_lines_before_chars: int | None = None
 
@@ -346,7 +346,11 @@ class DocumentBlock(Printable):
             result.extend(part_encoded)
         return result
 
-    def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
+    def get_markdown(
+            self,
+            markdown_params: MarkDownParams = MarkDownParams(),
+            first_line_special_prefix: str | None = None,
+    ) -> Iterator[str]:
         for part_index, part in enumerate(self.parts):
             if part_index != 0:
                 yield ""  # space between parts
@@ -354,7 +358,7 @@ class DocumentBlock(Printable):
             if block_type.markdown_start:
                 yield block_type.markdown_start
             markdown_params_for_part = markdown_params.add_prefix(block_type.markdown_each_line_prefix)
-            yield from part.get_markdown(markdown_params_for_part, first_line_special_prefix=None)
+            yield from part.get_markdown(markdown_params_for_part, first_line_special_prefix=first_line_special_prefix)
             if block_type.markdown_end:
                 yield block_type.markdown_end
 
@@ -362,3 +366,19 @@ class DocumentBlock(Printable):
 @dataclass(frozen=True)
 class Document(Printable):
     blocks: tuple[DocumentBlock]
+
+    def get_html(self) -> Tag:
+        result = SOUP.new_tag("div")
+        for block in self.blocks:
+            result.append(block.get_html())
+        return result
+
+    def get_markdown(
+            self,
+            markdown_params: MarkDownParams | None = None,
+            first_line_special_prefix: str | None = None,
+    ) -> Iterator[str]:
+        for block_index, block in enumerate(self.blocks):
+            if block_index != 0:
+                yield ""  # space between blocks
+            yield from block.get_markdown()
