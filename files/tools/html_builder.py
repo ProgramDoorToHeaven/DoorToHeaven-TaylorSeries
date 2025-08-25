@@ -39,7 +39,7 @@ def html_to_string(tag: HtmlTag, omit_doctype: bool = False) -> str:
 
 
 def build_html(main_div: HtmlTag) -> HtmlTag:
-    html_doc = new_tag("html")
+    html_doc = new_tag("html", lang="en")
     html_head = new_tag("head")
     html_head.append(new_tag("link", rel="stylesheet", href="../tools/main.css"))
     html_head.append(new_tag("link", rel="shortcut icon", type="image/png", href="../tools/favicon.png"))
