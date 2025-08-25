@@ -31,8 +31,7 @@ meteorite, exhibiting a metallic structure unlike any known materials from the
 historical or geological record.
 ```
 
-Maybe the military isn't interested in history, but rather in the material?
-
+Maybe the Air Force isn't interested in history, but rather in the material?
 
 ```
 Initial Analysis
@@ -48,7 +47,7 @@ composition and potential origins.
 It weighs around 30 000 kg and its diameter is 6.7 m.
 ```
 
-That's 65 000 pounds and 22 feet in the imperial units. 
+That's 65 000 pounds and 22 feet in the imperial units.
 Egypt switched to the metric system in 1891.
 And Germany (where prof. Langford was from) has been using metric since 1870s.
 The whole world went crazy and switched to this abstract system instead of the natural and relatable one.
@@ -58,15 +57,15 @@ And that is probably the reason why most of the world adopted it.
 But you usually don't need to do any unit conversions anyway.
 And in the rare occasions when 5-to-mat-oes are necessary, calculator has your back.
 
-We even had the Metric Conversion Act of 1975 as an effort to join the rest of the world. 
+We even had the Metric Conversion Act of 1975 as an effort to join the rest of the world.
 It established the U.S. Metric Board, which was tasked with coordinating and planning the voluntary conversion to the metric system.
 But it was just voluntary and the general public did not feel a pressing need to change their everyday measurement habits.
 So the Board was eventually disbanded in 1982 due to lack of progress and funding.
 
-And here I am. 
+And here I am.
 Like my colleagues before me.
 Tasked with auditing military programs, tracking their progress and suggesting changes to their funding.
-Keeping the national expenses efficient and preventing wasting of taxpayer's money. 
+Keeping the national expenses efficient and preventing wasting of taxpayer's money.
 So I hope the Air Force has some break through with the materials,
 and they already started experimenting with new stealth bombers or fighters made of something based on this Egyptian metallurgy.
 
@@ -79,12 +78,12 @@ known writing system. Linguists and cryptographers are currently attempting to
 decipher their meaning and possible significance.
 
 The cover stone's outer ring depicts the artifact with it's symbols. Inside the
-artifact depiction on the cover stone, there are early hieroglyphic
-inscriptions (estimated to come from the era around 3000 BCE). In the center,
-there is an ornamental cartouche with 6 of the symbols from the outer ring.
+artifact depiction on the cover stone, there are early hieroglyphic inscriptions
+(estimated to come from the era around 3000 BCE). In the center, there is an
+ornamental cartouche with 6 of the symbols from the outer ring.
 
 We are excited by the new unknown symbols. They could be a writing system of an
-older civilization and the hieroglyphs accompanying them would typically (on 
+older civilization and the hieroglyphs accompanying them would typically (on
 similar bilingual artifacts) be their translation.
 
 None of the symbols on the artifact is used twice. This indicates, it could be a
@@ -97,7 +96,21 @@ The word in the cartouche in the middle of the cover stone is probably a name of
 a god or a king. At least in the hieroglyphic writing system, that is what
 cartouches were reserved for. We are hoping to match the name to some known god
 or king. This could be the key to deciphering the new writing system.
+```
 
+Probably not relevant, but still interesting.
+
+In logographic writing systems - like Chinese - each symbol represents a whole word or concept, not just a sound.
+This contrasts with phonemic systems, such as Latin or Greek, where characters correspond to specific sounds, making pronunciation more predictable from the written form.
+
+English is neither of these.
+For example, in the name of "Pacific Ocean", each "C" is pronounced differently.
+
+On the other hand, Egyptian hieroglyphs were hybrid.
+They combined logographic symbols (pictures for whole words), phonemic signs (symbols for sounds), and determinatives (clarifying pictures).
+Determinatives are like adding a picture of gift, clock, or projector after "present" to specify meaning.
+
+```
 Buried guardians
 
 The two buried bodies were discovered with unhealed broken bones, suggesting
@@ -124,21 +137,22 @@ purpose.
 
 > Document summary
 > ================
-> 
+>
 > by Taylor Jones
 >
 > |          |                                                          |
 > |----------|----------------------------------------------------------|
-> | Document | Discovery and initial analysis of the circular artifacts | 
+> | Document | Discovery and initial analysis of the circular artifacts |
 > | Date     | 1928-09-08                                               |
 > | Author   | Prof. Paul Langford                                      |
-> 
+>
 > In 1928, prof. Langford discovered a circular artefact in Egypt.
 > It was made of an interesting metal.
-> 
+>
 > Recommendation
 > --------------
-> 
+>
 > This document probably does not need to have any access restrictions.
+> The knowledge of the material might be worth protecting.
 
 I can't imagine how keeping this artefact secret could help the national security.
