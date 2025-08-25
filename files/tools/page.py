@@ -31,7 +31,7 @@ class PageBlockType(Enum):
     THOUGHTS = PageBlockTypeItem(
         html_tag="div", html_classes=("thoughts",),
     )
-    MONOTYPE = PageBlockTypeItem(
+    TYPEWRITER = PageBlockTypeItem(
         html_tag="pre", html_classes=("typewriter",),
         markdown_start="```", markdown_end="```",
     )
@@ -60,7 +60,7 @@ class PageBlock(Printable):
             if (part_index != 0) and (not part.omit_space_before):
                 contents.extend("\n")
             part_encoded: Iterable[HtmlTag | str]
-            if self.block_type is PageBlockType.MONOTYPE:
+            if self.block_type is PageBlockType.TYPEWRITER:
                 markdown_params = MarkDownParams().set_monospace(self.break_lines)
                 part_encoded = (
                     line + "\n"
@@ -84,7 +84,7 @@ class PageBlock(Printable):
             if (part_index != 0) and (not part.omit_space_before):
                 yield markdown_params.line_prefix.rstrip()  # space between parts
             markdown_params_for_part = markdown_params
-            if self.block_type is PageBlockType.MONOTYPE:
+            if self.block_type is PageBlockType.TYPEWRITER:
                 markdown_params_for_part = markdown_params_for_part.set_monospace(self.break_lines)
             yield from part.get_markdown(markdown_params_for_part, first_line_special_prefix=first_line_special_prefix)
         if block_type.markdown_end:
@@ -93,7 +93,7 @@ class PageBlock(Printable):
 
 @dataclass(frozen=True)
 class PageBlockTypeWriter(PageBlock):
-    block_type: PageBlockType = PageBlockType.MONOTYPE
+    block_type: PageBlockType = PageBlockType.TYPEWRITER
     break_lines: int = 80
 
 
