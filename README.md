@@ -12,7 +12,7 @@ N.I.D. IS
 | Agenda classification       | Top secret - do not obtain copies |
 |                             |                                   |
 
-Wellcome to the **Program "Door To Heaven"** agenda home page.
+Welcome to the **Program "Door To Heaven"** agenda home page.
 
 This section of the **N.I.D. IS** contains all accessible information about the government's **"Door To Heaven" program** that you are authorized to view.
 You can [browse the files here](./files).

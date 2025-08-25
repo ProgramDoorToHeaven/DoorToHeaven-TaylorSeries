@@ -10,7 +10,7 @@ PAGE = Page(blocks=(
             The name’s got me curious, though.
             Is it about soaring into the sky?
             What else could it possibly mean?
-            Guess I'll find somewhere in this pile of reports.
+            Guess I'll find out somewhere in this pile of reports.
         """,)),
         HorizontalLine(),
         Paragraph(text=("""
