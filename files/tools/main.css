@@ -5,43 +5,58 @@ body {
     sans-serif;
     line-height: 1.5;
 
-    div.page {
-        display: inline-block;
-        width: 100%;
-        max-width: 100ex;
+    div.page-wrapper {
+        text-align: center;
 
-        table {
-            border-collapse: collapse;
+        div.page {
+            text-align: left;
+            display: inline-block;
+            width: 100%;
+            max-width: 90ex;
 
-            td, th {
-                border: 1px solid grey;
-                padding: 0.5ex 1.5ex;
+            table {
+                margin: 2ex 0;
+                border-collapse: collapse;
+
+                td, th {
+                    border: 1px solid grey;
+                    padding: 0.5ex 1.5ex;
+                }
             }
-        }
 
-        div.thoughts {
-            p {
+            div.thoughts {
+                margin: 2ex 0;
+
+                p {
+                    margin: 2ex 0;
+                    padding: 0 2ex;
+                }
+            }
+
+            div.typewriter {
+                margin: 2ex 0;
+                text-align: center;
+                font-family: monospace;
+                background-color: rgba(255, 255, 0, 0.07);
+                padding: 10ex;
+                line-height: 1.8;
+                overflow-x: auto;
+
+                pre {
+                    margin: 2ex 0;
+                    text-align: left;
+                    display: inline-block;
+                    transform-origin: center;
+                    transform: rotate(-1deg);
+                }
+            }
+
+            div.quotation {
+                margin: 2ex 0;
+                border: 1px solid grey;
+                border-left-width: 0.8ex;
                 padding: 0 2ex;
             }
-        }
-
-        div.typewriter {
-            font-family: monospace;
-            background-color: rgba(255, 255, 0, 0.07);
-            padding: 10ex;
-            line-height: 1.8;
-            overflow: auto;
-
-            pre {
-                transform-origin: center;
-                transform: rotate(-1deg);
-            }
-        }
-
-        div.quotation {
-            border: 1px solid grey;
-            border-left-width: 0.8ex;
-            padding: 2ex;
         }
     }
 }

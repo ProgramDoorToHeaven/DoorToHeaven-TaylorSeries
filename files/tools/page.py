@@ -106,10 +106,12 @@ class Page(Printable):
             raise ValueError("Empty page.")
 
     def get_html(self) -> HtmlTag:
-        result = new_tag("div", class_="page")
+        page = new_tag("div", class_="page")
         for block in self.blocks:
-            result.append(block.get_html())
-        return result
+            page.append(block.get_html())
+        wrapper = new_tag("div", class_="page-wrapper")
+        wrapper.append(page)
+        return wrapper
 
     def get_markdown(
             self,
