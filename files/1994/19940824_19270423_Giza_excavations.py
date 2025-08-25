@@ -1,4 +1,4 @@
-from tools import Page, PageBlock, PageBlockType, PageBlockTypeWriter, HeadLine, HorizontalLine, ListOfItems, Paragraph, Table
+from tools import *
 
 PAGE = Page(blocks=(
     PageBlock(parts=(
@@ -158,6 +158,7 @@ PAGE = Page(blocks=(
         Paragraph(text=("This document likely requires no access restrictions.",)),
     )),
     PageBlock(parts=(
+        HorizontalLine(),
         Paragraph(text=("""
             When I asked Youssef about these archaeologists, he told me they went their separate ways after the 1927 season.
             Dr. Reisner continued his previous work - excavating mummies and broken vases from the sand.
