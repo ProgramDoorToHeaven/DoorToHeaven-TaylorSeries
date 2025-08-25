@@ -11,10 +11,14 @@ from tools.markdown_params import MarkDownParams
 
 @dataclass(frozen=True)
 class ListOfItems(Printable):
-    items: tuple[Paragraph, ...]
+    items: tuple[Paragraph, ...] = tuple()
     html_ordered: str | None = None
     index_to_prefix: Callable[[ListOfItems, int], str] = lambda self, index: "-"
     max_prefix_length: Callable[[ListOfItems], int] = lambda self: 1
+
+    def __post_init__(self):
+        if not self.items:
+            raise ValueError("Empty list.")
 
     @property
     def translate_enumeration_to_prefix(self):
@@ -28,7 +32,6 @@ class ListOfItems(Printable):
         prefix = self.translate_enumeration_to_prefix(index)
         to_length = self.get_max_prefix_length() + 1
         return prefix.ljust(to_length)
-
 
     def get_html(self) -> HtmlTag:
         if self.html_ordered is None:
@@ -72,6 +75,6 @@ class LetteredList(ListOfItems):
         max_length = ord("z") - ord("a") + 1
         if len(self.items) > max_length:
             raise ValueError(
-                f"{self.__class__.__name__} supports only lists up to length {max_length}."
+                f"List length supported only up to {max_length} (a-z)."
                 + f" Got {len(self.items)} instead."
             )

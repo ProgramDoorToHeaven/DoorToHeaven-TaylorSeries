@@ -46,13 +46,19 @@ class PageBlockType(Enum):
 
 @dataclass(frozen=True)
 class PageBlock(Printable):
-    parts: tuple[Printable, ...]
+    parts: tuple[Printable, ...] = tuple()
     block_type: PageBlockType = PageBlockType.THOUGHTS
     break_lines: int | None = None
 
+    def __post_init__(self):
+        if not self.parts:
+            raise ValueError("Empty block.")
+
     def get_html(self) -> HtmlTag:
         contents: list[HtmlTag | str] = []
-        for part in self.parts:
+        for part_index, part in enumerate(self.parts):
+            if (part_index != 0) and (not part.omit_space_before):
+                contents.extend("\n")
             part_encoded: Iterable[HtmlTag | str]
             if self.block_type is PageBlockType.MONOTYPE:
                 markdown_params = MarkDownParams().set_monospace(self.break_lines)
@@ -63,7 +69,6 @@ class PageBlock(Printable):
             else:
                 part_encoded = (part.get_html(),)
             contents.extend(part_encoded)
-            contents.extend("\n")
         return self.block_type.get_html_tag(contents)
 
     def get_markdown(
@@ -76,7 +81,7 @@ class PageBlock(Printable):
         if block_type.markdown_start:
             yield block_type.markdown_start
         for part_index, part in enumerate(self.parts):
-            if part_index != 0:
+            if (part_index != 0) and (not part.omit_space_before):
                 yield markdown_params.line_prefix.rstrip()  # space between parts
             markdown_params_for_part = markdown_params
             if self.block_type is PageBlockType.MONOTYPE:
@@ -94,7 +99,11 @@ class PageBlockTypeWriter(PageBlock):
 
 @dataclass(frozen=True)
 class Page(Printable):
-    blocks: tuple[PageBlock, ...]
+    blocks: tuple[PageBlock, ...] = tuple()
+
+    def __post_init__(self):
+        if not self.blocks:
+            raise ValueError("Empty page.")
 
     def get_html(self) -> HtmlTag:
         result = new_tag("div", class_="page")
@@ -112,7 +121,7 @@ class Page(Printable):
                 yield ""  # space between blocks
             yield from block.get_markdown()
 
-    def to_file(self, filename: str | None = None) -> None:
+    def render(self, filename: str | None = None) -> None:
         if not filename:
             main_script = sys.argv[0]
             filename = os.path.abspath(main_script)

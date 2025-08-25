@@ -10,11 +10,15 @@ from tools.markdown_params import MarkDownParams
 
 @dataclass(frozen=True)
 class Table(Printable):
-    header: tuple[str, ...]
-    items: tuple[tuple[str, ...], ...]
+    header: tuple[str, ...] = tuple()
+    items: tuple[tuple[str, ...], ...] = tuple()
 
     def __post_init__(self):
         header_length = len(self.header)
+        if header_length <= 0:
+            raise ValueError("Table without columns.")
+        if not self.items:
+            raise ValueError("Table without rows.")
         for index, row in enumerate(self.items):
             if len(row) == header_length:
                 continue

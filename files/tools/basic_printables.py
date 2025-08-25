@@ -8,7 +8,10 @@ from tools.html_builder import new_tag, HtmlTag
 from tools.markdown_params import MarkDownParams
 
 
+@dataclass(frozen=True)
 class Printable(ABC):
+    omit_space_before: bool = False
+
     @abstractmethod
     def get_html(self) -> HtmlTag:
         raise NotImplementedError()
@@ -20,12 +23,16 @@ class Printable(ABC):
 
 @dataclass(frozen=True)
 class Paragraph(Printable):
-    text: tuple[str, ...]
+    text: tuple[str, ...] = tuple()
     is_literal: bool = False
+
+    def __post_init__(self):
+        if not self.text:
+            raise ValueError("Empty paragraph.")
 
     @classmethod
     def from_strings(cls, *text: str) -> Paragraph:
-        return cls(tuple(text))
+        return cls(text=tuple(text))
 
     def get_html(self) -> HtmlTag:
         result = new_tag("p")
@@ -42,12 +49,14 @@ class Paragraph(Printable):
 
 @dataclass(frozen=True)
 class HeadLine(Printable):
-    text: str
+    text: str=""
     level: int = 1
 
     def __post_init__(self):
+        if not self.text:
+            raise ValueError("Empty headline.")
         if self.level <= 0:
-            raise ValueError(f"{self.__class__.__name__} expects level {self.level} > 0.")
+            raise ValueError(f"Expected positive level {self.level} > 0.")
 
     def get_html(self) -> HtmlTag:
         result = new_tag(f"h{self.level}")

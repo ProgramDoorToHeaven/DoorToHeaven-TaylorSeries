@@ -92,7 +92,7 @@ PAGE = Page(blocks=(
             Burial Chamber: The sarcophagus, made of black granite and decorated with palace façade motifs, was found intact.
             Inside, the remains of the queen were discovered, along with a variety of funerary goods:
         """,)),
-        ListOfItems(items=(
+        ListOfItems(omit_space_before=True, items=(
             Paragraph(text=(
                 "Jewelry: Gold bracelets, necklaces, and a pectoral bearing the queen's cartouche.",
             )),
@@ -103,7 +103,7 @@ PAGE = Page(blocks=(
                 "Canopic Jars: Among the earliest known examples, these jars were inscribed with the queen's titles and contained her viscerally preserved organs.",
             )),
         )),
-        Paragraph(text=("See appendices B-1 to B-4.",)),
+        Paragraph(omit_space_before=True, text=("See appendices B-1 to B-4.",)),
         Paragraph(text=("""
             Inscription Chamber: A stela was found detailing Meresankh III's lineage, confirming her as the daughter of Prince Kawab and Queen Hetepheres II, and the wife of Khafre.
             This stela provided critical genealogical information about the Fourth Dynasty royal family.
@@ -180,7 +180,7 @@ PAGE = Page(blocks=(
 
 
 def main():
-    PAGE.to_file()
+    PAGE.render()
 
 
 if __name__ == "__main__":
