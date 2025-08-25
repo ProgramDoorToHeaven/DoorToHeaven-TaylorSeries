@@ -138,18 +138,11 @@ PAGE = Page(blocks=(
     PageBlock(block_type=PageBlockType.QUOTATION, parts=(
         HeadLine(level=1, text="Document summary"),
         Paragraph(text=("by Taylor Jones",)),
-        Table.new_table_without_header(items=(
-            (
-                "Document",
-                "Discovery and initial analysis of the circular artifacts",
-            ), (
-                "Date",
-                "1928-09-08",
-            ), (
-                "Author",
-                "Prof. Paul Langford",
-            ),
-        )),
+        Table.new_nid_table_for_document_summary(
+            document_name="Discovery and initial analysis of the circular artifacts",
+            document_author="Prof. Paul Langford",
+            year=1928, month=9, day=8,
+        ),
         Paragraph(text=("""
             In 1928, prof. Langford discovered a circular artefact in Egypt.
             It was made of an interesting metal.

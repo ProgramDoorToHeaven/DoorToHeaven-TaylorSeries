@@ -138,18 +138,11 @@ PAGE = Page(blocks=(
     PageBlock(block_type=PageBlockType.QUOTATION, parts=(
         HeadLine(level=1, text="Document summary"),
         Paragraph(text=("by Taylor Jones",)),
-        Table.new_table_without_header(items=(
-            (
-                "Document",
-                "Archaeological Report: Discovery of the Tomb of Queen Meresankh III",
-            ), (
-                "Date",
-                "1927-04-xx",
-            ), (
-                "Author",
-                "Prof. Paul Langford",
-            ),
-        )),
+        Table.new_nid_table_for_document_summary(
+            document_name="Archaeological Report: Discovery of the Tomb of Queen Meresankh III",
+            document_author="Prof. Paul Langford",
+            year=1927, month=4,
+        ),
         Paragraph(text=("""
             In 1927, Dr. Reisner and Prof. Langford conducted an archaeological dig in Egypt.
             No indication of any Air Force-related activity.

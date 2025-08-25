@@ -28,8 +28,23 @@ class Table(Printable):
             )
 
     @classmethod
-    def new_table_without_header(cls, items: tuple[tuple[str, ...], ...]):
+    def new_table_without_header(cls, items: tuple[tuple[str, ...], ...]) -> Table:
         return cls(header=tuple([""] * len(items[0])), items=items)
+
+    @classmethod
+    def new_nid_table_for_document_summary(
+            cls,
+            document_name: str,
+            document_author: str,
+            year: str | int,
+            month: str | int,
+            day: str | int = "xx",
+    ) -> Table:
+        return cls.new_table_without_header(items=(
+            ("Document", document_name),
+            ("Date", f"{year}-{month:0>2}-{day:0>2}"),
+            ("Author", document_author),
+        ))
 
     def header_is_empty(self) -> bool:
         for item in self.header:
