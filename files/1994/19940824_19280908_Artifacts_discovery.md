@@ -70,7 +70,7 @@ So I hope the Air Force has some break through with the materials,
 and they already started experimenting with new stealth bombers or fighters made of something based on this Egyptian metallurgy.
 
 ```
-Symbol Inscription
+Symbol Inscriptions
 
 The artifact is inscribed with a series of complex symbols arranged in a
 circular pattern around its perimeter. These symbols do not correspond to any
