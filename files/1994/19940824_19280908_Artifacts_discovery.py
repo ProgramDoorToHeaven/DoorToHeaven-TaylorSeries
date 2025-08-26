@@ -71,7 +71,7 @@ PAGE = Page(blocks=(
     )),
     PageBlockTypeWriter(parts=(
         # Many thanks to almighty Rebet for casting his knowledge upon me https://www.youtube.com/watch?v=90An1dnvwyc
-        HeadLine(level=3, text="Symbol Inscription"),
+        HeadLine(level=3, text="Symbol Inscriptions"),
         Paragraph(text=("""
             The artifact is inscribed with a series of complex symbols arranged in a circular pattern around its perimeter.
             These symbols do not correspond to any known writing system.
@@ -89,7 +89,7 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             None of the symbols on the artifact is used twice.
             This indicates, it could be a 39-character phonemic alphabet with one word written in the cartouche in the middle.
-            Another argument for a phonemic alphabet is the fact that the symbols do not resemble the shape of aby daily use or religious items as we would expect in a logographic alphabet.
+            Another argument for a phonemic alphabet is the fact that the symbols do not resemble the shape of any daily use or religious items as we would expect in a logographic alphabet.
         """,)),
         Paragraph(text=("""
             The word in the cartouche in the middle of the cover stone is probably a name of a god or a king.
@@ -107,6 +107,11 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             English is neither of these.
             For example, in the name of "Pacific Ocean", each "C" is pronounced differently.
+            Or my favourite joke: you can write "fish" as "ghoti".
+            Because
+            "gh" sounds like the "f" in "enough",
+            "o" sounds like the "i" in "women",
+            "ti" sounds like the "sh" in "nation".
         """,)),
         Paragraph(text=("""
             On the other hand, Egyptian hieroglyphs were hybrid.
@@ -120,7 +125,7 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             The two buried bodies were discovered with unhealed broken bones, suggesting they may have met a violent end.
             Their jackal masks are made of metal and they contain mechanical parts which used to move.
-            This level of craftsmanship also doesn't match anything known from this age.
+            Such level of craftsmanship also doesn't match anything known from this historical period.
             The ornamental staffs are well preserved and don't have any sharp edges.
             Although they could be used as blunt weapons, their primary use was probably purely decorative or an indication of social status.
         """,)),
