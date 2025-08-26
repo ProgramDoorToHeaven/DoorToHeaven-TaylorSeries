@@ -89,7 +89,7 @@ similar bilingual artifacts) be their translation.
 None of the symbols on the artifact is used twice. This indicates, it could be a
 39-character phonemic alphabet with one word written in the cartouche in the
 middle. Another argument for a phonemic alphabet is the fact that the symbols do
-not resemble the shape of aby daily use or religious items as we would expect in
+not resemble the shape of any daily use or religious items as we would expect in
 a logographic alphabet.
 
 The word in the cartouche in the middle of the cover stone is probably a name of
