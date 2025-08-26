@@ -23,7 +23,7 @@ class Printable(ABC):
 
 @dataclass(frozen=True)
 class Paragraph(Printable):
-    text: tuple[str, ...] = tuple()
+    text: tuple[str, ...] = ()
     is_literal: bool = False
 
     def __post_init__(self):

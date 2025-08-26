@@ -46,7 +46,7 @@ class PageBlockType(Enum):
 
 @dataclass(frozen=True)
 class PageBlock(Printable):
-    parts: tuple[Printable, ...] = tuple()
+    parts: tuple[Printable, ...] = ()
     block_type: PageBlockType = PageBlockType.THOUGHTS
     break_lines: int | None = None
 
@@ -99,7 +99,7 @@ class PageBlockTypeWriter(PageBlock):
 
 @dataclass(frozen=True)
 class Page(Printable):
-    blocks: tuple[PageBlock, ...] = tuple()
+    blocks: tuple[PageBlock, ...] = ()
 
     def __post_init__(self):
         if not self.blocks:

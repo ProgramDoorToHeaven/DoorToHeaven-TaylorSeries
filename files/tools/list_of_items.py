@@ -11,7 +11,7 @@ from tools.markdown_params import MarkDownParams
 
 @dataclass(frozen=True)
 class ListOfItems(Printable):
-    items: tuple[Paragraph, ...] = tuple()
+    items: tuple[Paragraph, ...] = ()
     html_ordered: str | None = None
     index_to_prefix: Callable[[ListOfItems, int], str] = lambda self, index: "-"
     max_prefix_length: Callable[[ListOfItems], int] = lambda self: 1
