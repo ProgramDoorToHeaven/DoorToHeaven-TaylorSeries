@@ -70,7 +70,7 @@ PAGE = Page(blocks=(
         """,)),
     )),
     PageBlockTypeWriter(parts=(
-        # Many thanks to almighty Rebet for casting his knowledge upon me https://www.youtube.com/watch?v=90An1dnvwyc
+        # Many thanks to the almighty Rebet for casting his knowledge upon me https://www.youtube.com/watch?v=90An1dnvwyc / https://www.youtube.com/@RobWords
         HeadLine(level=3, text="Symbol Inscriptions"),
         Paragraph(text=("""
             The artifact is inscribed with a series of complex symbols arranged in a circular pattern around its perimeter.
@@ -118,7 +118,7 @@ PAGE = Page(blocks=(
             They combined logographic symbols (pictures for whole words), phonemic signs (symbols for sounds), and determinatives (clarifying pictures).
             Determinatives are like adding a picture of gift, clock, or projector after "present" to specify meaning.
         """,)),
-        # the first set of emojis was from 1999, so no mentions here in 1994 😢
+        # the first set of emojis was from 1999, so no mentions of emojis here in 1994 😢 (emoji intended)
     )),
     PageBlockTypeWriter(parts=(
         HeadLine(level=3, text="Buried guardians"),

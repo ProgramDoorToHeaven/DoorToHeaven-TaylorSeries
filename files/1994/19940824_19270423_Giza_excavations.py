@@ -19,6 +19,9 @@ PAGE = Page(blocks=(
         """,)),
     )),
     PageBlockTypeWriter(parts=(
+        # This one tries to be realistic - based on history.
+        # Dr. Reisner is a real archeologist leading excavations on the Giza Plateau at that time and his team really unearthed the Tomb of Queen Meresankh III on this date.
+        # The only added detail should be prof. Langford who discovered the StarGate.
         HeadLine(level=1, text="Archaeological Report: Discovery of the Tomb of Queen Meresankh III"),
         Paragraph(is_literal=True, text=("""
             Location:              Giza Plateau, East Field, Egypt
@@ -34,6 +37,8 @@ PAGE = Page(blocks=(
         """,)),
     )),
     PageBlock(parts=(
+        # The "international law" is negotiable. Could be changed in the future if we need Taylor to have some expertise.
+        # But it should be some social studies - oversight job, learnt about Ponzi, ...
         Paragraph(text=("""
             Reading a report on Egyptian excavations isn't exactly what I pictured when I got my international law degree - but it's an interesting detour.
             Ancient history wasn't my strongest subject in school.
