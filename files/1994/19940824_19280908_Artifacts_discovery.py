@@ -70,7 +70,7 @@ PAGE = Page(blocks=(
         """,)),
     )),
     PageBlockTypeWriter(parts=(
-        # https://www.youtube.com/watch?v=90An1dnvwyc
+        # Many thanks to almighty Rebet for casting his knowledge upon me https://www.youtube.com/watch?v=90An1dnvwyc
         HeadLine(level=3, text="Symbol Inscription"),
         Paragraph(text=("""
             The artifact is inscribed with a series of complex symbols arranged in a circular pattern around its perimeter.
@@ -99,7 +99,6 @@ PAGE = Page(blocks=(
         """,)),
     )),
     PageBlock(parts=(
-        # the first set of emojis was from 1999, so no mentions here in 1994 😢
         Paragraph(text=("Probably not relevant, but still interesting.",)),
         Paragraph(text=("""
             In logographic writing systems - like Chinese - each symbol represents a whole word or concept, not just a sound.
@@ -114,6 +113,7 @@ PAGE = Page(blocks=(
             They combined logographic symbols (pictures for whole words), phonemic signs (symbols for sounds), and determinatives (clarifying pictures).
             Determinatives are like adding a picture of gift, clock, or projector after "present" to specify meaning.
         """,)),
+        # the first set of emojis was from 1999, so no mentions here in 1994 😢
     )),
     PageBlockTypeWriter(parts=(
         HeadLine(level=3, text="Buried guardians"),
