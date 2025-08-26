@@ -105,6 +105,11 @@ This contrasts with phonemic systems, such as Latin or Greek, where characters c
 
 English is neither of these.
 For example, in the name of "Pacific Ocean", each "C" is pronounced differently.
+Or my favourite joke: you can write "fish" as "ghoti".
+Because
+"gh" sounds like the "f" in "enough"
+"o" sounds like the "i" in "women"
+"ti" sounds like the "sh" in "nation".
 
 On the other hand, Egyptian hieroglyphs were hybrid.
 They combined logographic symbols (pictures for whole words), phonemic signs (symbols for sounds), and determinatives (clarifying pictures).
