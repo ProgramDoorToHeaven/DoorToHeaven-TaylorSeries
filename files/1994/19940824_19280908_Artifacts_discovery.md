@@ -22,8 +22,8 @@ But since when is our military interested in ancient history?
 Discovery
 ---------
 
-While leading an archaeological expedition near the Great Pyramids, my team and
-I uncovered a large, circular artifact buried beneath a substantial cover stone.
+While leading an archaeological expedition near the Great Pyramids,one of my teams lead by Sallah Mohammed Faisel el-Kahir
+uncovered a large, circular artifact buried beneath a substantial cover stone.
 Accompanying the artifact were two remains of human bodies, which we initially
 hypothesized could be remnants of an ancient burial ritual or guardians of the
 artifact. The artifact itself is composed of what appears to be melted
