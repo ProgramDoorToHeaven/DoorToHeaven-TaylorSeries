@@ -11,8 +11,8 @@ Introduction
 
 A significant archaeological discovery was made near the Great Pyramids in Giza,
 Egypt. This report details the unearthing and initial analysis of a large,
-circular artifact found beneath a cover stone, accompanied by 2 buried human
-bodies in ritual armor with jackal heads and decorated staffs.
+ring-shaped artifact found beneath a circular cover stone, accompanied by 2
+buried human bodies in ritual armor with jackal heads and decorated staffs.
 ```
 
 Ok, that might be the "Door" this program is interested in.
@@ -23,7 +23,7 @@ Discovery
 ---------
 
 While leading an archaeological expedition near the Great Pyramids, one of my
-teams lead by Sallah Mohammed Faisel el-Kahir uncovered a large, circular
+teams lead by Sallah Mohammed Faisel el-Kahir uncovered a large, ring-shaped
 artifact buried beneath a substantial cover stone. Accompanying the artifact
 were two remains of human bodies, which we initially hypothesized could be
 remnants of an ancient burial ritual or guardians of the artifact. The artifact
@@ -151,7 +151,7 @@ purpose.
 > | Date     | 1928-09-08                                               |
 > | Author   | Prof. Paul Langford                                      |
 >
-> In 1928, prof. Langford discovered a circular artefact in Egypt.
+> In 1928, prof. Langford discovered a circular artifact in Egypt.
 > It was made of an interesting metal.
 >
 > Recommendation
@@ -160,4 +160,4 @@ purpose.
 > This document probably does not need to have any access restrictions.
 > The knowledge of the material might be worth protecting.
 
-I can't imagine how keeping this artefact secret could help the national security.
+I can't imagine how keeping this artifact secret could help the national security.

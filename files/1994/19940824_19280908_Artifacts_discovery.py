@@ -11,7 +11,7 @@ PAGE = Page(blocks=(
         HeadLine(level=2, text="Introduction"),
         Paragraph(text=("""
             A significant archaeological discovery was made near the Great Pyramids in Giza, Egypt.
-            This report details the unearthing and initial analysis of a large, circular artifact found beneath a cover stone,
+            This report details the unearthing and initial analysis of a large, ring-shaped artifact found beneath a circular cover stone,
             accompanied by 2 buried human bodies in ritual armor with jackal heads and decorated staffs.
         """,)),
     )),
@@ -24,7 +24,7 @@ PAGE = Page(blocks=(
     PageBlockTypeWriter(parts=(
         HeadLine(level=2, text="Discovery"),
         Paragraph(text=("""
-            While leading an archaeological expedition near the Great Pyramids, one of my teams lead by Sallah Mohammed Faisel el-Kahir uncovered a large, circular artifact buried beneath a substantial cover stone.
+            While leading an archaeological expedition near the Great Pyramids, one of my teams lead by Sallah Mohammed Faisel el-Kahir uncovered a large, ring-shaped artifact buried beneath a substantial cover stone.
             Accompanying the artifact were two remains of human bodies, which we initially hypothesized could be remnants of an ancient burial ritual or guardians of the artifact.
             The artifact itself is composed of what appears to be melted meteorite, exhibiting a metallic structure unlike any known materials from the historical or geological record.
         """,)),
@@ -150,7 +150,7 @@ PAGE = Page(blocks=(
             year=1928, month=9, day=8,
         ),
         Paragraph(text=("""
-            In 1928, prof. Langford discovered a circular artefact in Egypt.
+            In 1928, prof. Langford discovered a circular artifact in Egypt.
             It was made of an interesting metal.
         """,)),
         HeadLine(level=2, text="Recommendation"),
@@ -160,7 +160,7 @@ PAGE = Page(blocks=(
         """,)),
     )),
     PageBlock(parts=(
-        Paragraph(text=("I can't imagine how keeping this artefact secret could help the national security.",)),
+        Paragraph(text=("I can't imagine how keeping this artifact secret could help the national security.",)),
     )),
 ))
 
