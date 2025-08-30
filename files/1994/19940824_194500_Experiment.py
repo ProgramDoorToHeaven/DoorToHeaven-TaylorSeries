@@ -1,3 +1,0 @@
-"""
-Torment of Tantalus
-"""
