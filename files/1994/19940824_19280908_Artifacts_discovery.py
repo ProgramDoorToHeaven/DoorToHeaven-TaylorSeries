@@ -24,7 +24,7 @@ PAGE = Page(blocks=(
     PageBlockTypeWriter(parts=(
         HeadLine(level=2, text="Discovery"),
         Paragraph(text=("""
-            While leading an archaeological expedition near the Great Pyramids, my team and I uncovered a large, circular artifact buried beneath a substantial cover stone.
+            While leading an archaeological expedition near the Great Pyramids, one of my teams lead by Sallah Mohammed Faisel el-Kahir uncovered a large, circular artifact buried beneath a substantial cover stone.
             Accompanying the artifact were two remains of human bodies, which we initially hypothesized could be remnants of an ancient burial ritual or guardians of the artifact.
             The artifact itself is composed of what appears to be melted meteorite, exhibiting a metallic structure unlike any known materials from the historical or geological record.
         """,)),
@@ -84,7 +84,8 @@ PAGE = Page(blocks=(
         """,)),
         Paragraph(text=("""
             We are excited by the new unknown symbols.
-            They could be a writing system of an older civilization and the hieroglyphs accompanying them would typically (on similar bilingual artifacts) be their translation.
+            They could be a writing system of an older civilization and the hieroglyphs accompanying them would typically be their translation.
+            Like on the Rosetta Stone or similar bilingual artifacts.
         """,)),
         Paragraph(text=("""
             None of the symbols on the artifact is used twice.
