@@ -19,7 +19,8 @@ I don't want to lose the opportunity to work on this ring.
 It is my life's work. 
 It is precious to me.
 And that's why I'm writing to you.
-You mentioned that the German government recently established the Ahnenerbe project and they are interested in various ancient artifacts. 
+You mentioned that the German government recently established the Ahnenerbe project and they are interested in various ancient artifacts.
+Even though I generally despise the way my fatherland recently decided to follow, it could help me with the research now.
 Could you please try to get some funding from them? 
 I don't have any contacts in Germany anymore.
 That is besides you.
