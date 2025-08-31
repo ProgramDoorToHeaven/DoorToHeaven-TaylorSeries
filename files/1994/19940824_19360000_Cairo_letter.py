@@ -7,7 +7,7 @@ PAGE = Page(blocks=(
             I've been working on the ancient ring for over 5 years and it feels like I haven't moved a bit. 
             The only success since it's discovery has been the translation of the hieroglyphs on the cover stone.
         """,)),
-        Paragraph(text=("""
+        Paragraph(is_literal=True, text=("""
             ... HIEROGLYPHS
             ... TRANSLATION 
         """,)),  # TODO
