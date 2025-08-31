@@ -42,7 +42,7 @@ PAGE = Page(blocks=(
 
 
 def main():
-    PAGE.render()
+    PAGE.render(filename=__file__)
 
 
 if __name__ == "__main__":
