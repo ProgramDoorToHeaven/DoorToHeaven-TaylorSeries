@@ -16,7 +16,7 @@ PAGE = Page(blocks=(
         #   https://oraec.github.io/corpus/mdc_to_unicode_converter.html
         #   https://www.leskoff.com/s01775-0
         #
-        # TODO: Langford translation
+        # TODO: Langford translation - are parts of it in the Tantalus episode?
         #
         # Partial translation by Myers
         # time million sky Ra sun god
