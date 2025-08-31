@@ -55,7 +55,7 @@ class MarkDownParams:
                 yield word
 
     def _generate_lines(self, line: str, is_literal: bool = False) -> Iterator[str]:
-        line=line.strip()
+        line = line.strip()
         if is_literal or (self.break_lines is None):
             for row in line.splitlines(keepends=False):
                 yield row.strip()
@@ -82,7 +82,11 @@ class MarkDownParams:
             line: str,
             first_line_special_prefix: str | None,
             is_literal: bool = False,
+            keep_spaces: bool = False,
     ) -> Iterator[str]:
+        if keep_spaces:
+            yield line
+            return
         iterator = self._generate_lines(line, is_literal)
         first_line = next(iterator, None)
         if first_line is not None:

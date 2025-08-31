@@ -25,6 +25,7 @@ class Printable(ABC):
 class Paragraph(Printable):
     text: tuple[str, ...] = ()
     is_literal: bool = False
+    keep_spaces: bool = False
 
     def __post_init__(self):
         if not self.text:
@@ -43,13 +44,13 @@ class Paragraph(Printable):
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
         for item_index, item in enumerate(self.text):
             yield from markdown_params.get_formated_markdown_line(
-                item_index, item, first_line_special_prefix, self.is_literal
+                item_index, item, first_line_special_prefix, self.is_literal, self.keep_spaces
             )
 
 
 @dataclass(frozen=True)
 class HeadLine(Printable):
-    text: str=""
+    text: str = ""
     level: int = 1
 
     def __post_init__(self):
