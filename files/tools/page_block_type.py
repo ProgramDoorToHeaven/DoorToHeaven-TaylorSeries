@@ -18,6 +18,15 @@ class PageBlockTypeItem:
     def get_html_tag(self, contents: Iterable[HtmlTag | str]) -> Iterator[HtmlTag]:
         wrapper = new_tag("div", class_=self.html_classes)
         text: list[str] = []
+
+        def flush_text_if_nonempty() -> None:
+            if not text:
+                return
+            text_element = new_tag(self.html_tag)
+            text_element.extend(text)
+            wrapper.append(text_element)
+            text.clear()
+
         for part in contents:
             if isinstance(part, str):
                 if text or part != "\n":
@@ -25,16 +34,9 @@ class PageBlockTypeItem:
                 else:
                     wrapper.append(part)
             elif isinstance(part, HtmlTag):
-                if text:
-                    text_element = new_tag(self.html_tag)
-                    text_element.extend(text)
-                    wrapper.append(text_element)
-                    text = []
+                flush_text_if_nonempty()
                 wrapper.append(part)
-        if text:
-            text_element = new_tag(self.html_tag)
-            text_element.extend(text)
-            wrapper.append(text_element)
+        flush_text_if_nonempty()
         yield wrapper
 
 
