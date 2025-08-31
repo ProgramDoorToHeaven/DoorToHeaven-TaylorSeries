@@ -33,16 +33,16 @@ class ListOfItems(Printable):
         to_length = self.get_max_prefix_length() + 1
         return prefix.ljust(to_length)
 
-    def get_html(self) -> HtmlTag:
+    def get_html(self) -> Iterator[HtmlTag]:
         if self.html_ordered is None:
             result = new_tag("ul")
         else:
             result = new_tag("ol", type=self.html_ordered)
         for item in self.items:
             tag = new_tag("li")
-            tag.append(item.get_html())
+            tag.extend(item.get_html())
             result.append(tag)
-        return result
+        yield result
 
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
         for item_index, item in enumerate(self.items):

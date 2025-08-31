@@ -59,7 +59,7 @@ class Table(Printable):
                 widths[index] = max(widths[index], len(item))
         return widths
 
-    def get_html(self) -> HtmlTag:
+    def get_html(self) -> Iterator[HtmlTag]:
         result = new_tag("table")
         if not self.header_is_empty():
             header = new_tag("thead")
@@ -79,7 +79,7 @@ class Table(Printable):
                 row.append(tag)
             body.append(row)
         result.append(body)
-        return result
+        yield result
 
     @staticmethod
     def get_markdown_row(row: Iterable[str], widths: list[int]) -> str:

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Iterable
+from typing import Iterable, Iterator
 
 from bs4 import BeautifulSoup  # pip install beautifulsoup4
 from bs4 import Tag as HtmlTag  # pip install beautifulsoup4
@@ -38,7 +38,7 @@ def html_to_string(tag: HtmlTag, omit_doctype: bool = False) -> str:
     return doctype + str(tag)
 
 
-def build_html(main_div: HtmlTag) -> HtmlTag:
+def build_html(main_div: Iterator[HtmlTag]) -> HtmlTag:
     html_doc = new_tag("html", lang="en")
     html_head = new_tag("head")
     html_head.append(new_tag("link", rel="stylesheet", href="../tools/main.css"))
@@ -48,6 +48,6 @@ def build_html(main_div: HtmlTag) -> HtmlTag:
     html_head.append(new_tag("meta", name="color-scheme", content="dark light"))
     html_doc.append(html_head)
     html_body = new_tag("body")
-    html_body.append(main_div)
+    html_body.extend(main_div)
     html_doc.append(html_body)
     return html_doc

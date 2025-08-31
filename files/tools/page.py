@@ -19,12 +19,12 @@ class PageBlockTypeItem:
     markdown_end: str | None = None
     markdown_each_line_prefix: str = ""
 
-    def get_html_tag(self, contents: Iterable[HtmlTag | str]) -> HtmlTag:
+    def get_html_tag(self, contents: Iterable[HtmlTag | str]) -> Iterator[HtmlTag]:
         result = new_tag(self.html_tag)
         result.extend(contents)
         wrapper = new_tag("div", class_=self.html_classes)
         wrapper.append(result)
-        return wrapper
+        yield wrapper
 
 
 class PageBlockType(Enum):
@@ -40,7 +40,7 @@ class PageBlockType(Enum):
         markdown_each_line_prefix="> ",
     )
 
-    def get_html_tag(self, contents: Iterable[HtmlTag | str]) -> HtmlTag:
+    def get_html_tag(self, contents: Iterable[HtmlTag | str]) -> Iterator[HtmlTag]:
         return self.value.get_html_tag(contents)
 
 
@@ -54,7 +54,7 @@ class PageBlock(Printable):
         if not self.parts:
             raise ValueError("Empty block.")
 
-    def get_html(self) -> HtmlTag:
+    def get_html(self) -> Iterator[HtmlTag]:
         contents: list[HtmlTag | str] = []
         for part_index, part in enumerate(self.parts):
             if (part_index != 0) and (not part.omit_space_before):
@@ -67,7 +67,7 @@ class PageBlock(Printable):
                     for line in part.get_markdown(markdown_params, first_line_special_prefix=None)
                 )
             else:
-                part_encoded = (part.get_html(),)
+                part_encoded = part.get_html()
             contents.extend(part_encoded)
         return self.block_type.get_html_tag(contents)
 
@@ -105,13 +105,13 @@ class Page(Printable):
         if not self.blocks:
             raise ValueError("Empty page.")
 
-    def get_html(self) -> HtmlTag:
+    def get_html(self) -> Iterator[HtmlTag]:
         page = new_tag("div", class_="page")
         for block in self.blocks:
-            page.append(block.get_html())
+            page.extend(block.get_html())
         wrapper = new_tag("div", class_="page-wrapper")
         wrapper.append(page)
-        return wrapper
+        yield wrapper
 
     def get_markdown(
             self,

@@ -13,7 +13,7 @@ class Printable(ABC):
     omit_space_before: bool = False
 
     @abstractmethod
-    def get_html(self) -> HtmlTag:
+    def get_html(self) -> Iterator[HtmlTag]:
         raise NotImplementedError()
 
     @abstractmethod
@@ -35,11 +35,11 @@ class Paragraph(Printable):
     def from_strings(cls, *text: str) -> Paragraph:
         return cls(text=tuple(text))
 
-    def get_html(self) -> HtmlTag:
+    def get_html(self) -> Iterator[HtmlTag]:
         result = new_tag("p")
         for item in self.text:
             result.append(item)
-        return result
+        yield result
 
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
         for item_index, item in enumerate(self.text):
@@ -59,10 +59,10 @@ class HeadLine(Printable):
         if self.level <= 0:
             raise ValueError(f"Expected positive level {self.level} > 0.")
 
-    def get_html(self) -> HtmlTag:
+    def get_html(self) -> Iterator[HtmlTag]:
         result = new_tag(f"h{self.level}")
         result.append(self.text)
-        return result
+        yield result
 
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
         underline: str | None = None
@@ -84,8 +84,8 @@ class HeadLine(Printable):
 @dataclass(frozen=True)
 class HorizontalLine(Printable):
 
-    def get_html(self) -> HtmlTag:
-        return new_tag("hr")
+    def get_html(self) -> Iterator[HtmlTag]:
+        yield new_tag("hr")
 
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
         width = markdown_params.break_lines or 8
