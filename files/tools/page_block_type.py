@@ -16,10 +16,25 @@ class PageBlockTypeItem:
     markdown_each_line_prefix: str = ""
 
     def get_html_tag(self, contents: Iterable[HtmlTag | str]) -> Iterator[HtmlTag]:
-        result = new_tag(self.html_tag)
-        result.extend(contents)
         wrapper = new_tag("div", class_=self.html_classes)
-        wrapper.append(result)
+        text: list[str] = []
+        for part in contents:
+            if isinstance(part, str):
+                if text or part != "\n":
+                    text.append(part)
+                else:
+                    wrapper.append(part)
+            elif isinstance(part, HtmlTag):
+                if text:
+                    text_element = new_tag(self.html_tag)
+                    text_element.extend(text)
+                    wrapper.append(text_element)
+                    text = []
+                wrapper.append(part)
+        if text:
+            text_element = new_tag(self.html_tag)
+            text_element.extend(text)
+            wrapper.append(text_element)
         yield wrapper
 
 
@@ -38,4 +53,3 @@ class PageBlockType(Enum):
 
     def get_html_tag(self, contents: Iterable[HtmlTag | str]) -> Iterator[HtmlTag]:
         return self.value.get_html_tag(contents)
-
