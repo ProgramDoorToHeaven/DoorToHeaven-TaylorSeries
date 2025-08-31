@@ -5,7 +5,7 @@ PAGE = Page(blocks=(
         Paragraph(text=("Dear Deitrich,",)),
         Paragraph(text=("""
             I've been working on the ancient ring for over 5 years and it feels like I haven't moved a bit. 
-            The only success since it's discovery has been the translation of the hieroglyphs on the cover stone.
+            The only success since its discovery has been the translation of the hieroglyphs on the cover stone.
         """,)),
         # From https://en.wikipedia.org/wiki/Stargate_%28film%29
         # r:n:p-rnp-t:Z2-I8:V20-r:q-b-H-w-W15-N1:N25-p-w-r:a-C1-m-i-t:n-N8
@@ -61,13 +61,13 @@ PAGE = Page(blocks=(
         # TODO https://steemit.com/steemstem/@laylahsophia/egyptology-the-perception-of-egypt-in-movies-part-1-in-which-museum-is-the-stargate-on-display
         Paragraph(text=("""
             I can feel that it is an important discovery, but without any successful research, it is just an "unknown artifact", a curiosity to hang on a wall and wonder about.
-            Moreover, it is getting difficult to do any research with expensive equipment or with renowned colleagues when our finding is running dry.
+            Moreover, it is getting difficult to do any research with expensive equipment or with renowned colleagues when our funding is running dry.
         """,)),
         Paragraph(text=("""
-            With my daughter Catherine, we've been living in the warehouse where we have all the artifacts. 
+            With my daughter Catherine, we've been living in the warehouse where we also store all the artifacts. 
             She even got her first part time job - cataloging items at the Cairo museum - to help with our financial situation. 
             I've also been doing some odd jobs to get us more money. 
-            Like last week, I translate some Hebrew inscriptions for some French archeologist.
+            Like last week, I translated some Hebrew inscriptions for some French archeologist.
         """,)),
         Paragraph(text=("""
             I don't want to lose the opportunity to work on this ring.
