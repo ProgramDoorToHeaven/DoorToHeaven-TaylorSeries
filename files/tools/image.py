@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from functools import cached_property
 from typing import Iterator
 
 from tools.basic_printables import Printable
@@ -13,7 +14,7 @@ class Image(Printable):
     relative_path: str = ""
     alternative_text: str = ""
 
-    @property
+    @cached_property
     def alternative_text_or_rel_path(self):
         return self.alternative_text or self.relative_path
 

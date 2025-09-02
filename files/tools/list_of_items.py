@@ -20,10 +20,12 @@ class ListOfItems(Printable):
         if not self.items:
             raise ValueError("Empty list.")
 
+    # bind function to class instance
     @property
     def translate_enumeration_to_prefix(self):
         return MethodType(self.index_to_prefix, self)
 
+    # bind function to class instance
     @property
     def get_max_prefix_length(self):
         return MethodType(self.max_prefix_length, self)

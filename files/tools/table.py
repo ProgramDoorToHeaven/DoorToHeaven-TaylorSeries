@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from functools import cached_property
 from typing import Iterable, Iterator
 
 from tools.basic_printables import Printable
@@ -14,17 +15,21 @@ class Table(Printable):
     items: tuple[tuple[str, ...], ...] = ()
 
     def __post_init__(self):
-        header_length = len(self.header)
-        if header_length <= 0:
+        if self.number_of_columns <= 0:
             raise ValueError("Table without columns.")
         if not self.items:
             raise ValueError("Table without rows.")
         for index, row in enumerate(self.items):
-            if len(row) == header_length:
+            if len(row) == self.number_of_columns:
                 continue
             raise ValueError(
                 f"Length of row #{index} is {len(row)}."
-                + f" That does not match the length of header which is {header_length}."
+                + f" That does not match the number of columns which is {self.number_of_columns}."
+            )
+        if self.number_of_columns != len(self.header):
+            raise ValueError(
+                f"Length of header is {len(self.header)}."
+                + f" That does not match the number of columns which is {self.number_of_columns}."
             )
 
     @classmethod
@@ -46,13 +51,19 @@ class Table(Printable):
             ("Author", document_author),
         ))
 
+    @cached_property
+    def number_of_columns(self) -> int:
+        return len(self.header)
+
+    @cached_property
     def header_is_empty(self) -> bool:
         for item in self.header:
             if item:
                 return False
         return True
 
-    def get_widths(self) -> list[int]:
+    @cached_property
+    def widths(self) -> list[int]:
         widths: list[int] = [len(h) for h in self.header]
         for row in self.items:
             for index, item in enumerate(row):
@@ -61,7 +72,7 @@ class Table(Printable):
 
     def get_html(self) -> Iterator[HtmlTag]:
         result = new_tag("table")
-        if not self.header_is_empty():
+        if not self.header_is_empty:
             header = new_tag("thead")
             row = new_tag("tr")
             for item in self.header:
@@ -81,19 +92,18 @@ class Table(Printable):
         result.append(body)
         yield result
 
-    @staticmethod
-    def get_markdown_row(row: Iterable[str], widths: list[int]) -> str:
+    def get_markdown_row(self, row: Iterable[str]) -> str:
         return "| " + " | ".join(
             item.ljust(width)
-            for item, width in zip(row, widths)
+            for item, width in zip(row, self.widths)
         ) + " |"
 
+    def get_markdown_header_separator(self) -> str:
+        return self.get_markdown_row([" "] * self.number_of_columns).replace(" ", "-")
+
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
-        widths = self.get_widths()
-        if not self.header_is_empty() or not markdown_params.is_monospace:
-            yield markdown_params.line_prefix + self.get_markdown_row(self.header, widths)
-            yield markdown_params.line_prefix + self.get_markdown_row(
-                [" "] * len(self.header), widths
-            ).replace(" ", "-")
+        if not self.header_is_empty or not markdown_params.is_monospace:
+            yield markdown_params.line_prefix + self.get_markdown_row(self.header)
+            yield markdown_params.line_prefix + self.get_markdown_header_separator()
         for row in self.items:
-            yield markdown_params.line_prefix + self.get_markdown_row(row, widths)
+            yield markdown_params.line_prefix + self.get_markdown_row(row)
