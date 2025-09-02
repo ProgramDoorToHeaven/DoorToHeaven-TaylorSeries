@@ -13,10 +13,15 @@ from tools.markdown_params import MarkDownParams
 class Image(Printable):
     relative_path: str = ""
     alternative_text: str = ""
+    title: str = ""
 
     @cached_property
-    def alternative_text_or_rel_path(self):
+    def alternative_text_or_rel_path(self) -> str:
         return self.alternative_text or self.relative_path
+
+    @cached_property
+    def title_or_alternative_text_or_none(self) -> str | None:
+        return self.title or self.alternative_text or None
 
     def __post_init__(self):
         if self.relative_path == "":
@@ -27,6 +32,7 @@ class Image(Printable):
             "img",
             src=self.relative_path,
             alt=self.alternative_text_or_rel_path,
+            title=self.title_or_alternative_text_or_none
         )
 
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:

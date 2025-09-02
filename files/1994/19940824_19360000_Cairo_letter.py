@@ -16,7 +16,9 @@ PAGE = Page(blocks=(
         #   https://oraec.github.io/corpus/mdc_to_unicode_converter.html
         #   https://www.leskoff.com/s01775-0
         #
-        # TODO: Langford translation - are parts of it in the Tantalus episode?
+        # Langford translation
+        # SG1 s01e11 Torment of Tantalus
+        # "doorway to heaven"
         #
         # Partial translation by Myers
         # time million sky Ra sun god
@@ -28,10 +30,15 @@ PAGE = Page(blocks=(
         # sealed and buried for all time
         # his Stargate
         #
-        # literal translation of the text:
+        # literal translation of the text from Wikipedia:
         # years million in sky this Ra as Aten (=sun disk)
         # sealed buried enduringly and repeatedly
         # door his to stars
+        #
+        # literal translation of the text from https://steemit.com/steemstem/@laylahsophia/egyptology-the-perception-of-egypt-in-movies-part-1-in-which-museum-is-the-stargate-on-display :
+        # million times up in the sky is Ra in the sun disk
+        # by being sealed (and) buried for all time to eternity
+        # his gate of the stars
 
         # Paragraph(is_literal=True, text=("""
         #     𓂋𓈖𓊪 𓆳 𓏏𓏥 𓆐𓎆 𓂋𓈎 𓃀 𓎛 𓅱 𓏁 𓇯𓈉 𓊪 𓅱 𓂋𓂝 𓁚 𓅓 𓇋 𓏏𓈖 𓇶
@@ -45,18 +52,24 @@ PAGE = Page(blocks=(
         # """,)),  # with stacking characters
         Image(
             relative_path="../tools/img_common/cover-stone-hieroglyphs-1-ra.png",
-            alternative_text="𓂋𓈖𓊪 𓆳 𓏏𓏥 𓆐𓎆 𓂋𓈎 𓃀 𓎛 𓅱 𓏁 𓇯𓈉 𓊪 𓅱 𓂋𓂝 𓁚 𓅓 𓇋 𓏏𓈖 𓇶",
+            alternative_text="𓂋𓈖𓊪 𓆳 𓏏𓏥 𓆐𓎆 𓂋𓈎 𓃀 𓎛 𓅱 𓏁 𓇯𓈉 𓊪 𓅱 𓂋𓂝 𓁚 𓅓 𓇋 𓏏𓈖 𓇶\n/\n𓂋𓐰𓈖𓐰𓊪𓆳𓏏𓐰𓏥𓆐𓐰𓎆𓂋𓐰𓈎𓃀𓎛𓅱𓏁𓇯𓐰𓈉𓊪𓅱𓂋𓐰𓂝𓁚𓅓𓇋𓏏𓐰𓈖𓇶",
         ),
         Image(
             relative_path="../tools/img_common/cover-stone-hieroglyphs-2-buried.png",
-            alternative_text="𓅓 𓐍 𓅓 𓏏 𓋩 𓐠 𓈖𓆑 𓈎𓂋 𓋴 𓌟 𓂡 𓊭𓁀 𓆑𓈖 𓆓𓏏 𓇾𓂋 𓅘 𓎛 𓎛 𓇳𓈇",
+            alternative_text="𓅓 𓐍 𓅓 𓏏 𓋩 𓐠 𓈖𓆑 𓈎𓂋 𓋴 𓌟 𓂡 𓊭𓁀 𓆑𓈖 𓆓𓏏 𓇾𓂋 𓅘 𓎛 𓎛 𓇳𓈇\n/\n𓅓𓐍𓅓𓏏𓋩𓐠𓈖𓐰𓆑𓈎𓐰𓂋𓋴𓌟𓀜𓊭𓐰𓁀𓆑𓐰𓈖𓆓𓐳𓏏𓇾𓐰𓂋𓅘𓎛𓎛𓇳𓐰𓈇",
         ),
         Image(
             relative_path="../tools/img_common/cover-stone-hieroglyphs-3-stargate.png",
-            alternative_text="𓋴 𓇼 𓃀 𓊀 𓈖𓏥 𓋴 𓃀 𓄿 𓇼𓇳 𓏥𓆑",
+            alternative_text="𓋴 𓇼 𓃀 𓊀 𓈖𓏥 𓋴 𓃀 𓄿 𓇼𓇳 𓏥𓆑\n/\n𓋴𓇼𓃀𓊀𓈖𓐰𓏥𓋴𓃀𓄿𓇼𓐰𓇳𓏥𓐰𓆑",
         ),
-        Paragraph(is_literal=True, text=("""
-            ... TRANSLATION 
+        Paragraph(text=("""
+            It talks about Ra - the god of Sun - burying his "doorway to heaven" a long time ago.
+            So the name of the ring must be "doorway to heaven" as it was buried below the cower stone.
+        """,)),
+        Paragraph(text=("""
+            Unfortunately, we are still unable to decipher the other set of symbols.
+            The hieroglyphic text contains 2 names - Ra and "doorway to heaven".
+            We tried matching them to the name in the cartouche, but we were not successful.
         """,)),
         # TODO https://steemit.com/steemstem/@laylahsophia/egyptology-the-perception-of-egypt-in-movies-part-1-in-which-museum-is-the-stargate-on-display
         Paragraph(text=("""
@@ -67,19 +80,21 @@ PAGE = Page(blocks=(
             With my daughter Catherine, we've been living in the warehouse where we also store all the artifacts. 
             She even got her first part time job - cataloging items at the Cairo museum - to help with our financial situation. 
             I've also been doing some odd jobs to get us more money. 
-            Like last week, I translated some Hebrew inscriptions for some French archeologist.
+            Like last week, I translated some Hebrew inscriptions for a French archeologist.
         """,)),
         Paragraph(text=("""
             I don't want to lose the opportunity to work on this ring.
             It is my life's work. 
             It is precious to me.
             And that's why I'm writing to you.
-            You mentioned that the German government recently established the Ahnenerbe project and they are interested in various ancient artifacts.
+            You mentioned that the German government recently established the Ahnenerbe institute and they are interested in various ancient artifacts.
             Even though I generally despise the way my fatherland recently decided to follow, it could help me with the research now.
-            Could you please try to get some funding from them? 
+            Could you maybe try to get some funding from them? 
             I don't have any contacts in Germany anymore.
-            That is besides you.
+            - That is besides you.
             If you help with the paperwork, you can have your share.
+            We could even come up with a theory about the Aryan race occupying Egypt before the Egyptian culture...
+            if it helps us convince them to finance our research.
         """,)),
         Paragraph(is_literal=True, text=("""
             With kindest regards,
