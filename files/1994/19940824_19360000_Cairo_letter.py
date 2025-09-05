@@ -125,6 +125,11 @@ PAGE = Page(blocks=(
     # ))  # with stacking characters
     PageBlock(parts=(
         Paragraph(text=("""
+            Ahnenerbe - the Ancestral Heritage organization.
+            Those were dark days.
+        """,)),
+    PageBlock(parts=(
+        Paragraph(text=("""
             Ok, I'm not writing any more summaries or restriction recommendations until I find out what is going on here.
             Otherwise, I might also end up rewriting them all later.
         """,)),
