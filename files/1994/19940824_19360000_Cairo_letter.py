@@ -123,6 +123,12 @@ PAGE = Page(blocks=(
     #     Paragraph(omit_space_before=True, text=("𓅓𓐍𓅓𓏏𓋩𓐠𓈖𓐰𓆑𓈎𓐰𓂋𓋴𓌟𓀜𓊭𓐰𓁀𓆑𓐰𓈖𓆓𓐳𓏏𓇾𓐰𓂋𓅘𓎛𓎛𓇳𓐰𓈇",)),
     #     Paragraph(omit_space_before=True, text=("𓋴𓇼𓃀𓊀𓈖𓐰𓏥𓋴𓃀𓄿𓇼𓐰𓇳𓏥𓐰𓆑",)),
     # ))  # with stacking characters
+    PageBlock(parts=(
+        Paragraph(text=("""
+            Ok, I'm not writing any more summaries of recommendations until I find out what is going on.
+            Otherwise, I might end up rewriting them all later.
+        """,)),
+    )),
 ))
 
 
