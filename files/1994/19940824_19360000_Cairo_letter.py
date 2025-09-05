@@ -125,8 +125,8 @@ PAGE = Page(blocks=(
     # ))  # with stacking characters
     PageBlock(parts=(
         Paragraph(text=("""
-            Ok, I'm not writing any more summaries of recommendations until I find out what is going on.
-            Otherwise, I might end up rewriting them all later.
+            Ok, I'm not writing any more summaries or restriction recommendations until I find out what is going on here.
+            Otherwise, I might also end up rewriting them all later.
         """,)),
     )),
 ))
