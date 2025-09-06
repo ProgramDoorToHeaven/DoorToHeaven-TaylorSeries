@@ -83,6 +83,15 @@ PAGE = Page(blocks=(
             The text mentions Ra - the god of the Sun - burying his "doorway to heaven" long ago.
             Therefore, the ring's name must be "Doorway to Heaven."
         """,)),
+    )),
+    PageBlockTypeWriter(parts=(
+        Paragraph(text=("""
+            Ok, so they called it "dorway to heaven" and we call it "door to heaven".
+            Close enough.
+            Guess we have a better translation half a century later.
+        """)),
+    )),
+    PageBlockTypeWriter(parts=(
         Paragraph(text=("""
             Unfortunately, we still cannot decipher the other set of symbols.
             The hieroglyphic text contains two names: Ra and "Doorway to Heaven".
