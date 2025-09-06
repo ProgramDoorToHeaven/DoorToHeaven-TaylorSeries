@@ -152,6 +152,7 @@ PAGE = Page(blocks=(
         """,)),
     )),
     PageBlock(parts=(
+        HorizontalLine(),
         Paragraph(text=("""
             Anyway, I'm not writing any more summaries or access-restriction recommendations until I find out what is going on here.
             Otherwise, I might also end up rewriting all of them later.
