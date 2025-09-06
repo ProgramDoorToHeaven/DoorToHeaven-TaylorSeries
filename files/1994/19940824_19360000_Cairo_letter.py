@@ -86,9 +86,9 @@ PAGE = Page(blocks=(
     )),
     PageBlockTypeWriter(parts=(
         Paragraph(text=("""
-            Ok, so they called it "dorway to heaven" and we call it "door to heaven".
-            Close enough.
-            Guess we have a better translation half a century later.
+            So they called it “Doorway to Heaven,” and we call it “Door to Heaven.”
+            Close enough, I suppose.
+            I guess our translation is a bit more precise - half a century later.
         """)),
     )),
     PageBlockTypeWriter(parts=(
