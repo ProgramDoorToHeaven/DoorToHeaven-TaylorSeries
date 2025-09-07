@@ -84,12 +84,12 @@ PAGE = Page(blocks=(
             Therefore, the ring's name must be "Doorway to Heaven."
         """,)),
     )),
-    PageBlockTypeWriter(parts=(
+    PageBlock(parts=(
         Paragraph(text=("""
             So they called it “Doorway to Heaven,” and we call it “Door to Heaven.”
             Close enough, I suppose.
             I guess our translation is a bit more precise - half a century later.
-        """)),
+        """,)),
     )),
     PageBlockTypeWriter(parts=(
         Paragraph(text=("""
@@ -140,8 +140,6 @@ PAGE = Page(blocks=(
             Ahnenerbe - the Ancestral Heritage organization.
             Those were dark days.
         """,)),
-    )),
-    PageBlock(parts=(
         Paragraph(text=("""
             Adolf Hitler rose to power in the early 1930s by exploiting Germany's economic despair after World War I and the Great Depression.
             Appointed Chancellor in 1933, he used propaganda, legal maneuvers, and violent suppression of opponents to consolidate absolute control.
