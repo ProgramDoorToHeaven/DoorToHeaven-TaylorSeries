@@ -12,73 +12,20 @@ from tools.markdown_params import MarkDownParams
 class Printable(ABC):
     omit_space_before: bool = False
 
+    @staticmethod
+    def breaks_markdown_code_block() -> bool:
+        return False
+
     @abstractmethod
     def get_html(self) -> Iterator[HtmlTag]:
         raise NotImplementedError()
 
+    def get_html_monospace(self) -> Iterator[HtmlTag]:
+        return self.get_html()
+
     @abstractmethod
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
         raise NotImplementedError()
-
-
-@dataclass(frozen=True)
-class Paragraph(Printable):
-    text: tuple[str, ...] = ()
-    is_literal: bool = False
-    keep_spaces: bool = False
-
-    def __post_init__(self):
-        if not self.text:
-            raise ValueError("Empty paragraph.")
-
-    @classmethod
-    def from_strings(cls, *text: str) -> Paragraph:
-        return cls(text=tuple(text))
-
-    def get_html(self) -> Iterator[HtmlTag]:
-        result = new_tag("p")
-        for item in self.text:
-            result.append(item)
-        yield result
-
-    def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
-        for item_index, item in enumerate(self.text):
-            yield from markdown_params.get_formated_markdown_line(
-                item_index, item, first_line_special_prefix, self.is_literal, self.keep_spaces
-            )
-
-
-@dataclass(frozen=True)
-class HeadLine(Printable):
-    text: str = ""
-    level: int = 1
-
-    def __post_init__(self):
-        if not self.text:
-            raise ValueError("Empty headline.")
-        if self.level <= 0:
-            raise ValueError(f"Expected positive level {self.level} > 0.")
-
-    def get_html(self) -> Iterator[HtmlTag]:
-        result = new_tag(f"h{self.level}")
-        result.append(self.text)
-        yield result
-
-    def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
-        underline: str | None = None
-        prefix: str = ""
-        match self.level:
-            case 1:
-                underline = "="
-            case 2:
-                underline = "-"
-            case _:
-                if not markdown_params.is_monospace:
-                    prefix = "#" * self.level + " "
-        result = prefix + self.text
-        yield markdown_params.line_prefix + result
-        if underline is not None:
-            yield markdown_params.line_prefix + (underline * len(result))
 
 
 @dataclass(frozen=True)

@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from functools import cached_property
 from typing import Iterable, Iterator
 
+from tools import LiteralParagraph
 from tools.basic_printables import Printable
 from tools.html_builder import new_tag, HtmlTag
 from tools.markdown_params import MarkDownParams
@@ -92,6 +93,23 @@ class Table(Printable):
         result.append(body)
         yield result
 
+    def get_html_monospace(self) -> Iterator[HtmlTag]:
+        markdown = self.get_markdown(
+            markdown_params=MarkDownParams(),
+            first_line_special_prefix=None,
+        )
+        table = LiteralParagraph(
+            strip_first_line_if_empty=False,
+            strip_last_line_if_empty=False,
+            strip_spaces_from_line_starts_according_to_line=None,
+            text=tuple(
+                line
+                for index, line in enumerate(markdown)
+                if (not self.header_is_empty) or (index not in (0, 1))
+            ),
+        )
+        yield from table.get_html()
+
     def get_markdown_row(self, row: Iterable[str]) -> str:
         return "| " + " | ".join(
             item.ljust(width)
@@ -102,8 +120,7 @@ class Table(Printable):
         return self.get_markdown_row([" "] * self.number_of_columns).replace(" ", "-")
 
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
-        if not self.header_is_empty or not markdown_params.is_monospace:
-            yield markdown_params.line_prefix + self.get_markdown_row(self.header)
-            yield markdown_params.line_prefix + self.get_markdown_header_separator()
+        yield markdown_params.line_prefix + self.get_markdown_row(self.header)
+        yield markdown_params.line_prefix + self.get_markdown_header_separator()
         for row in self.items:
             yield markdown_params.line_prefix + self.get_markdown_row(row)

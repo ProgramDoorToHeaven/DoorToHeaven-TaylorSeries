@@ -4,9 +4,10 @@ from dataclasses import dataclass
 from types import MethodType
 from typing import Callable, Iterator
 
-from tools.basic_printables import Paragraph, Printable
+from tools.basic_printables import Printable
 from tools.html_builder import new_tag, HtmlTag
 from tools.markdown_params import MarkDownParams
+from tools.paragraph import Paragraph
 
 
 @dataclass(frozen=True)

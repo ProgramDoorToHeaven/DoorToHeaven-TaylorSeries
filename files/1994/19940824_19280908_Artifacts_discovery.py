@@ -3,7 +3,7 @@ from tools import *
 PAGE = Page(blocks=(
     PageBlockTypeWriter(parts=(
         HeadLine(level=1, text="Discovery and initial analysis of the circular artifacts"),
-        Paragraph(is_literal=True, text=("""
+        LiteralParagraph(text=("""
             Location:              Giza Plateau, Egypt
             Date:                  September 8, 1928
             Report prepared by:    Prof. Paul Langford, Lead Archaeologist

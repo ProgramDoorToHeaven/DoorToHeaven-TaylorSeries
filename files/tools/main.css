@@ -12,50 +12,56 @@ body {
             text-align: left;
             display: inline-block;
             width: 100%;
-            max-width: 90ex;
+            max-width: 90ch;
 
             table {
-                margin: 2ex 0;
+                margin: 2em 0;
                 border-collapse: collapse;
 
                 td, th {
                     border: 1px solid grey;
-                    padding: 0.5ex 1.5ex;
+                    padding: 0.5ex 1.5ch;
                 }
             }
 
             div, hr {
-                margin: 8ex 0;
+                margin: 4em 0;
             }
 
             div.thoughts {
                 p {
-                    margin: 2ex 0;
-                    padding: 0 2ex;
+                    margin: 1em 0;
+                    padding: 0 1em;
                 }
             }
 
             div.typewriter {
                 text-align: center;
-                font-family: monospace;
+                font-family: "Courier New", monospace;
                 background-color: rgba(255, 255, 0, 0.07);
-                padding: 10ex;
+                padding: 6em;
                 line-height: 1.8;
                 overflow-x: auto;
 
-                pre, img {
+                p, pre, img {
                     margin: 2ex 0;
-                    text-align: left;
+                    max-width: 80ch;
                     display: inline-block;
                     transform-origin: center;
                     transform: rotate(-1deg);
+                }
+
+                p, pre {
+                    font-family: inherit;
+                    text-align: left;
+                    width: 100%;
                 }
             }
 
             div.quotation {
                 border: 1px solid grey;
-                border-left-width: 0.8ex;
-                padding: 0 2ex;
+                border-left-width: 0.4em;
+                padding: 0 2em;
             }
         }
     }

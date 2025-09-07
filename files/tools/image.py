@@ -15,6 +15,10 @@ class Image(Printable):
     alternative_text: str = ""
     title: str = ""
 
+    @staticmethod
+    def breaks_markdown_code_block() -> bool:
+        return True
+
     @cached_property
     def alternative_text_or_rel_path(self) -> str:
         return self.alternative_text or self.relative_path

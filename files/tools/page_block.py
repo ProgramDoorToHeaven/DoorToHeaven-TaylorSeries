@@ -5,7 +5,6 @@ from typing import Iterator
 
 from tools.basic_printables import Printable
 from tools.html_builder import HtmlTag
-from tools.image import Image
 from tools.logger_getter import get_logger
 from tools.markdown_params import MarkDownParams
 from tools.page_block_type import PageBlockType
@@ -28,16 +27,10 @@ class PageBlock(Printable):
         for part_index, part in enumerate(self.parts):
             if (part_index != 0) and (not part.omit_space_before):
                 contents.extend("\n")
-            if (self.block_type is not PageBlockType.TYPEWRITER) or isinstance(part, Image):
+            if self.block_type.value.is_markdown_code_block:
+                contents.extend(part.get_html_monospace())
+            else:
                 contents.extend(part.get_html())
-                continue
-
-            markdown_params = MarkDownParams().set_monospace(self.break_lines)
-            part_encoded = (
-                line + "\n"
-                for line in part.get_markdown(markdown_params, first_line_special_prefix=None)
-            )
-            contents.extend(part_encoded)
         yield from self.block_type.get_html_tag(contents)
 
     def get_markdown(
@@ -52,8 +45,8 @@ class PageBlock(Printable):
             if (part_index != 0) and (not part.omit_space_before):
                 yield markdown_params.line_prefix.rstrip()  # space between parts
             markdown_params_for_part = markdown_params
-            is_monotype = (self.block_type is PageBlockType.TYPEWRITER)
-            breaks_block = is_monotype and isinstance(part, Image)
+            is_monotype = self.block_type.value.is_markdown_code_block
+            breaks_block = is_monotype and part.breaks_markdown_code_block()
             if breaks_block:
                 if is_inside_block and block_type.markdown_end:
                     LOGGER.warning(f"Block {self.block_type} is broken by {part}. This might look ugly.")

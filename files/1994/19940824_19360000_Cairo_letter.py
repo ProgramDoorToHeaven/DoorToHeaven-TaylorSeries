@@ -45,12 +45,12 @@ PAGE = Page(blocks=(
         # by his sealed and his burial forever to eternity
         # his gate of the stars
 
-        # Paragraph(is_literal=True, text=("""
+        # LiteralParagraph(text=("""
         #     𓂋𓈖𓊪 𓆳 𓏏𓏥 𓆐𓎆 𓂋𓈎 𓃀 𓎛 𓅱 𓏁 𓇯𓈉 𓊪 𓅱 𓂋𓂝 𓁚 𓅓 𓇋 𓏏𓈖 𓇶
         #     𓅓 𓐍 𓅓 𓏏 𓋩 𓐠 𓈖𓆑 𓈎𓂋 𓋴 𓌟 𓂡 𓊭𓁀 𓆑𓈖 𓆓𓏏 𓇾𓂋 𓅘 𓎛 𓎛 𓇳𓈇
         #     𓋴 𓇼 𓃀 𓊀 𓈖𓏥 𓋴 𓃀 𓄿 𓇼𓇳 𓏥𓆑
         # """,)),  # linearized
-        # Paragraph(is_literal=True, text=("""
+        # LiteralParagraph(text=("""
         #     𓂋𓐰𓈖𓐰𓊪𓆳𓏏𓐰𓏥𓆐𓐰𓎆𓂋𓐰𓈎𓃀𓎛𓅱𓏁𓇯𓐰𓈉𓊪𓅱𓂋𓐰𓂝𓁚𓅓𓇋𓏏𓐰𓈖𓇶
         #     𓅓𓐍𓅓𓏏𓋩𓐠𓈖𓐰𓆑𓈎𓐰𓂋𓋴𓌟𓀜𓊭𓐰𓁀𓆑𓐰𓈖𓆓𓐳𓏏𓇾𓐰𓂋𓅘𓎛𓎛𓇳𓐰𓈇
         #     𓋴𓇼𓃀𓊀𓈖𓐰𓏥𓋴𓃀𓄿𓇼𓐰𓇳𓏥𓐰𓆑
@@ -125,7 +125,7 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             I'm desperate, and I trust you to understand why.
         """,)),
-        Paragraph(is_literal=True, text=("""
+        LiteralParagraph(text=("""
             With kindest regards,
             Paul Langford
         """,)),
