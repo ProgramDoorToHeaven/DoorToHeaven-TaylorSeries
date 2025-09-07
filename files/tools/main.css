@@ -43,6 +43,10 @@ body {
                 line-height: 1.8;
                 overflow-x: auto;
 
+                *.omit_space_before {
+                    margin-top: 0;
+                }
+
                 p, pre, img {
                     margin: 2ex 0;
                     min-width: 30ch;

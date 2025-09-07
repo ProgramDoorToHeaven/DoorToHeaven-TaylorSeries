@@ -17,8 +17,10 @@ class Paragraph(Printable):
             raise ValueError("Empty paragraph.")
 
     def get_html(self) -> Iterator[HtmlTag]:
-        result = new_tag("p")
-        for item in self.text:
+        result = new_tag("p", omit_space_before=self.omit_space_before)
+        for index, item in enumerate(self.text):
+            if index != 0:
+                result.append(new_tag("br"))
             result.append(item)
         yield result
 

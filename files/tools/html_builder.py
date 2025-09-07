@@ -9,25 +9,35 @@ SOUP = BeautifulSoup(features="html.parser")
 CLASS_ATTRIBUTE_NAME = "class"
 
 
-def _normalize_class(c: str | Iterable[str] | None) -> list[str]:
+def _normalize_class(c: str | Iterable[str] | None) -> set[str]:
     if c is None:
-        return []
+        return set()
     if isinstance(c, str):
-        return [c]
-    return list(c)
+        return {c}
+    return set(c)
 
 
-def _join_classes(c1: str | Iterable[str] | None, c2: str | Iterable[str] | None) -> list[str]:
-    return _normalize_class(c1) + _normalize_class(c2)
+def _join_classes(
+        c1: str | Iterable[str] | None,
+        c2: str | Iterable[str] | None,
+        omit_space_before: bool = False,
+) -> list[str]:
+    omit_space_class: str | None = "omit_space_before" if omit_space_before else None
+    return list(_normalize_class(c1) | _normalize_class(c2) | _normalize_class(omit_space_class))
 
 
 def new_tag(
         tag: str,
         string: str | None = None,
         class_: str | Iterable[str] | None = None,
+        omit_space_before: bool = False,
         **kw_attributes: str | Iterable[str],
 ) -> HtmlTag:
-    joint_classes = _join_classes(class_, kw_attributes.get(CLASS_ATTRIBUTE_NAME, None))
+    joint_classes = _join_classes(
+        class_,
+        kw_attributes.get(CLASS_ATTRIBUTE_NAME, None),
+        omit_space_before=omit_space_before,
+    )
     if joint_classes:
         kw_attributes[CLASS_ATTRIBUTE_NAME] = joint_classes
     return SOUP.new_tag(tag, string=string, attrs=kw_attributes)
