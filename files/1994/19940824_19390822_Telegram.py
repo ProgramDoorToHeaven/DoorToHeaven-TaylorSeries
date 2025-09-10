@@ -47,6 +47,12 @@ PAGE = Page(blocks=(
                                     -- Deitrich
         """,)),
     )),
+    PageBlock(parts=(
+        Paragraph(text=("""
+            I haven't seen many telegrams in my life. 
+            They were replaced by the modern fax machines when I was a kid.
+        """,)),
+    )),
 ))
 
 
