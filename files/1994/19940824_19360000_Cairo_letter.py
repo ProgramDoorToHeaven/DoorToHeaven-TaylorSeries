@@ -138,7 +138,19 @@ PAGE = Page(blocks=(
     PageBlock(parts=(
         Paragraph(text=("""
             Ahnenerbe - the Ancestral Heritage organization.
-            Those were dark days.
+            Those were dark days filled with desperate actions.
+        """,)),
+        Paragraph(text=("""
+            Ending a war is far more complex than it seems.
+            It might appear straightforward - one side wins, the other loses and pays reparations.
+            But even in defeat, the losing side remains: its people, economy, and society still exist, often scarred by war's aftermath.
+            And a peace built on perceived injustice cannot endure.
+            If the consequences of defeat feel unfair or punitive, resentment festers, and the foundations of lasting peace crumble.
+        """,)),
+        Paragraph(text=("""
+            The aftermath of World War I (called just "the Great War" by that time) left Germany deeply humiliated by the Treaty of Versailles.
+            It was inevitable that someone - perhaps an artist, attuned to the emotions of the people - would emerge to restore national pride.
+            Yet, rather than fostering self-love, nationalism took a darker turn, fueling hatred towards others, racism, and the rise of Nazism.
         """,)),
         Paragraph(text=("""
             Adolf Hitler rose to power in the early 1930s by exploiting Germany's economic despair after World War I and the Great Depression.
@@ -152,7 +164,7 @@ PAGE = Page(blocks=(
     PageBlock(parts=(
         HorizontalLine(),
         Paragraph(text=("""
-            Anyway, I'm not writing any more summaries or access-restriction recommendations until I find out what is going on here.
+            Anyway, I'm not writing any more summaries or access-restriction recommendations for now - until I find out what is going on here.
             Otherwise, I might also end up rewriting all of them later.
         """,)),
     )),
