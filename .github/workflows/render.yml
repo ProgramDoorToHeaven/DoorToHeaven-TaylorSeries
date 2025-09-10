@@ -1,0 +1,62 @@
+name: Render
+on:
+  workflow_dispatch:
+    inputs:
+      directory:
+        description: 'Directory (keep empty to select all directories)'
+        required: false
+        type: string
+        default: ''
+      file:
+        description: 'File (keep empty to render all files in the selected directory)'
+        required: false
+        type: string
+        default: ''
+
+jobs:
+  render_job:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Required for git history and pushing changes
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache virtual environment
+        uses: actions/cache@v3
+        id: cache-venv
+        with:
+          path: .venv
+          key: venv-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            venv-
+
+      - name: Install dependencies
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run script
+        run: |
+          source .venv/bin/activate
+          cd files
+          export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+          python __init__.py --root-dir "." --directory "${{ github.event.inputs.directory }}" --file "${{ github.event.inputs.file }}"
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Run from workflow [skip ci]"
+          git push
