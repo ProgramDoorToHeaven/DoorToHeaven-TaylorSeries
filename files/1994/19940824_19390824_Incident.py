@@ -31,23 +31,23 @@ On August 24, 1939, British operatives encountered a highly unusual and concerni
 
 ### **Key Findings**
 
-#### **1. Fatality of a German soldier**
+#### **Fatality of a German soldier**
 - A German soldier, identified as **Heinrich** (last name, unit, rank), was found deceased with severe burns on his chest. The cause of death appears linked to an unidentified experiment with the device.
 - The nature of the device remains unknown, but its effects suggest advanced and potentially hazardous technology.
 
-#### **2. Memory Loss Among German Operatives**
-- Two German operatives involved in the incident exhibited **genuine and total memory loss**, as confirmed by a medical professional. The cause of this memory loss is suspected to be related to the same device or experiment.
-- The operatives were unable to provide further details regarding their mission or the device.
-
-#### **3. Intercepted German Communication**
-- A **cable intercepted from Berlin** indicates that German authorities are **actively seeking to acquire the device**. The urgency and tone of the communication suggest its strategic importance.
-
-#### **4. Missing British and Egyptian Personnel**
+#### **Missing British and Egyptian personnel**
 - **Captain James Beal**, a British officer, remains unaccounted for. His whereabouts and potential involvement in the incident are unknown.
 - **Wasif Alabu Khan**, an Egyptian soldier, is also missing. His disappearance is considered highly irregular, as he is not known to be the type to go AWOL.
 
-#### **5. German Funding of Foreign Operations**
-- Evidence suggests that **German authorities have been funding foreign operatives for years**, potentially in relation to this device or similar projects.
+#### **Memory loss among German researchers**
+- Two German researchers involved in the incident exhibited **genuine memory loss regarding the last two days**, as confirmed by a medical professional. The cause of this memory loss is suspected to be related to the same device or experiment.
+- The researchers were unable to provide further details regarding the experiment or the device.
+
+#### **Intercepted German communication**
+- A **cable intercepted from Berlin** indicates that German authorities are **actively seeking to acquire the device**. The urgency and tone of the communication suggest its strategic importance.
+
+#### **German funding of foreign operations**
+- Evidence suggests that **German authorities have been funding foreign operatives in this area for years**, potentially in relation to this device or similar projects.
 
 ---
 
