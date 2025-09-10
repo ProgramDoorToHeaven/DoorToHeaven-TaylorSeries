@@ -52,8 +52,9 @@ On August 24, 1939, British operatives encountered a highly unusual and concerni
 ---
 
 ### **Recommendations**
-1. **Immediate Investigation:** A full inquiry must be launched to locate Captain Beal and Wasif Alabu Khan, and to determine their connection to the incident.
-2. **Device Recovery:** Efforts should be prioritized to locate and secure the unidentified device before German forces acquire it.
+1. **Immediate investigation:** A full inquiry must be launched to locate Captain Beal and Wasif Alabu Khan, and to determine their connection to the incident.
+2. **Device recovery:**
+The device remains at the incident site. **Immediate action is required to secure and transport the device to the United States as a priority.** Given the escalating tensions in Europe and the German interest in acquiring the device, its recovery must be treated with the utmost urgency to prevent it from being compromised.
 3. **Monitor German Activity:** Increased surveillance of German communications and operatives is recommended to track their movements and intentions.
 4. **Collaboration with Allies:** Coordinate with Egyptian authorities and other allies to gather additional intelligence on German-funded operations in the region.
 
@@ -63,7 +64,4 @@ On August 24, 1939, British operatives encountered a highly unusual and concerni
 The incident suggests the existence of a **highly dangerous and experimental German project**, with potential implications for British and Allied security. The disappearance of British and Egyptian personnel, combined with German efforts to recover the device, underscores the urgency of this matter.
 
 **Next Steps:** All operatives are instructed to report any further developments immediately to the British Embassy or relevant intelligence channels.
-
----
-**End of Report**
 """
