@@ -49,8 +49,10 @@ PAGE = Page(blocks=(
     )),
     PageBlock(parts=(
         Paragraph(text=("""
-            I haven't seen many telegrams in my life. 
-            They were replaced by the modern fax machines when I was a kid.
+            I’ve rarely encountered telegrams in my life.
+            Around 1880, by the time I went to primary school, they were replaced by the more modern fax machine.
+            Fax usage has been growing steadily, but the rise of internet-based e-mail was even more rapid.
+            Today, both are used in roughly equal measure.
         """,)),
     )),
 ))
