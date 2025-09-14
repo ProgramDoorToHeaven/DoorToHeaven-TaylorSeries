@@ -16,7 +16,6 @@ Apparently the Germans have been funding them for years...
 """
 
 from tools import *
-from tools import HorizontalLine
 
 PAGE = Page(blocks=(
     # SGO:Catherine 00:03:16
@@ -28,13 +27,13 @@ PAGE = Page(blocks=(
             From:             British Intelligence, Field Operative
             To:               Director of Naval Intelligence, London
         """,)),
-        HorizontalLine(),
+        # HorizontalLine(),
         HeadLine(level=2, text="Incident Summary"),
         Paragraph(text=("""
             On August 24, 1939, British operatives encountered a highly unusual and concerning situation involving German nationals, a missing British officer, and an unidentified device.
             The following details have been compiled from intercepted communications, field reports, and witness testimony.
         """,)),
-        HorizontalLine(),
+        # HorizontalLine(),
         HeadLine(level=2, text="Key Findings"),
         HeadLine(level=3, text="Fatality of a German soldier"),
         ListOfItems(items=(
@@ -80,7 +79,7 @@ PAGE = Page(blocks=(
                 Evidence suggests that German authorities have been funding foreign operatives in this area for years, potentially in relation to this device or similar projects.
             """,)),
         )),
-        HorizontalLine(),
+        # HorizontalLine(),
         HeadLine(level=2, text="Recommendations"),
         NumberedList(items=(
             Paragraph(text=("""
@@ -102,7 +101,7 @@ PAGE = Page(blocks=(
                 Coordinate with Egyptian authorities and other allies to gather additional intelligence on German-funded operations in the region.
             """,)),
         )),
-        HorizontalLine(),
+        # HorizontalLine(),
         HeadLine(level=2, text="Conclusion"),
         Paragraph(text=("""
             The incident suggests the existence of a highly dangerous and experimental German project, with potential implications for British and Allied security.
