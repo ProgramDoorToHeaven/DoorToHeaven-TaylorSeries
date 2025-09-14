@@ -49,10 +49,12 @@ PAGE = Page(blocks=(
     )),
     PageBlock(parts=(
         Paragraph(text=("""
+            That was a week before the start of the second world war (which arrived in Egypt 2 years later in 1940).
+            Telegrams were quite a common way of fast and reliable communication back then.
             I’ve rarely encountered telegrams in my life.
             Around 1880, by the time I went to primary school, they were replaced by the more modern fax machine.
             Fax usage has been growing steadily, but the rise of internet-based e-mail was even more rapid.
-            Today, both are used in roughly equal measure.
+            Today, both fax and e-mail are used in roughly equal measure.
         """,)),
     )),
 ))
