@@ -26,7 +26,7 @@ PAGE = Page(blocks=(
         LiteralParagraph(strip_spaces_from_line_starts_according_to_line=3, text=("""
               TRANSCONTINENTAL COMMUNICATION COMPANY, LTD.
 
-            81236      Words      BERLIN N°1    CAIRO, EGYPT
+            81236                 BERLIN N°1    CAIRO, EGYPT
             8 22 39    Charge     AUG 22 '39    W.F.GALTZ
             18:30      7 Ø DM
             ----------------------------------------------------
