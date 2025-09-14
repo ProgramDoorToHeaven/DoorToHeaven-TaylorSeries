@@ -114,7 +114,7 @@ PAGE = Page(blocks=(
         """,)),
         Paragraph(text=("""
             You mentioned that the German government recently established the Ahnenerbe Institute, and that they're actively seeking ancient artifacts.
-            While I deeply disagree with the path my fatherland has taken, this could be the only way to secure the funding I need to continue my research.
+            While I deeply disagree with the path my fatherland has taken, this could be the only way to secure the money I need to continue my research.
         """,)),
         Paragraph(text=("""
             I no longer have any contacts in Germany - except for you.
