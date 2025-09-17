@@ -108,7 +108,6 @@ PAGE = Page(blocks=(
             The disappearance of British and Egyptian personnel, combined with German efforts to recover the device, underscores the urgency of this matter.
         """,)),
         Paragraph(text=("""
-            Next Steps:
             All operatives are instructed to report any further developments immediately to the British Embassy or relevant intelligence channels.
         """,)),
     )),
