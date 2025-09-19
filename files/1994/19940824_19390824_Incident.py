@@ -43,7 +43,7 @@ PAGE = Page(blocks=(
                 Probably caused by electricity as the device was connected by cables to a generator in a car.
             """,)),  # TODO
             Paragraph(text=("""
-                The nature of the device remains unknown, but its effects suggest advanced and potentially hazardous technology.
+                The nature of the device remains unknown, but its effects suggest a potentially hazardous technology.
             """,)),
         )),
         HeadLine(level=3, text="Missing British and Egyptian personnel"),
