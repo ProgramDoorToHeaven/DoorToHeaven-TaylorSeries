@@ -60,7 +60,7 @@ PAGE = Page(blocks=(
         HeadLine(level=3, text="Memory loss among German researchers"),
         ListOfItems(items=(
             Paragraph(text=("""
-                Two German researchers involved in the incident exhibited genuine memory loss regarding the last two days, as confirmed by a medical professional.
+                Two German researchers involved in the incident (prof. Paul Langford and his daughter Catherine Langford) exhibited genuine memory loss regarding the last two days, as confirmed by a medical professional.
                 The cause of this memory loss is suspected to be related to the same device or experiment.
             """,)),
             Paragraph(text=("""
