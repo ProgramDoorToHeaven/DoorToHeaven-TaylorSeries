@@ -38,7 +38,7 @@ PAGE = Page(blocks=(
         HeadLine(level=3, text="Fatality of a German soldier"),
         ListOfItems(items=(
             Paragraph(text=("""
-                A German soldier, identified as Heinrich (@@@@@@@@ last name unknown?, Rank: Obersturmführer (First Lieutenant), Branch: Schutzstaffel), was found deceased with severe burns on his chest.
+                A German soldier, identified as Heinrich (@@@@@@@@ last name unknown?, Rank: Obersturmführer (First Lieutenant), Branch: Schutzstaffel. Where exactly was he shot? could it destroy both his dog tags and documents?), was found deceased with severe burns on his chest.
                 The cause of death appears linked to an experiment with the device.
             """,)),  # TODO
             Paragraph(text=("""
