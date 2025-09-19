@@ -38,8 +38,9 @@ PAGE = Page(blocks=(
         HeadLine(level=3, text="Fatality of a German soldier"),
         ListOfItems(items=(
             Paragraph(text=("""
-                A German soldier, identified as Heinrich (@@@@@@@@ last name unknown?, Rank: Obersturmführer (First Lieutenant), Branch: Schutzstaffel. Where exactly was he shot? could it destroy both his dog tags and documents?), was found deceased with severe burns on his chest.
+                A German soldier, identified as Schutzstaffel Obersturmführer Heinrich (@@@@@@@@ last name unknown. Where exactly was he shot? could it destroy both his dog tags and documents?), was found deceased with severe burns on his chest.
                 The cause of death appears linked to an experiment with the device.
+                Probably caused by electricity as the device was connected by cables to a generator in a car.
             """,)),  # TODO
             Paragraph(text=("""
                 The nature of the device remains unknown, but its effects suggest advanced and potentially hazardous technology.
