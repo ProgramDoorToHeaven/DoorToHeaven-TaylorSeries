@@ -38,10 +38,15 @@ PAGE = Page(blocks=(
         HeadLine(level=3, text="Fatality of a German soldier"),
         ListOfItems(items=(
             Paragraph(text=("""
-                A German soldier, identified as Schutzstaffel Obersturmführer Heinrich (@@@@@@@@ last name unknown. Where exactly was he shot? could it destroy both his dog tags and documents?), was found deceased with severe burns on his chest.
+                A German soldier, partially identified as Schutzstaffel Obersturmführer Heinrich (last name unknown),
+                was found deceased with severe burns on the right side of his chest.
                 The cause of death appears linked to an experiment with the device.
                 Probably caused by electricity as the device was connected by cables to a generator in a car.
-            """,)),  # TODO
+            """,)),
+            Paragraph(text=("""
+                Unfortunately, he had his ID documents in the shirt pocket that was burned.
+                Only a part of his dog tag remained readable.
+            """,)),
             Paragraph(text=("""
                 The nature of the device remains unknown, but its effects suggest a potentially hazardous technology.
             """,)),
@@ -86,6 +91,7 @@ PAGE = Page(blocks=(
             Paragraph(text=("""
                 Immediate investigation:
                 A full inquiry must be launched to locate Captain Beal and Wasif Alabu Khan, and to determine their connection to the incident.
+                The German embassy in Cairo must be contacted regarding the death of one of their soldiers.
             """,)),
             Paragraph(text=("""
                 Device recovery:
