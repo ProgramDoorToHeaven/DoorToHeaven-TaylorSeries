@@ -30,7 +30,7 @@ PAGE = Page(blocks=(
         # HorizontalLine(),
         HeadLine(level=2, text="Incident Summary"),
         Paragraph(text=("""
-            On August 24, 1939, British operatives encountered a highly unusual and concerning situation involving German nationals, a missing British officer, and an unidentified device.
+            On August 24, 1939, British operatives encountered a highly unusual and concerning situation involving German nationals, a missing British officer, and a huge ring-like artefact or device.
             The following details have been compiled from intercepted communications, field reports, and witness testimony.
         """,)),
         # HorizontalLine(),
@@ -40,21 +40,19 @@ PAGE = Page(blocks=(
             Paragraph(text=("""
                 A German soldier, partially identified as Schutzstaffel Obersturmführer Heinrich (last name unknown),
                 was found deceased with severe burns on the right side of his chest.
-                The cause of death appears linked to an experiment with the device.
-                Probably caused by electricity as the device was connected by cables to a generator in a car.
+                The cause of death appears linked to an experiment with the strange ring.
+                Probably caused by electricity as the object was connected by cables to a generator in a car.
             """,)),
             Paragraph(text=("""
-                Unfortunately, he had his ID documents in the shirt pocket that was burned.
+                Unfortunately, he had his ID documents in the shirt pocket which was burned.
                 Only a part of his dog tag remained readable.
-            """,)),
-            Paragraph(text=("""
-                The nature of the device remains unknown, but its effects suggest a potentially hazardous technology.
             """,)),
         )),
         HeadLine(level=3, text="Missing British and Egyptian personnel"),
         ListOfItems(items=(
             Paragraph(text=("""
                 Captain James Beal, a British officer, remains unaccounted for.
+                He was stationed in a nearby garrison.
                 His whereabouts and potential involvement in the incident are unknown.
             """,)),
             Paragraph(text=("""
@@ -66,23 +64,23 @@ PAGE = Page(blocks=(
         ListOfItems(items=(
             Paragraph(text=("""
                 Two German researchers involved in the incident (prof. Paul Langford and his daughter Catherine Langford) exhibited genuine memory loss regarding the last two days, as confirmed by a medical professional.
-                The cause of this memory loss is suspected to be related to the same device or experiment.
+                The cause of this memory loss is suspected to be related to the shock induced by the death of the German soldier.
             """,)),
             Paragraph(text=("""
-                The researchers were unable to provide further details regarding the experiment or the device.
+                The researchers were unable to provide further details regarding the experiment or the object.
             """,)),
         )),
         HeadLine(level=3, text="Intercepted German communication"),
         ListOfItems(items=(
             Paragraph(text=("""
-                A cable intercepted from Berlin indicates that German authorities are actively seeking to acquire the device.
+                A cable intercepted from Berlin indicates that German authorities are actively seeking to acquire the artifact.
                 The urgency and tone of the communication suggest its strategic importance.
             """,)),
         )),
         HeadLine(level=3, text="German funding of foreign operations"),
         ListOfItems(items=(
             Paragraph(text=("""
-                Evidence suggests that German authorities have been funding foreign operatives in this area for years, potentially in relation to this device or similar projects.
+                Evidence suggests that German authorities have been funding foreign archeological and research operatives in this area for years.
             """,)),
         )),
         # HorizontalLine(),
@@ -94,9 +92,9 @@ PAGE = Page(blocks=(
                 The German embassy in Cairo must be contacted regarding the death of one of their soldiers.
             """,)),
             Paragraph(text=("""
-                Device recovery:
-                The device remains at the incident site.
-                Immediate action is required to secure and transport the device to the United States as a priority.
+                Artifact recovery:
+                The object remains at the incident site.
+                Immediate action is required to secure and transport it to the United States as a priority.
                 Given the escalating tensions in Europe and the German interest in acquiring the device, its recovery must be treated with the utmost urgency to prevent it from being compromised.
             """,)),
             Paragraph(text=("""
@@ -111,7 +109,7 @@ PAGE = Page(blocks=(
         # HorizontalLine(),
         HeadLine(level=2, text="Conclusion"),
         Paragraph(text=("""
-            The incident suggests the existence of a highly dangerous and experimental German project, with potential implications for British and Allied security.
+            The incident suggests the existence of a dangerous experimental German project, with potential implications for British and Allied security.
             The disappearance of British and Egyptian personnel, combined with German efforts to recover the device, underscores the urgency of this matter.
         """,)),
         Paragraph(text=("""
