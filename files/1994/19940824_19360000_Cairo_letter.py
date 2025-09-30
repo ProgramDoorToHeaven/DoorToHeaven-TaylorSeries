@@ -107,11 +107,13 @@ PAGE = Page(blocks=(
             I've also been picking up odd jobs to bring in extra money.
             Just last week, I translated some Hebrew inscriptions for a French archeologist.
         """,)),
+        # Rene Belloq himself
         Paragraph(text=("""
             I cannot bear the thought of losing the chance to study this ring - it is my life's work.
             It is precious to me.
             That's why I'm reaching out to you.
         """,)),
+        # But this ring does not fit in any pocketses.
         Paragraph(text=("""
             You mentioned that the German government recently established the Ahnenerbe Institute, and that they're actively seeking ancient artifacts.
             While I deeply disagree with the path my fatherland has taken, this could be the only way to secure the money I need to continue my research.

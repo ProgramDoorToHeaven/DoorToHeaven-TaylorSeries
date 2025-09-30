@@ -43,6 +43,7 @@ PAGE = Page(blocks=(
                 The cause of death appears linked to an experiment with the artifact.
                 The damage was likely caused by an electrical current, since the ring was connected to a car generator via cables.
             """,)),
+            # No last name mentioned anywhere - just Heinrich
             Paragraph(text=("""
                 Unfortunately, he had his ID documents in the shirt pocket which was burned.
                 Only a part of his dog tag remained readable.
@@ -76,7 +77,7 @@ PAGE = Page(blocks=(
         HeadLine(level=3, text="Intercepted German communication"),
         ListOfItems(items=(
             Paragraph(text=("""
-                A cable intercepted from Berlin indicates that German authorities are actively seeking to acquire the artifact.
+                A radio cable intercepted from Berlin indicates that German authorities are actively seeking to acquire the artifact.
                 The urgency and tone of the communication suggest its strategic importance.
             """,)),
         )),

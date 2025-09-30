@@ -33,7 +33,7 @@ PAGE = Page(blocks=(
             But during that time, telegrams were a common and reliable way to send urgent messages.
         """,)),
     )),
-    # SGO:Catherine 00:03:16
+    # This is a transcript from SGO:Catherine 00:03:16
     PageBlockTypeWriter(parts=(
         LiteralParagraph(strip_spaces_from_line_starts_according_to_line=3, text=("""
               TRANSCONTINENTAL COMMUNICATION COMPANY, LTD.

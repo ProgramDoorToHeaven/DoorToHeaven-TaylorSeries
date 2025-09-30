@@ -28,6 +28,7 @@ PAGE = Page(blocks=(
             Accompanying the artifact were two remains of human bodies, which we initially hypothesized could be remnants of an ancient burial ritual or guardians of the artifact.
             The artifact itself is composed of what appears to be melted meteorite, exhibiting a metallic structure unlike any known materials from the historical or geological record.
         """,)),
+        # Yes, the Sallah. No camels!
     )),
     PageBlock(parts=(
         Paragraph(text=("Maybe the Air Force isn't interested in history, but rather in the material?",)),
@@ -119,7 +120,7 @@ PAGE = Page(blocks=(
             They combined logographic symbols (pictures for whole words), phonemic signs (symbols for sounds), and determinatives (clarifying pictures).
             Determinatives are like adding a picture of gift, clock, or projector after "present" to specify meaning.
         """,)),
-        # the first set of emojis was from 1999, so no mentions of emojis here in 1994 😢 (emoji intended)
+        # The first set of emojis was from 1999, so no mentions of emojis here in 1994 😢 (emoji intended)
     )),
     PageBlockTypeWriter(parts=(
         HeadLine(level=3, text="Buried guardians"),
