@@ -35,7 +35,7 @@ PAGE = Page(blocks=(
         """,)),
         # HorizontalLine(),
         HeadLine(level=2, text="Key Findings"),
-        HeadLine(level=3, text="Fatality of a German officer),
+        HeadLine(level=3, text="Fatality of a German officer"),
         ListOfItems(items=(
             Paragraph(text=("""
                 A German officer, partially identified as Schutzstaffel Obersturmführer Heinrich (last name unknown),
