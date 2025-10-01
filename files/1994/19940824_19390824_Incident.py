@@ -57,7 +57,7 @@ PAGE = Page(blocks=(
                 His whereabouts and potential involvement in the incident are unknown.
             """,)),
             Paragraph(text=("""
-                Wasif Alabu Khan, an Egyptian soldier, is also missing.
+                Wasif Alabu Khan, an Egyptian soldier assigned to the same outpost, is also missing.
                 His disappearance is considered highly irregular, as he is not known to be the type to go AWOL.
             """,)),
         )),
