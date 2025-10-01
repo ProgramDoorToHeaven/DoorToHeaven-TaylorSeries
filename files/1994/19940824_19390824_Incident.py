@@ -98,7 +98,7 @@ PAGE = Page(blocks=(
             Paragraph(text=("""
                 Artifact recovery:
                 The artifact remains at the incident site.
-                Immediate action is required to secure and transport it to the United States as a priority.
+                Immediate action is required to secure and transport it to the United States where prof. Langford will continue his research supervised by the U.S. intelligence agencies.
                 Given the escalating tensions in Europe and the German interest in acquiring the artifact, its recovery must be treated with the utmost urgency to prevent it from being compromised.
             """,)),
             Paragraph(text=("""
