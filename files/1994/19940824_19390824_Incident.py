@@ -35,10 +35,10 @@ PAGE = Page(blocks=(
         """,)),
         # HorizontalLine(),
         HeadLine(level=2, text="Key Findings"),
-        HeadLine(level=3, text="Fatality of a German soldier"),
+        HeadLine(level=3, text="Fatality of a German officer),
         ListOfItems(items=(
             Paragraph(text=("""
-                A German soldier, partially identified as Schutzstaffel Obersturmführer Heinrich (last name unknown),
+                A German officer, partially identified as Schutzstaffel Obersturmführer Heinrich (last name unknown),
                 was found deceased with severe burns on the right side of his chest.
                 The cause of death appears linked to an experiment with the artifact.
                 The damage was likely caused by an electrical current, since the ring was connected to a car generator via cables.
@@ -66,7 +66,7 @@ PAGE = Page(blocks=(
             Paragraph(text=("""
                 Two German researchers involved in the incident (prof. Paul Langford and his daughter Catherine Langford)
                 exhibited genuine memory loss covering the last two days, as confirmed by a medical professional.
-                The suspected cause is the psychological shock triggered by the German soldier’s death.
+                The suspected cause is the psychological shock triggered by the German officer’s death.
             """,)),
             Paragraph(text=("""
                 The researchers were unable to provide further details regarding the experiment or the artifact.
@@ -93,7 +93,7 @@ PAGE = Page(blocks=(
             Paragraph(text=("""
                 Immediate investigation:
                 A full inquiry must be launched to locate Captain Beal and Wasif Alabu Khan, and to determine their connection to the incident.
-                The German embassy in Cairo must be contacted regarding the death of one of their soldiers.
+                The German embassy in Cairo must be contacted regarding the death of one of their officers.
             """,)),
             Paragraph(text=("""
                 Artifact recovery:
