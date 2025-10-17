@@ -122,7 +122,10 @@ PAGE = Page(blocks=(
     )),
     PageBlock(parts=(
         Paragraph(text=("""
-            
+            Now this is the first really suspicious thing in this pile of documents.
+            But I'm not going to fabulate about what happened there half a century ago.
+            I've been learning not to follow my train of diverging thoughts - it helps me keep mental energy for the important things. 
+            Once I realize that I'm thinking about something unimportant or irrelevant, I just pause, label the thought, and let it go without continuing.
         """,)),
     )),
 ))
