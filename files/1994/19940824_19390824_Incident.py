@@ -126,6 +126,10 @@ PAGE = Page(blocks=(
             But I'm not going to fabulate about what happened there half a century ago.
             I've been learning not to follow my train of diverging thoughts - it helps me keep mental energy for the important things. 
             Once I realize that I'm thinking about something unimportant or irrelevant, I just pause, label the thought, and let it go without continuing.
+            Like for example... ehm, now.
+            This is meta.
+            Trying to label a thought about labeling thoughts.
+            But it is what it is: LABELING THOUGHTS
         """,)),
     )),
 ))
