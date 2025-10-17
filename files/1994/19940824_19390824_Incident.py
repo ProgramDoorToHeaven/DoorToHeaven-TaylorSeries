@@ -128,13 +128,12 @@ PAGE = Page(blocks=(
             Lately, I've been learning not to follow my train of diverging thoughts - it helps me keep mental energy for the important things. 
             Once I realize that I'm thinking about something unimportant or irrelevant, I just pause, label the thought, and let it go without continuing.
             Like for example... ehm, now.
-            This is meta.
-            Trying to label a thought about labeling thoughts.
+            This is meta - trying to label a thought about labeling thoughts.
             But it is what it is: LABELING THOUGHTS.
 
             Where was I?
             Yes, the incident. 
-            It must have been horrible for the Langfords to... FABULATING ABOUT THE INCIDENT.
+            It must have been horrible for the Langfords to... FABULATING ABOUT THE INCIDENT now.
 
             There seems to be a way to use this artifact for killing people.
             And that explains the interest of the Air Force.
