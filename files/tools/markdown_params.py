@@ -47,28 +47,30 @@ class MarkDownParams:
             )
         return first_line_special_prefix
 
-    def _generate_lines(self, line: str, is_literal: bool = False) -> Iterator[str]:
+    def _get_lines(self, line: str, is_literal: bool = False) -> str:
         line = line.strip()
         if is_literal or (self.break_lines is None):
-            for row in line.splitlines(keepends=False):
-                yield row.strip()
-            return
+            return '\n'.join(row.strip() for row in line.splitlines(keepends=False))
 
         prefix_length = len(self.line_prefix)
         line = re.sub(r'\s+', ' ', line).strip()
         line_wrapped = textwrap.fill(line, width=self.break_lines - prefix_length)
-        yield from line_wrapped.splitlines(keepends=False)
+        return line_wrapped
 
     def get_formated_markdown_line(
             self,
-            index: int,
             line: str,
             first_line_special_prefix: str | None,
             is_literal: bool = False,
     ) -> Iterator[str]:
-        iterator = self._generate_lines(line, is_literal)
-        first_line = next(iterator, None)
-        if first_line is not None:
-            yield self.get_line_prefix(index, first_line_special_prefix) + first_line
-        for row in iterator:
-            yield self.line_prefix + row
+        lines = self._get_lines(line, is_literal)
+        lines_prefixed = textwrap.indent(lines, self.line_prefix)
+        if (first_line_special_prefix is not None) and lines_prefixed.startswith(self.line_prefix):
+            # set different first line prefix
+            if len(first_line_special_prefix) != len(self.line_prefix):
+                raise ValueError(
+                    f"Length of first line prefix {len(first_line_special_prefix)} !="
+                    + f" length of other lines prefix {len(self.line_prefix)}.",
+                )
+            lines_prefixed = first_line_special_prefix + lines_prefixed[len(self.line_prefix):]
+        yield from lines_prefixed.splitlines(keepends=False)

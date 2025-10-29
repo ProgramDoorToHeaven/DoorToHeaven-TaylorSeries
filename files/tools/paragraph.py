@@ -25,9 +25,9 @@ class Paragraph(Printable):
         yield result
 
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
-        for item_index, item in enumerate(self.text):
+        for item in self.text:
             yield from markdown_params.get_formated_markdown_line(
-                item_index, item, first_line_special_prefix, False
+                item, first_line_special_prefix, False,
             )
 
 
@@ -75,7 +75,7 @@ class LiteralParagraph(Paragraph):
         yield result
 
     def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
-        for item_index, item in enumerate(self.text):
+        for item in self.text:
             yield from markdown_params.get_formated_markdown_line(
-                item_index, item, first_line_special_prefix, True
+                item, first_line_special_prefix, True,
             )
