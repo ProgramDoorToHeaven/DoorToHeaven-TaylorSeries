@@ -10,9 +10,9 @@ Introduction
 ------------
 
 A significant archaeological discovery was made near the Great Pyramids in Giza,
-Egypt. This report details the unearthing and initial analysis of a large,
-ring-shaped artifact found beneath a circular cover stone, accompanied by 2
-buried human bodies in ritual armor with jackal heads and decorated staffs.
+Egypt. This report details the unearthing and initial analysis of a large, ring-
+shaped artifact found beneath a circular cover stone, accompanied by 2 buried
+human bodies in ritual armor with jackal heads and decorated staffs.
 ```
 
 Ok, that might be the "Door" this program is interested in.

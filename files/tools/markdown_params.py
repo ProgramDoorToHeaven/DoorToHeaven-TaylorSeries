@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, replace
+import re
+import textwrap
 from typing import Iterator
 
 
@@ -15,7 +17,7 @@ class MarkDownParams:
         if (self.break_lines is not None) and (self.break_lines - len(self.line_prefix) < minimum_width):
             raise ValueError(
                 f"Minimum width is {minimum_width}."
-                + f" Got {self.break_lines}-{len(self.line_prefix)} instead."
+                + f" Got {self.break_lines}-{len(self.line_prefix)} instead.",
             )
 
     def add_prefix(self, prefix: str) -> MarkDownParams:
@@ -41,18 +43,9 @@ class MarkDownParams:
         if len(first_line_special_prefix) != len(self.line_prefix):
             raise ValueError(
                 f"Length of first line prefix {len(first_line_special_prefix)} !="
-                + f" length of other lines prefix {len(self.line_prefix)}."
+                + f" length of other lines prefix {len(self.line_prefix)}.",
             )
         return first_line_special_prefix
-
-    @staticmethod
-    def _generate_words(line: str) -> Iterator[str]:
-        for section in line.splitlines(keepends=False):
-            for word in section.split():
-                word = word.strip()
-                if len(word) == 0:
-                    continue
-                yield word
 
     def _generate_lines(self, line: str, is_literal: bool = False) -> Iterator[str]:
         line = line.strip()
@@ -62,19 +55,9 @@ class MarkDownParams:
             return
 
         prefix_length = len(self.line_prefix)
-        result = ""
-        for word in self._generate_words(line):
-            if len(result) + len(word) > self.break_lines - prefix_length:
-                if result == "":
-                    raise ValueError(
-                        f"Word '{word}' is too long."
-                        + f" It does not fit on an empty line of length {self.break_lines}-{prefix_length}"
-                    )
-                yield result.strip()
-                result = ""
-            result += f"{word} "
-        if result != "":
-            yield result.strip()
+        line = re.sub(r'\s+', ' ', line).strip()
+        line_wrapped = textwrap.fill(line, width=self.break_lines - prefix_length)
+        yield from line_wrapped.splitlines()
 
     def get_formated_markdown_line(
             self,
