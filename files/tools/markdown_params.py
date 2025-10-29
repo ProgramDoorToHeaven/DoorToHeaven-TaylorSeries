@@ -57,7 +57,7 @@ class MarkDownParams:
         prefix_length = len(self.line_prefix)
         line = re.sub(r'\s+', ' ', line).strip()
         line_wrapped = textwrap.fill(line, width=self.break_lines - prefix_length)
-        yield from line_wrapped.splitlines()
+        yield from line_wrapped.splitlines(keepends=False)
 
     def get_formated_markdown_line(
             self,
