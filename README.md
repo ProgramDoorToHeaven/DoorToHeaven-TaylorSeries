@@ -1,39 +1,33 @@
-N.I.D. IS
-=========
+Program Door To Heaven
+======================
 
-|                             |                                   |
-|-----------------------------|-----------------------------------|
-| User logged in              | Taylor Jones                      |
-| N.I.D. division             | Military projects oversight       |
-| National security clearance | Top secret                        |
-| NATO security clearance     | NATO CTS                          |
-|                             |                                   |
-| Current agenda              | Program "Door To Heaven"          |
-| Agenda classification       | Top secret - do not obtain copies |
-|                             |                                   |
+This is a StarGate fan fiction.
+The premise is that an N.I.D. employee (Taylor Jones)
+is going through all available documents about the StarGate program.
 
-Welcome to the **Program "Door To Heaven"** agenda home page.
+I'm aiming to (in this order):
 
-This section of the **N.I.D. IS** contains all accessible information about the government's **"Door To Heaven" program** that you are authorized to view.
-You can [browse the files here](./files).
+* Provide a brand-new point of view to the old stories we all love. But keep that compatible with the SG canon.
+    * This will be challenging with the time-travel parts.
+      I mean most of them didn't happen.
+* Slightly educate on various topics and broaden the reader's horizons.
+    * If you get fed up with the thoughts and stories of Taylor Jones,
+      you can always ignore them and only read the documents.
+* Stay in-character - I'm writing this 30 years after the events,
+  so I have to check what knowledge is too modern and what Taylor Jones could have known back then.
+    * Like for example, I wanted to compare hieroglyphs and emojis in 1994, but the first set of emojis was from 1999.
+* Make as many Indiana Jones crossovers as possible.
+    * This gets difficult outside the 1930s.
+      Suggestions wanted.
+    * There will also be Easter Eggs for other fandoms.
+* Be funny or at least entertaining.
+  * Primarily for myself, but hopefully also for you.
 
-Tip of the day:
----------------
+My goal is not quantity, but rather quality.
+So there might be just a few episodes released per year.
+This also depends on how many other side projects I currently have and how much I enjoy them.
 
-```
-Naming conventions
-==================
+If you have any suggestions or typo/grammar fixes, don't hesitate to contact me
+in [GitHub Issues](https://github.com/ProgramDoorToHeaven/DoorToHeaven/issues).
 
-It is required from all employees to follow these document naming conventions.
-
-  YYYYMMDD_YYYYMMDD_Document_name
-  ^        ^        ^
-  |        |         \___ Any human-friendly label.
-  |         \____________ The date in the YYYYMMDD format when the document was
-  |                        created. Can be omitted if it is reasonably close to
-  |                        the date of creation of the document and there is no
-  |                        risk of ambiguity. Can be approximate if the precise
-  |                        date is not known.
-   \_____________________ The date in the YYYYMMDD format when the document was
-                           received by the N.I.D.
-```
+Start reading [here](./files).
