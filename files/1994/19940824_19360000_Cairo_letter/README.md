@@ -8,27 +8,27 @@ has been translating the hieroglyphs on the cover stone.
 ```
 ![𓂋𓈖𓊪 𓆳 𓏏𓏥 𓆐𓎆
 /
-𓂋𓐰𓈖𓐰𓊪𓆳𓏏𓐰𓏥𓆐𓐰𓎆](./img/cover-stone-hieroglyphs-1-1-years.png)
+𓂋𓐰𓈖𓐰𓊪𓆳𓏏𓐰𓏥𓆐𓐰𓎆](cover-stone-hieroglyphs-1-1-years.png)
 
 ![𓂋𓈎 𓃀 𓎛 𓅱 𓏁 𓇯𓈉 𓊪 𓅱
 /
-𓂋𓐰𓈎𓃀𓎛𓅱𓏁𓇯𓐰𓈉𓊪𓅱](./img/cover-stone-hieroglyphs-1-2-sky.png)
+𓂋𓐰𓈎𓃀𓎛𓅱𓏁𓇯𓐰𓈉𓊪𓅱](cover-stone-hieroglyphs-1-2-sky.png)
 
 ![𓂋𓂝 𓁚 𓅓 𓇋 𓏏𓈖 𓇶
 /
-𓂋𓐰𓂝𓁚𓅓𓇋𓏏𓐰𓈖𓇶](./img/cover-stone-hieroglyphs-1-3-ra.png)
+𓂋𓐰𓂝𓁚𓅓𓇋𓏏𓐰𓈖𓇶](cover-stone-hieroglyphs-1-3-ra.png)
 
 ![𓅓 𓐍 𓅓 𓏏 𓋩 𓐠 𓈖𓆑 𓈎𓂋 𓋴 𓌟 𓂡 𓊭𓁀 𓆑𓈖
 /
-𓅓𓐍𓅓𓏏𓋩𓐠𓈖𓐰𓆑𓈎𓐰𓂋𓋴𓌟𓀜𓊭𓐰𓁀𓆑𓐰𓈖](./img/cover-stone-hieroglyphs-2-1-buried.png)
+𓅓𓐍𓅓𓏏𓋩𓐠𓈖𓐰𓆑𓈎𓐰𓂋𓋴𓌟𓀜𓊭𓐰𓁀𓆑𓐰𓈖](cover-stone-hieroglyphs-2-1-buried.png)
 
 ![𓆓𓏏 𓇾𓂋 𓅘 𓎛 𓎛 𓇳𓈇
 /
-𓆓𓐳𓏏𓇾𓐰𓂋𓅘𓎛𓎛𓇳𓐰𓈇](./img/cover-stone-hieroglyphs-2-2-forever.png)
+𓆓𓐳𓏏𓇾𓐰𓂋𓅘𓎛𓎛𓇳𓐰𓈇](cover-stone-hieroglyphs-2-2-forever.png)
 
 ![𓋴 𓇼 𓃀 𓊀 𓈖𓏥 𓋴 𓃀 𓄿 𓇼𓇳 𓏥𓆑
 /
-𓋴𓇼𓃀𓊀𓈖𓐰𓏥𓋴𓃀𓄿𓇼𓐰𓇳𓏥𓐰𓆑](./img/cover-stone-hieroglyphs-3-1-stargate.png)
+𓋴𓇼𓃀𓊀𓈖𓐰𓏥𓋴𓃀𓄿𓇼𓐰𓇳𓏥𓐰𓆑](cover-stone-hieroglyphs-3-1-stargate.png)
 
 ```
 The text mentions Ra - the god of the Sun - burying his "doorway to heaven" long

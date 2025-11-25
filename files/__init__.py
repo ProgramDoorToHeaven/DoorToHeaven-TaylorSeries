@@ -1,7 +1,7 @@
 import argparse
 from dataclasses import dataclass
 from functools import cached_property
-import os
+from pathlib import Path
 import re
 import subprocess
 import sys
@@ -11,98 +11,105 @@ from tools.logger_getter import get_logger
 LOGGER = get_logger(__name__)
 
 
-def get_runner() -> str:
-    parent_dir = os.path.dirname(os.path.dirname(__file__))
+def get_runner() -> Path:
+    parent_dir = Path(__file__).parent.parent
+    venv_dir = Path(parent_dir) / ".venv"
     if sys.platform == "win32":
-        return os.path.join(parent_dir, ".venv", "Scripts", "python.exe")
+        return venv_dir / "Scripts" / "python.exe"
     else:
-        return os.path.join(parent_dir, ".venv", "bin", "python")
+        return venv_dir / "bin" / "python"
 
 
 RUNNER = get_runner()
+PARENT_DIR = Path(__file__).parent
 
 
 @dataclass(frozen=True)
-class ScriptsSelector:
-    parent: str = "."
-    directory: str = ""
-    file: str = ""
+class DocumentsSelector:
+    year: str = ""
+    document: str = ""
+
+    def __post_init__(self):
+        if (self.year != "") and not self.validate_year(self.year):
+            raise ValueError(f"Invalid year value '{self.year}'.")
+        if (self.document != "") and not self.validate_document(self.document):
+            raise ValueError(f"Invalid document value '{self.document}'.")
+
+    @staticmethod
+    def validate_year(year: str) -> bool:
+        return bool(re.match(r"^\d{4}$", year))
+
+    @staticmethod
+    def validate_document(document: str) -> bool:
+        return bool(re.match(r"^\d{8}_\d{8}_", document))
 
     @cached_property
-    def selected_directories(self) -> tuple[str, ...]:
-        directory_strip = self.directory.strip()
-        paths = [
-            os.path.join(self.parent, entry)
-            for entry in os.listdir(self.parent)
-            if (
-                       (not directory_strip) or (entry == directory_strip)
-               ) and re.match(r"^\d{4}$", entry)
-        ]
+    def selected_years(self) -> tuple[Path, ...]:
+        if self.year:
+            # one year selected
+            year_dir = PARENT_DIR / self.year
+            if year_dir.is_dir():
+                return (year_dir,)
+            return ()
+
         return tuple(
-            d
-            for d in paths
-            if os.path.isdir(d)
+            year_dir
+            for year_dir in PARENT_DIR.iterdir()
+            if year_dir.is_dir()
+            if self.validate_year(year_dir.name)
         )
 
     @cached_property
-    def selected_files(self) -> tuple[str, ...]:
-        file_strip = self.file.strip()
-        file_strip_py = file_strip if file_strip.endswith(".py") else f"{file_strip}.py"
-        directories = self.selected_directories
-        paths = [
-            os.path.join(directory, entry)
-            for directory in directories
-            for entry in os.listdir(directory)
-            if (
-                       (not file_strip) or (entry == file_strip_py)
-               ) and (entry != "__init__.py") and entry.endswith(".py")
-        ]
+    def selected_documents(self) -> tuple[Path, ...]:
+        if self.document:
+            # one document selected
+            return tuple(
+                document_dir
+                for year_dir in self.selected_years
+                if (document_dir := year_dir / self.document).is_dir()
+            )
+
         return tuple(
-            f
-            for f in paths
-            if os.path.isfile(f)
+            document_dir
+            for year_dir in self.selected_years
+            for document_dir in year_dir.iterdir()
+            if document_dir.is_dir()
+            if self.validate_document(document_dir.name)
         )
 
     @cached_property
     def statistics(self) -> str:
-        return f"Selected {len(self.selected_files)} files in {len(self.selected_directories)} directories."
+        return f"Selected {len(self.selected_documents)} documents in {len(self.selected_years)} years."
 
 
-def parse_arguments(*args: str) -> ScriptsSelector:
+def parse_arguments(*args: str) -> DocumentsSelector:
     parser = argparse.ArgumentParser(description="Run the selected scripts.")
 
     parser.add_argument(
-        "--root-dir", type=str, default=".",
-        help="Specify a root directory (default: '.')."
+        "--year", type=str, default="",
+        help="Specify a year (default: empty string)."
+             + " Empty means all years."
     )
     parser.add_argument(
-        "--directory", type=str, default="",
-        help="Specify a directory (default: empty string)."
-             + " Empty means all directories."
-    )
-    parser.add_argument(
-        "--file", type=str, default="",
-        help="Specify a file (default: empty string)"
-             + " Empty means all files."
+        "--document", type=str, default="",
+        help="Specify a document (default: empty string)"
+             + " Empty means all document."
     )
 
     args = parser.parse_args(args)
-    return ScriptsSelector(parent=args.root_dir, directory=args.directory, file=args.file)
+    return DocumentsSelector(year=args.year, document=args.document)
 
 
-def run(scripts_selector: ScriptsSelector):
+def run(scripts_selector: DocumentsSelector):
     LOGGER.info(scripts_selector.statistics)
-    for script in scripts_selector.selected_files:
-        LOGGER.info(f"Running {script} ...")
-        subprocess.run([RUNNER, script], check=True)
+    for document in scripts_selector.selected_documents:
+        LOGGER.info(f"Running {document} ...")
+        subprocess.run([RUNNER, document / "__init__.py"], check=True)
+    LOGGER.info("Finished running documents.")
 
 
-def run_directory(fun_from_file: str):
-    script_dir_full = os.path.dirname(os.path.abspath(fun_from_file))
-    script_dir_base = os.path.basename(script_dir_full)
-    script_dir_root = os.path.dirname(script_dir_full)
-    scripts_selector = ScriptsSelector(parent=script_dir_root, directory=script_dir_base)
-    run(scripts_selector)
+def run_year(year: str):
+    run(DocumentsSelector(year=year))
 
 
 def main(*args: str):

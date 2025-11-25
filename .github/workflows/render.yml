@@ -2,13 +2,20 @@ name: Render
 on:
   workflow_dispatch:
     inputs:
-      directory:
-        description: 'Directory (keep empty to select all directories)'
+      year:
+        description: 'Year (keep empty to select all years)'
         required: false
         type: string
         default: ''
-      file:
-        description: 'File (keep empty to render all files in the selected directory)'
+        options:
+          - ''
+          - '1994'
+          - '1997'
+          - '1998'
+          - '1999'
+          - '2000'
+      document:
+        description: 'Document (keep empty to render all document in the selected year)'
         required: false
         type: string
         default: ''
@@ -51,7 +58,7 @@ jobs:
           source .venv/bin/activate
           cd files
           export PYTHONPATH="${PYTHONPATH}:$(pwd)"
-          python __init__.py --root-dir "." --directory "${{ github.event.inputs.directory }}" --file "${{ github.event.inputs.file }}"
+          python __init__.py --year "${{ github.event.inputs.year }}" --document "${{ github.event.inputs.document }}"
 
       - name: Commit changes
         run: |

@@ -1,4 +1,7 @@
-from files import run_directory
+from pathlib import Path
+
+from files import run_year
 
 if __name__ == "__main__":
-    run_directory(__file__)
+    year_dir = Path(__file__)
+    run_year(year_dir.parent.name)
