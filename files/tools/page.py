@@ -32,10 +32,17 @@ class Page(Printable):
         page = new_tag("div", class_="page")
         if self.can_go_back:
             page.extend(BACK_LINK.get_html())
+        else:
+            page.append(new_tag("span", class_="line-height"))
+
         for block in self.blocks:
             page.extend(block.get_html())
+
         if self.can_go_back:
             page.extend(BACK_LINK.get_html())
+        else:
+            page.append(new_tag("span", class_="line-height"))
+
         wrapper = new_tag("div", class_="page-wrapper")
         wrapper.append(page)
         yield wrapper

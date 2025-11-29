@@ -15,15 +15,17 @@ PAGE = Page(blocks=(
             get_year_menu_column(year_dir.name),
             Column(
                 headline="1994",
-                content=MenuList(items=(
-                    get_document_menu_item("19940824_19270423_Giza_excavations"),
-                    get_document_menu_item("19940824_19280908_Artifacts_discovery"),
-                    get_document_menu_item("19940824_19360000_Cairo_letter"),
-                    get_document_menu_item("19940824_19390822_Telegram"),
-                    get_document_menu_item("19940824_19390824_Incident"),
-                    # get_document_menu_item("19940824_19390900_Achilles"),
-                    # get_document_menu_item("19940824_19450000_Experiment"),
-                )),
+                content=(
+                    MenuList(items=(
+                        get_document_menu_item("19940824_19270423_Giza_excavations"),
+                        get_document_menu_item("19940824_19280908_Artifacts_discovery"),
+                        get_document_menu_item("19940824_19360000_Cairo_letter"),
+                        get_document_menu_item("19940824_19390822_Telegram"),
+                        get_document_menu_item("19940824_19390824_Incident"),
+                        # get_document_menu_item("19940824_19390900_Achilles"),
+                        # get_document_menu_item("19940824_19450000_Experiment"),
+                    )),
+                ),
             ),
         )
     ),

@@ -11,7 +11,7 @@ from tools.markdown_params import MarkDownParams
 
 @dataclass(frozen=True)
 class Column:
-    content: Printable
+    content: tuple[Printable, ...]
     headline: str = ""
 
     def get_headline_object(self, level: int = 2) -> HeadLine | None:
@@ -45,7 +45,8 @@ class Columns(Printable):
             if headline is not None:
                 column_div.extend(headline.get_html())
 
-            column_div.extend(column.content.get_html())
+            for content in column.content:
+                column_div.extend(content.get_html())
         yield columns_div
 
     def get_markdown(
@@ -65,4 +66,5 @@ class Columns(Printable):
                 yield from headline.get_markdown(markdown_params, first_line_special_prefix)
                 yield ""
 
-            yield from column.content.get_markdown(markdown_params, first_line_special_prefix)
+            for content in column.content:
+                yield from content.get_markdown(markdown_params, first_line_special_prefix)
