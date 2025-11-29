@@ -119,7 +119,9 @@ class Table(Printable):
     def get_markdown_header_separator(self) -> str:
         return self.get_markdown_row([" "] * self.number_of_columns).replace(" ", "-")
 
-    def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
+    def get_markdown(
+            self, markdown_params: MarkDownParams, first_line_special_prefix: str | None,
+    ) -> Iterator[str]:
         yield markdown_params.line_prefix + self.get_markdown_row(self.header)
         yield markdown_params.line_prefix + self.get_markdown_header_separator()
         for row in self.items:

@@ -69,6 +69,27 @@ body {
                 border-left-width: 0.4em;
                 padding: 0 2em;
             }
+
+            div.columns {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 0;
+                width: 100%;
+
+                div.column {
+                    display: block;
+                    margin: 4em 0;
+                    padding: 0 1em;
+                }
+
+                div.column:not(:last-child) {
+                    border-right: 1px solid #ccc;
+                }
+            }
+
+            div.columns-1-2 {
+                grid-template-columns: 1fr 2fr;
+            }
         }
     }
 }

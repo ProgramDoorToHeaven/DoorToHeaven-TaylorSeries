@@ -24,7 +24,9 @@ class Paragraph(Printable):
             result.append(item)
         yield result
 
-    def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
+    def get_markdown(
+            self, markdown_params: MarkDownParams, first_line_special_prefix: str | None,
+    ) -> Iterator[str]:
         for item in self.text:
             yield from markdown_params.get_formated_markdown_line(
                 item, first_line_special_prefix, False,
@@ -74,7 +76,9 @@ class LiteralParagraph(Paragraph):
             result.extend(self._get_html_lines(item))
         yield result
 
-    def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
+    def get_markdown(
+            self, markdown_params: MarkDownParams, first_line_special_prefix: str | None,
+    ) -> Iterator[str]:
         for item in self.text:
             yield from markdown_params.get_formated_markdown_line(
                 item, first_line_special_prefix, True,

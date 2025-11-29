@@ -39,7 +39,9 @@ class Image(Printable):
             title=self.title_or_alternative_text_or_none
         )
 
-    def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
+    def get_markdown(
+            self, markdown_params: MarkDownParams, first_line_special_prefix: str | None,
+    ) -> Iterator[str]:
         if markdown_params.is_monospace:
             raise NotImplementedError("Images are not supported inside monospace blocks.")
         prefix: str = markdown_params.get_line_prefix(0, first_line_special_prefix)

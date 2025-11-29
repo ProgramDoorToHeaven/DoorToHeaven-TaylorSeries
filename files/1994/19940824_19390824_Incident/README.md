@@ -1,3 +1,5 @@
+[🡐 Back](../index.html)
+
 ```
 BRITISH INTELLIGENCE REPORT
 ===========================
@@ -161,3 +163,5 @@ And that explains the interest of the Air Force.
 I guess they succeeded moving it to the US when the war started.
 It wouldn't land on my desk otherwise.
 Let's see how successful they were with the research.
+
+[🡐 Back](../index.html)

@@ -57,7 +57,9 @@ class ListOfItems(Printable):
         )
         yield from paragraph.get_html()
 
-    def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
+    def get_markdown(
+            self, markdown_params: MarkDownParams, first_line_special_prefix: str | None,
+    ) -> Iterator[str]:
         for item_index, item in enumerate(self.items):
             item_prefix = self.get_markdown_prefix(item_index)
             prefix_length = len(item_prefix)

@@ -36,7 +36,9 @@ class HeadLine(Printable):
             """,))
         yield from paragraph.get_html()
 
-    def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
+    def get_markdown(
+            self, markdown_params: MarkDownParams, first_line_special_prefix: str | None,
+    ) -> Iterator[str]:
         underline: str | None = None
         prefix: str = ""
         match self.level:

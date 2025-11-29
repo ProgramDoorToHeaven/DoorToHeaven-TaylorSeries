@@ -58,7 +58,7 @@ jobs:
           source .venv/bin/activate
           cd files
           export PYTHONPATH="${PYTHONPATH}:$(pwd)"
-          python __init__.py --year "${{ github.event.inputs.year }}" --document "${{ github.event.inputs.document }}"
+          python tools.runner.py --year "${{ github.event.inputs.year }}" --document "${{ github.event.inputs.document }}"
 
       - name: Commit changes
         run: |

@@ -24,7 +24,9 @@ class Printable(ABC):
         return self.get_html()
 
     @abstractmethod
-    def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
+    def get_markdown(
+            self, markdown_params: MarkDownParams, first_line_special_prefix: str | None,
+    ) -> Iterator[str]:
         raise NotImplementedError()
 
 
@@ -34,6 +36,8 @@ class HorizontalLine(Printable):
     def get_html(self) -> Iterator[HtmlTag]:
         yield new_tag("hr")
 
-    def get_markdown(self, markdown_params: MarkDownParams, first_line_special_prefix: str | None) -> Iterator[str]:
+    def get_markdown(
+            self, markdown_params: MarkDownParams, first_line_special_prefix: str | None,
+    ) -> Iterator[str]:
         width = markdown_params.break_lines or 8
         yield "-" * width

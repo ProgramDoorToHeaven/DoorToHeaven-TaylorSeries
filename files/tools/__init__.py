@@ -1,6 +1,7 @@
 from tools.basic_printables import HorizontalLine
 from tools.headline import HeadLine
 from tools.image import Image
+from tools.link import Link
 from tools.list_of_items import LetteredList, ListOfItems, NumberedList
 from tools.page import Page
 from tools.page_block import PageBlock, PageBlockTypeWriter

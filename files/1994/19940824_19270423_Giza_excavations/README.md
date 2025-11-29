@@ -1,3 +1,5 @@
+[🡐 Back](../index.html)
+
 Just got handed a new Air Force program to monitor - "Door to Heaven".
 Seriously, who names these things?
 
@@ -164,3 +166,5 @@ With little money left in uncovering artifacts, the field's most prominent figur
 It usually takes a year for students to realize the harsh truth:
 the only way to make a living in Egyptology now is to earn a Ph.D. and start teaching the next generation.
 And so, as Youssef puts it, Egyptology became something of a pyramid scheme.
+
+[🡐 Back](../index.html)
