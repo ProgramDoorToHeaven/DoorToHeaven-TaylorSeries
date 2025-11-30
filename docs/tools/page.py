@@ -65,6 +65,12 @@ class Page(Printable):
         file_path = Path(filename) if filename else Path(sys.argv[0]).absolute()
         dir_path = file_path.parent
 
+        tools_depth: int = 0
+        dir_parent = dir_path
+        while not (dir_parent / "tools").is_dir():
+            dir_parent = dir_parent.parent
+            tools_depth += 1
+
         with open(dir_path / "README.md", encoding="utf-8", mode="w") as f:
             f.writelines((
                 line + "\n"
@@ -72,5 +78,5 @@ class Page(Printable):
             ))
         with open(dir_path / "index.html", encoding="utf-8", mode="w") as f:
             main_div = self.get_html()
-            whole_html = build_html(main_div)
+            whole_html = build_html(main_div, tools_depth)
             f.write(html_to_string(whole_html))

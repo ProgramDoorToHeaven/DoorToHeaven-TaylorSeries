@@ -13,8 +13,8 @@ def get_year_menu_column(
         content=(
             MenuList(items=(
                 get_year_menu_item(1994, current_year, year_link_prefix),
-                get_year_menu_item(1997, current_year, year_link_prefix),
-                get_year_menu_item(1998, current_year, year_link_prefix),
+                # get_year_menu_item(1997, current_year, year_link_prefix),
+                # get_year_menu_item(1998, current_year, year_link_prefix),
             )),
         ),
     )
