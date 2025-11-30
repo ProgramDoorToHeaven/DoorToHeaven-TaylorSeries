@@ -9,14 +9,14 @@ Today, while fax still exists and some companies still provide telegram services
 But during that time, telegrams were a common and reliable way to send urgent messages.
 
 ```
-TRANSCONTINENTAL COMMUNICATION COMPANY, LTD.
+  TRANSCONTINENTAL COMMUNICATION COMPANY, LTD.
 
 81236                 BERLIN N°1    CAIRO, EGYPT
 8 22 39    Charge     AUG 22 '39    W.F.GALTZ
 18:30      7 Ø DM
 ----------------------------------------------------
 TO Receiver's Name:  DOCTOR PAUL LANGFORD
-Address: WAREHOUSE DIST.No5 CAIRO, EGYPT
+           Address: WAREHOUSE DIST.No5 CAIRO, EGYPT
 
 THIS TELEGRAM WILL BE CHARGED AT FULL RATE
 ----------------------------------------------------
@@ -29,7 +29,7 @@ we had hoped.
 This will be my last missive.
 Goodbye dear friend.
 
--- Deitrich
+                        -- Deitrich
 ```
 
 That is a strange message, considering they had been working together for years.

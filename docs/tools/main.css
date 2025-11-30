@@ -70,6 +70,14 @@ body {
                 padding: 0 2em;
             }
 
+            div.monospace-modern {
+                pre {
+                    background-color: rgba(128, 128, 128, 0.2);
+                    padding: 2ex;
+                    overflow-x: auto;
+                }
+            }
+
             div.columns {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));

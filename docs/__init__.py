@@ -44,33 +44,35 @@ PAGE = Page(can_go_back=False, blocks=(
                         ),
                         Paragraph(text=("Welcome to the Program \"Door To Heaven\" agenda home page.",)),
                         Paragraph(text=("""
-                        This section of the N.I.D. IS contains all accessible information
-                        about the government's "Door To Heaven" program that you are authorized to view.
+                            This section of the N.I.D. IS contains all accessible information
+                            about the government's "Door To Heaven" program that you are authorized to view.
                     """,)),
-                        # HeadLine(level=2, text="Tip of the day:"),  # TODO
                     )),
-                    # PageBlockTypeWriter(parts=(
-                    #     HeadLine(level=1, text="Naming conventions"),
-                    #     Paragraph(text=("""
-                    #         It is required from all employees to follow these document naming conventions.
-                    #     """,)),
-                    #     LiteralParagraph(strip_spaces_from_line_starts_according_to_line=1, text=(r"""
-                    #          > YYYYMMDD_YYYYMMDD_Document_name
-                    #          > ^        ^        ^
-                    #          > |        |         \___ Any human-friendly label.
-                    #          > |         \____________ The date in the YYYYMMDD format when the document was
-                    #          > |                        created. Can be omitted if it is reasonably close to
-                    #          > |                        the date of creation of the document and there is no
-                    #          > |                        risk of ambiguity. Can be approximate if the precise
-                    #          > |                        date is not known.
-                    #          >  \_____________________ The date in the YYYYMMDD format when the document was
-                    #          >                          received by the N.I.D.
-                    #     """,)),
-                    # )),
                 ),
             ),
         )
     ),
+    PageBlock(parts=(
+        HeadLine(level=2, text="Tip of the day:"),
+        HeadLine(level=3, text="Naming conventions"),
+        Paragraph(text=("""
+            It is required from all employees to follow these document naming conventions.
+        """,)),
+    )),
+    PageBlock(block_type=PageBlockType.MONOSPACE_MODERN, parts=(
+        LiteralParagraph(text=(r"""
+            YYYYMMDD_YYYYMMDD_Document_name
+            ^        ^        ^
+            |        |         \___ Any human-friendly label.
+            |         \____________ The date in the YYYYMMDD format when the document was
+            |                        created. Can be omitted if it is reasonably close to
+            |                        the date of creation of the document and there is no
+            |                        risk of ambiguity. Can be approximate if the precise
+            |                        date is not known.
+             \_____________________ The date in the YYYYMMDD format when the document was
+                                     received by the N.I.D.
+        """,)),
+    )),
 ))
 
 

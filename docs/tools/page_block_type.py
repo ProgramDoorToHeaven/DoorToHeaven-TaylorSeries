@@ -57,6 +57,10 @@ class PageBlockType(Enum):
         html_classes=("quotation",),
         markdown_each_line_prefix="> ",
     )
+    MONOSPACE_MODERN = PageBlockTypeItem(
+        html_classes=("monospace-modern",),
+        markdown_start="```", markdown_end="```",
+    )
 
     def get_html_tag(self, contents: Iterable[HtmlTag | str]) -> Iterator[HtmlTag]:
         return self.value.get_html_tag(contents)
