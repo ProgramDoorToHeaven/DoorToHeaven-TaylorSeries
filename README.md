@@ -30,4 +30,4 @@ This also depends on how many other side projects I currently have and how much 
 If you have any suggestions or typo/grammar fixes, don't hesitate to contact me
 in [GitHub Issues](https://github.com/ProgramDoorToHeaven/DoorToHeaven/issues).
 
-Start reading [here](./files).
+Start reading [here](docs).

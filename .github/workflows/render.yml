@@ -56,7 +56,7 @@ jobs:
       - name: Run script
         run: |
           source .venv/bin/activate
-          cd files
+          cd docs
           export PYTHONPATH="${PYTHONPATH}:$(pwd)"
           python tools.runner.py --year "${{ github.event.inputs.year }}" --document "${{ github.event.inputs.document }}"
 

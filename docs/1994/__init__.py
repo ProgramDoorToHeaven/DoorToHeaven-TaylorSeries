@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from files import get_year_menu_column
+from docs import (get_year_menu_column)
 from tools.columns import Column, Columns
 from tools.menu import MenuList, get_document_menu_item
 from tools.page import Page

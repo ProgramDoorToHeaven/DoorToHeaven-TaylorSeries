@@ -10,8 +10,8 @@ from tools.logger_getter import get_logger
 
 LOGGER = get_logger(__name__)
 
-FILES_DIR = Path(__file__).parent.parent
-ROOT_DIR = FILES_DIR.parent
+DOCS_DIR = Path(__file__).parent.parent
+ROOT_DIR = DOCS_DIR.parent
 
 
 def get_runner() -> Path:
@@ -55,14 +55,14 @@ class DocumentsSelector:
     @cached_property
     def selected_years(self) -> tuple[Path, ...]:
         if self.is_selected_year:
-            year_dir = FILES_DIR / self.year
+            year_dir = DOCS_DIR / self.year
             if year_dir.is_dir():
                 return (year_dir,)
             return ()
 
         return tuple(
             year_dir
-            for year_dir in FILES_DIR.iterdir()
+            for year_dir in DOCS_DIR.iterdir()
             if year_dir.is_dir()
             if self.validate_year(year_dir.name)
         )
