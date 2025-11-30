@@ -1,5 +1,5 @@
-Program Door To Heaven
-======================
+Program Door To Heaven - The Taylor Series
+==========================================
 
 This is a StarGate fan fiction.
 The premise is that an N.I.D. employee (Taylor Jones)
@@ -21,7 +21,7 @@ I'm aiming to (in this order):
       Suggestions wanted.
     * There will also be Easter Eggs for other fandoms.
 * Be funny or at least entertaining.
-  * Primarily for myself, but hopefully also for you.
+    * Primarily for myself, but hopefully also for you.
 
 My goal is not quantity, but rather quality.
 So there might be just a few episodes released per year.
@@ -30,4 +30,8 @@ This also depends on how many other side projects I currently have and how much 
 If you have any suggestions or typo/grammar fixes, don't hesitate to contact me
 in [GitHub Issues](https://github.com/ProgramDoorToHeaven/DoorToHeaven/issues).
 
-Start reading [here](docs).
+Start reading on [the web](https://programdoortoheaven.github.io/DoorToHeaven-TaylorSeries/index.html) or on [GitHub](docs).
+There are some work-in-progress parts and notes.
+If it is not accessible by links in the web version, it is not published (yet).
+
+Or visit the [GateRoom](https://programdoortoheaven.github.io/) for more.
