@@ -38,9 +38,9 @@ YYYYMMDD_YYYYMMDD_Document_name
 |        |         \___ Any human-friendly label.
 |         \____________ The date in the YYYYMMDD format when the document was
 |                        created. Can be omitted if it is reasonably close to
-|                        the date of creation of the document and there is no
-|                        risk of ambiguity. Can be approximate if the precise
-|                        date is not known.
+|                        the date when the document was received and there is
+|                        no risk of ambiguity. Can be approximate if the
+|                        precise date is not known.
  \_____________________ The date in the YYYYMMDD format when the document was
                          received by the N.I.D.
 ```
