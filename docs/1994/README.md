@@ -1,4 +1,4 @@
-[🡐 Back](../index.html)
+[⬅️ Back](../index.html)
 
 By years
 --------
@@ -16,4 +16,4 @@ By years
 * [19940824_19390822_Telegram](./19940824_19390822_Telegram/index.html)
 * [19940824_19390824_Incident](./19940824_19390824_Incident/index.html)
 
-[🡐 Back](../index.html)
+[⬅️ Back](../index.html)

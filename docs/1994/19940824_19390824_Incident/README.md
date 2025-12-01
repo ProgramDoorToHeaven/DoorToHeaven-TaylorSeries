@@ -1,4 +1,4 @@
-[🡐 Back](../index.html)
+[⬅️ Back](../index.html)
 
 ```
 BRITISH INTELLIGENCE REPORT
@@ -164,4 +164,4 @@ I guess they succeeded moving it to the US when the war started.
 It wouldn't land on my desk otherwise.
 Let's see how successful they were with the research.
 
-[🡐 Back](../index.html)
+[⬅️ Back](../index.html)

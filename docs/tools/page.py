@@ -13,7 +13,7 @@ from tools.markdown_params import MarkDownParams
 from tools.page_block import PageBlock
 
 BACK_LINK = Link(
-    text="🡐 Back",  # ←🡐⇦⬅⇽⇐🔙
+    text="⬅️ Back",  # Some don't work on some platforms: ←🡐⇦⬅⇽⇐🔙⬅️
     link="../index.html",
 )
 
