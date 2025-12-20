@@ -94,6 +94,12 @@ body {
                 }
             }
 
+            @media (max-width: 768px) {
+                div.columns {
+                    display: block;
+                }
+            }
+
             div.columns-1-2 {
                 grid-template-columns: 1fr 2fr;
             }

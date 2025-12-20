@@ -60,6 +60,7 @@ def build_html(
     html_head.append(new_tag("title", string="Door To Heaven"))
     html_head.append(new_tag("meta", charset="utf-8"))
     html_head.append(new_tag("meta", name="color-scheme", content="dark light"))
+    html_head.append(new_tag("meta", name="viewport", content="width=device-width, initial-scale=1.0"))
     html_doc.append(html_head)
     html_body = new_tag("body")
     html_body.extend(main_div)
