@@ -8,11 +8,11 @@ from typing import Iterator
 from tools.basic_printables import Printable
 from tools.columns import Columns
 from tools.html_builder import build_html, html_to_string, HtmlTag, new_tag
-from tools.link import Link
+from tools.link import ButtonLink
 from tools.markdown_params import MarkDownParams
 from tools.page_block import PageBlock
 
-BACK_LINK = Link(
+BACK_LINK = ButtonLink(
     text="⬅️ Back",  # Some don't work on some platforms: ←🡐⇦⬅⇽⇐🔙⬅️
     link="../index.html",
 )

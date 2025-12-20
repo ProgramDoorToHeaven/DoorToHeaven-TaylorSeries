@@ -12,6 +12,7 @@ class Link(Printable):
     text: str = ""
     link: str = ""
     replace_readme_index: bool = False
+    html_class: str | None = None
 
     @cached_property
     def replaced_link(self) -> str:
@@ -23,13 +24,18 @@ class Link(Printable):
         return self.link[:-len(suffix_readme)] + "/index.html"
 
     def get_html(self) -> Iterator[HtmlTag]:
-        yield new_tag("a", self.text, href=self.replaced_link)
+        yield new_tag("a", self.text, href=self.replaced_link, class_=self.html_class)
 
     def get_markdown(
             self, markdown_params: MarkDownParams, first_line_special_prefix: str | None,
     ) -> Iterator[str]:
         prefix = markdown_params.get_line_prefix(0, first_line_special_prefix)
         yield f"{prefix}[{self.text}]({self.replaced_link})"
+
+
+@dataclass(frozen=True)
+class ButtonLink(Link):
+    html_class: str | None = "button-link"
 
 
 @dataclass(frozen=True)
