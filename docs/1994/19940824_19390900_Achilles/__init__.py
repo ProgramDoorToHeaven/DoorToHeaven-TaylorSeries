@@ -78,4 +78,24 @@ I’ve taken to walking the deck at night, listening to the creaks and groans of
 THOUGHTS: 
 The Merchant Marine moves cargo and passengers in peacetime and operates ships, tugs, ferries, and other vessels on oceans, lakes, and rivers. During war, it supports the U.S. Navy by transporting troops and military supplies.
 
+
+Achilles - captain's journal
+September 6, 1939
+Arround 2200 hours, the ship was struck by an unknown weapon, causing a large circular breach above the waterline on the port side. 
+TODO: which side? 
+The explosion was unlike anything I’ve seen—no torpedo wake, no shell impact, just a sudden hole through the hull.
+The bosun and I investigated the cargo hold and found signs of a struggle. A few armed men, not of any known navy, were neutralized. The cargo remains secure, though I cannot explain how the intruders boarded or what they intended.
+An unexpected ally appeared during the confrontation—a man who spoke as if he knew more than he should. He vanished as quickly as he came, leaving only questions. The bosun and I have agreed to log this as an attack by saboteurs, but the truth is far stranger.
+We will make temporary repairs and continue straight to Boston. No word of this to the crew beyond what is necessary.
+
+
+
+THOUGHTS:
+https://en.wikipedia.org/wiki/Port_and_starboard
+The term starboard comes from Old English stēorbord, meaning "steering side." Ancient ships were steered using a large wooden oar or paddle (the "steerboard") mounted on the right side of the vessel. Since most sailors were right-handed, the steerboard was placed on the right, making it the natural side for steering.
+As ships evolved, the steerboard was replaced by a fixed rudder at the stern, but the name stuck. The right side of the ship became known as starboard.
+
+The left side of the ship, where ships would typically dock to avoid damaging the steerboard, became known as the port side. The word "port" itself comes from the practice of docking on the left side to face the harbor (or "port")—this side was called the larboard in Old English, but it was eventually replaced by "port" to avoid confusion with "starboard."
+
+This distinction became standardized to ensure clear communication on ships, regardless of a sailor’s orientation.
 """
