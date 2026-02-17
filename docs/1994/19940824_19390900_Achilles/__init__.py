@@ -35,7 +35,25 @@ The bosun grumbled about our zigzag pattern, but I won’t risk a straight line.
 
 
 
-THOUGHTS: https://stargate.fandom.com/wiki/Bosun
+THOUGHTS: 
+Core Crew (Small Cargo Ship, ~10–15 Total Crew)
+1. Command & Navigation (Bridge)
+
+Captain: Ultimate authority; responsible for navigation, safety, and cargo. Stands watch and makes all critical decisions.
+Helmsman: Steers the ship, follows the captain’s orders for course and speed, and monitors instruments.
+Communications Officer (Radio Operator): Handles all radio communications, including Morse code, distress signals, and contact with shore/other ships.
+2. Deck Department
+
+Bosun (Boatswain): Supervises deck crew, maintains the ship’s hull, rigging, and cargo. Often assists the captain with navigation and watches.
+Able-Bodied Seaman (AB) x 2–3: Handle lines, operate winches, secure cargo, and perform general maintenance. Stand watch and assist the bosun.
+Ordinary Seaman (OS) x 1–2: Junior crew; assist ABs, clean, and learn deck duties.
+3. Engine Department
+
+Chief Engineer: Oversees the ship’s engines, boilers, and mechanical systems. Performs repairs and ensures propulsion and auxiliary systems are operational.
+Assistant Engineer x 1: Assists the chief engineer, stands watch in the engine room, and maintains machinery.
+4. Steward’s Department
+
+Cook/Steward: Prepares meals, manages provisions, and maintains the galley and crew quarters.
 
 
 
@@ -54,5 +72,10 @@ Achilles - captain's journal
 September 5, 1939
 The moon is full tonight, casting silver paths on the water. The crew is on edge. We’ve spotted nothing but empty ocean, yet the tension is thick enough to cut. The bosun asked again about the cargo. I told him what I always do: “No need to know.” He didn’t push, but I saw the frustration in his eyes.
 I’ve taken to walking the deck at night, listening to the creaks and groans of the ship. The Achilles is old, but she’s sturdy. Still, I wonder if she’s up for whatever this cargo might bring. The war feels distant out here, but I know it’s coming for us all, one way or another.
+
+
+
+THOUGHTS: 
+The Merchant Marine moves cargo and passengers in peacetime and operates ships, tugs, ferries, and other vessels on oceans, lakes, and rivers. During war, it supports the U.S. Navy by transporting troops and military supplies.
 
 """
