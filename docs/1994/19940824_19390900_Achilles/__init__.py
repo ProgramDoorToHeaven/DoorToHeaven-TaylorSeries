@@ -83,7 +83,7 @@ I’ve taken to walking the deck at night, listening to the creaks and groans of
 
 
 THOUGHTS: 
-The Merchant Marine moves cargo and passengers in peacetime and operates ships, tugs, ferries, and other vessels on oceans, lakes, and rivers. During war, it supports the U.S. Navy by transporting troops and military supplies.
+The Merchant Marine, including ships like the Achilles—commanded by Captain Mitchell—primarily transports cargo and passengers during peacetime, operating vessels such as freighters, tugs, and ferries across oceans, lakes, and rivers. During wartime, it supports the U.S. Navy, delivering troops and military supplies, often under dangerous conditions.
 
 
 Achilles - captain's journal
