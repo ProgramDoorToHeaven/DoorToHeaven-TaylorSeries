@@ -36,24 +36,15 @@ The bosun grumbled about our zigzag pattern, but I won’t risk a straight line.
 
 
 THOUGHTS: 
-Core Crew (Small Cargo Ship, ~10–15 Total Crew)
-1. Command & Navigation (Bridge)
+A small cargo ship like the Achilles typically operated with a lean crew of 10–15 members, each playing a critical role in the vessel’s operation.
 
-Captain: Ultimate authority; responsible for navigation, safety, and cargo. Stands watch and makes all critical decisions.
-Helmsman: Steers the ship, follows the captain’s orders for course and speed, and monitors instruments.
-Communications Officer (Radio Operator): Handles all radio communications, including Morse code, distress signals, and contact with shore/other ships.
-2. Deck Department
+On the bridge, the core team included the captain, who held ultimate authority and was responsible for navigation, safety, and cargo; the helmsman, who steered the ship, followed the captain’s course and speed orders, and monitored instruments; and the communications officer (radio operator), who managed all radio communications, including Morse code and distress signals.
 
-Bosun (Boatswain): Supervises deck crew, maintains the ship’s hull, rigging, and cargo. Often assists the captain with navigation and watches.
-Able-Bodied Seaman (AB) x 2–3: Handle lines, operate winches, secure cargo, and perform general maintenance. Stand watch and assist the bosun.
-Ordinary Seaman (OS) x 1–2: Junior crew; assist ABs, clean, and learn deck duties.
-3. Engine Department
+In the engine department, the chief engineer and assistant engineer oversaw the ship’s engines, boilers, and mechanical systems, performing repairs and ensuring the propulsion and auxiliary systems remained operational.
 
-Chief Engineer: Oversees the ship’s engines, boilers, and mechanical systems. Performs repairs and ensures propulsion and auxiliary systems are operational.
-Assistant Engineer x 1: Assists the chief engineer, stands watch in the engine room, and maintains machinery.
-4. Steward’s Department
+A cook or steward handled meal preparation, managed provisions, and maintained the galley and crew quarters, ensuring the crew was fed and living spaces were kept in order.
 
-Cook/Steward: Prepares meals, manages provisions, and maintains the galley and crew quarters.
+For general labor, maintenance, and cleaning, a small team of seamen worked under the bosun (boatswain), who supervised the deck crew, maintained the ship’s hull, rigging, and cargo, and often assisted the captain with navigation and watches. This structure ensured the ship ran efficiently, even with a minimal crew.
 
 
 
