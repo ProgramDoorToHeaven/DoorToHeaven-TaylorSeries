@@ -60,17 +60,24 @@ Cook/Steward: Prepares meals, manages provisions, and maintains the galley and c
 Achilles - captain's journal
 September 3, 1939
 The men are restless. The radio crackles with reports of British and French declarations of war. The Atlantic feels narrower tonight, as if the conflict is closing in on us. I caught the bosun staring at the cargo hold again. He’s a good man, but curiosity will be the death of him—or worse, the death of us all.
+
 I’ve ordered extra watches. The cargo shifts sometimes, a low groan of metal against wood. It’s unnerving. The helmsman swears he heard something inside one of the crates, but that’s impossible. Or is it? I’ve seen strange things in my time at sea, but this feels different. Like we’re carrying more than just steel and secrets.
 
 
 
-THOUGHTS: Who+when entered the war
+THOUGHTS:
+Almost a year earlier, Germany had seized the Sudetenland from Czechoslovakia without resistance, backed by Britain and France, who hoped this concession would satisfy Hitler’s territorial ambitions. The Sudetenland—Czechoslovakia’s border regions, home to a mostly German population and its key fortifications—fell easily, leaving the country vulnerable. Thus, when Germany invaded the rest of Czechoslovakia in March 1939, there was little resistance left.
+
+On September 1, 1939, Germany and the Soviet Union invaded Poland from opposite sides, using a staged attack as a pretext. Two days later, Britain and France declared war on Germany, but the Blitzkrieg had already overwhelmed Poland, and soon took France as well.
+
+The war exploded in scale by 1941. Japan’s attack on Pearl Harbor pulled the United States into the fight, while Germany betrayed its former ally, the Soviet Union. Nations took sides—some to stop tyranny, others to grab power. What began as a European conflict soon engulfed the world, leaving nothing unchanged.
 
 
 
 Achilles - captain's journal
 September 5, 1939
 The moon is full tonight, casting silver paths on the water. The crew is on edge. We’ve spotted nothing but empty ocean, yet the tension is thick enough to cut. The bosun asked again about the cargo. I told him what I always do: “No need to know.” He didn’t push, but I saw the frustration in his eyes.
+
 I’ve taken to walking the deck at night, listening to the creaks and groans of the ship. The Achilles is old, but she’s sturdy. Still, I wonder if she’s up for whatever this cargo might bring. The war feels distant out here, but I know it’s coming for us all, one way or another.
 
 
