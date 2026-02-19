@@ -5,7 +5,7 @@ on:
       year:
         description: 'Year (keep empty to select all years)'
         required: false
-        type: string
+        type: choice
         default: ''
         options:
           - ''
@@ -58,7 +58,7 @@ jobs:
           source .venv/bin/activate
           cd docs
           export PYTHONPATH="${PYTHONPATH}:$(pwd)"
-          python tools.runner.py --year "${{ github.event.inputs.year }}" --document "${{ github.event.inputs.document }}"
+          python tools/runner.py --year "${{ github.event.inputs.year }}" --document "${{ github.event.inputs.document }}"
 
       - name: Commit changes
         run: |
