@@ -26,6 +26,10 @@ France + UK declared war on Germany on 1939-09-03
 
 
 
+THOUGHTS: 
+A captain’s journal? Now I’m grateful my uncle is obsessed with ships and never stops talking about them - I might actually understand what this is about!
+
+
 
 Achilles - captain's journal
 September 1, 1939
@@ -38,13 +42,13 @@ The bosun grumbled about our zigzag pattern, but I won’t risk a straight line.
 THOUGHTS: 
 A small cargo ship like the Achilles typically operated with a lean crew of 10–15 members, each playing a critical role in the vessel’s operation.
 
-On the bridge, the core team included the captain, who held ultimate authority and was responsible for navigation, safety, and cargo; the helmsman, who steered the ship, followed the captain’s course and speed orders, and monitored instruments; and the communications officer (radio operator), who managed all radio communications, including Morse code and distress signals.
+On the bridge, the core team included the captain, who held ultimate authority and was responsible for navigation, safety, and cargo; the helmsman, who steered the ship, followed the captain’s course and speed orders, and monitored instruments; and the communications officer (radio operator), who managed all radio communications.
 
 In the engine department, the chief engineer and assistant engineer oversaw the ship’s engines, boilers, and mechanical systems, performing repairs and ensuring the propulsion and auxiliary systems remained operational.
 
 A cook or steward handled meal preparation, managed provisions, and maintained the galley and crew quarters, ensuring the crew was fed and living spaces were kept in order.
 
-For general labor, maintenance, and cleaning, a small team of seamen worked under the bosun (boatswain), who supervised the deck crew, maintained the ship’s hull, rigging, and cargo, and often assisted the captain with navigation and watches. This structure ensured the ship ran efficiently, even with a minimal crew.
+For general labor, maintenance, and cleaning, a small team of seamen worked under the bosun (boatswain), who supervised the deck crew, maintained the ship’s hull, deck equipment, and cargo, and often assisted the captain with navigation and watches. This structure ensured the ship ran efficiently, even with a minimal crew.
 
 
 
@@ -52,7 +56,7 @@ Achilles - captain's journal
 September 3, 1939
 The men are restless. The radio crackles with reports of British and French declarations of war. The Atlantic feels narrower tonight, as if the conflict is closing in on us. I caught the bosun staring at the cargo hold again. He’s a good man, but curiosity will be the death of him—or worse, the death of us all.
 
-I’ve ordered extra watches. The cargo shifts sometimes, a low groan of metal against wood. It’s unnerving. The helmsman swears he heard something inside one of the crates, but that’s impossible. Or is it? I’ve seen strange things in my time at sea, but this feels different. Like we’re carrying more than just steel and secrets.
+I’ve ordered extra watches. The cargo shifts sometimes, a low groan of metal against wood. It’s unnerving. One of the boys swears he heard something inside one of the crates, but that’s impossible. Or is it? I’ve seen strange things in my time at sea, but this feels different. Like we’re carrying more than just steel and secrets.
 
 
 
@@ -75,6 +79,7 @@ I’ve taken to walking the deck at night, listening to the creaks and groans of
 
 THOUGHTS: 
 The Merchant Marine, including ships like the Achilles—commanded by Captain Mitchell—primarily transports cargo and passengers during peacetime, operating vessels such as freighters, tugs, and ferries across oceans, lakes, and rivers. During wartime, it supports the U.S. Navy, delivering troops and military supplies, often under dangerous conditions.
+
 
 
 Achilles - captain's journal
