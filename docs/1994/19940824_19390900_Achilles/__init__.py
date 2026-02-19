@@ -96,4 +96,6 @@ As ships evolved, the steerboard was replaced by a fixed rudder at the stern, bu
 The left side of the ship, where ships would typically dock to avoid damaging the steerboard, became known as the port side. The word "port" itself comes from the practice of docking on the left side to face the harbor (or "port")—this side was called the larboard in Old English, but it was eventually replaced by "port" to avoid confusion with "starboard."
 
 This distinction became standardized to ensure clear communication on ships, regardless of a sailor’s orientation.
+
+Anyway, looks like the Germans tried to get their hands on the cargo, but luckilly, they didn't succeed.
 """
