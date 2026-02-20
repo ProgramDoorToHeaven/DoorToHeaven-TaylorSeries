@@ -16,8 +16,9 @@ So let's say it would be 12-14 days for Achilles going straight and 14-16 days w
 
 "We'd be in Boston right now if we weren't zigzagging all over the bloody Atlantic."
 That means the Baal boarding hapens near to the end of the journey - arround day 12-14 with 2 days remaining.
-There could be some exageration in the statement, so maybo arround day 9-14 with 2-5 days remaining.
+There could be some exageration in the statement, so maybe arround day 9-14 with 2-5 days remaining.
 That would be 1939-09-03 to 1939-09-08.
+It could be later if they departed later.
 
 France + UK declared war on Germany on 1939-09-03
 "We're not at war yet" (= USA entered WW2 in 1941)
@@ -28,8 +29,8 @@ from tools import *
 PAGE = Page(blocks=(
     PageBlock(parts=(
         Paragraph(text=("""
-            A captain’s journal?
-            Now I’m grateful my uncle is obsessed with ships and never stops talking about them - I might actually understand what this is about!
+            A captain's journal?
+            Now I'm grateful my uncle is obsessed with ships and never stops talking about them - I might actually understand what this is about!
         """,)),
     )),
     PageBlockTypeWriter(parts=(
@@ -49,27 +50,27 @@ PAGE = Page(blocks=(
             Not yet. 
         """,)),
         Paragraph(text=("""
-            I can’t shake the feeling that it’s more than just crates of machinery.
+            I can't shake the feeling that it's more than just crates of machinery.
             The way the officers in Alexandria handed it over, the way they looked at me - this is something important.
         """,)),
         Paragraph(text=("""
-            The bosun grumbled about our zigzag pattern, but I won’t risk a straight line.
-            U-boats lurk beneath these waters, and we’re a sitting duck if we don’t stay unpredictable.
-            The bosun thinks I’m being paranoid, but I’ve seen what war does.
-            I won’t let the Achilles be another casualty.
+            The bosun grumbled about our zigzag pattern, but I won't risk a straight line.
+            U-boats lurk beneath these waters, and we're a sitting duck if we don't stay unpredictable.
+            The bosun thinks I'm being paranoid, but I've seen what war does.
+            I won't let the Achilles be another casualty.
         """,)),
     )),
     PageBlock(parts=(
         Paragraph(text=("""
-            A small cargo ship like the Achilles typically operated with a lean crew of 10–15 members, each playing a critical role in the vessel’s operation.
+            A small cargo ship like the Achilles typically operated with a lean crew of 10-15 members, each playing a critical role in the vessel's operation.
         """,)),
         Paragraph(text=("""
             On the bridge, the core team included the captain, who held ultimate authority and was responsible for navigation, safety, and cargo;
-            the helmsman, who steered the ship, followed the captain’s course and speed orders, and monitored instruments;
+            the helmsman, who steered the ship, followed the captain's course and speed orders, and monitored instruments;
             and the communications officer (radio operator), who managed all radio communications.
         """,)),
         Paragraph(text=("""
-            In the engine department, the chief engineer and assistant engineer oversaw the ship’s engines, boilers, and mechanical systems,
+            In the engine department, the chief engineer and assistant engineer oversaw the ship's engines, boilers, and mechanical systems,
             performing repairs and ensuring the propulsion and auxiliary systems remained operational.
         """,)),
         Paragraph(text=("""
@@ -78,7 +79,7 @@ PAGE = Page(blocks=(
         """,)),
         Paragraph(text=("""
             For general labor, maintenance, and cleaning, a small team of seamen worked under the bosun (boatswain),
-            who supervised the deck crew, maintained the ship’s hull, deck equipment, and cargo,
+            who supervised the deck crew, maintained the ship's hull, deck equipment, and cargo,
             and often assisted the captain with navigation and watches.
             This structure ensured the ship ran efficiently, even with a minimal crew.
         """,)),
@@ -93,23 +94,23 @@ PAGE = Page(blocks=(
             The radio crackles with reports of British and French declarations of war.
             The Atlantic feels narrower tonight, as if the conflict is closing in on us.
             I caught the bosun staring at the cargo hold again.
-            He’s a good man, but curiosity will be the death of him - or worse, the death of us all.
+            He's a good man, but curiosity will be the death of him - or worse, the death of us all.
         """,)),
         Paragraph(text=("""
-            I’ve ordered extra watches.
+            I've ordered extra watches.
             The cargo shifts sometimes, a low groan of metal against wood.
-            It’s unnerving.
-            One of the boys swears he heard something inside one of the crates, but that’s impossible.
+            It's unnerving.
+            One of the boys swears he heard something inside one of the crates, but that's impossible.
             Or is it?
-            I’ve seen strange things in my time at sea, but this feels different.
-            Like we’re carrying more than just steel and secrets.
+            I've seen strange things in my time at sea, but this feels different.
+            Like we're carrying more than just steel and secrets.
         """,)),
     )),
     PageBlock(parts=(
         Paragraph(text=("""
             Almost a year earlier, Germany had seized the Sudetenland from Czechoslovakia without resistance,
-            backed by Britain and France, who hoped this concession would satisfy Hitler’s territorial ambitions.
-            The Sudetenland - Czechoslovakia’s border regions, home to a mostly German population and its key fortifications - fell easily, leaving the country vulnerable.
+            backed by Britain and France, who hoped this concession would satisfy Hitler's territorial ambitions.
+            The Sudetenland - Czechoslovakia's border regions, home to a mostly German population and its key fortifications - fell easily, leaving the country vulnerable.
             Thus, when Germany invaded the rest of Czechoslovakia in March 1939, there was little resistance left.
         """,)),
         Paragraph(text=("""
@@ -118,7 +119,7 @@ PAGE = Page(blocks=(
         """,)),
         Paragraph(text=("""
             The war exploded in scale by 1941.
-            Japan’s attack on Pearl Harbor pulled the United States into the fight, while Germany betrayed its former ally, the Soviet Union.
+            Japan's attack on Pearl Harbor pulled the United States into the fight, while Germany betrayed its former ally, the Soviet Union.
             Nations took sides - some to stop tyranny, others to grab power.
             What began as a European conflict soon engulfed the world, leaving nothing unchanged.
         """,)),
@@ -131,16 +132,16 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             The moon is full tonight, casting silver paths on the water.
             The crew is on edge.
-            We’ve spotted nothing but empty ocean, yet the tension is thick enough to cut.
+            We've spotted nothing but empty ocean, yet the tension is thick enough to cut.
             The bosun asked again about the cargo.
             I told him what I always do: "No need to know."
-            He didn’t push, but I saw the frustration in his eyes.
+            He didn't push, but I saw the frustration in his eyes.
         """,)),
         Paragraph(text=("""
-            I’ve taken to walking the deck at night, listening to the creaks and groans of the ship.
-            The Achilles is old, but she’s sturdy.
-            Still, I wonder if she’s up for whatever this cargo might bring.
-            The war feels distant out here, but I know it’s coming for us all, one way or another.
+            I've taken to walking the deck at night, listening to the creaks and groans of the ship.
+            The Achilles is old, but she's sturdy.
+            Still, I wonder if she's up for whatever this cargo might bring.
+            The war feels distant out here, but I know it's coming for us all, one way or another.
         """,)),
     )),
     PageBlock(parts=(
@@ -157,7 +158,7 @@ PAGE = Page(blocks=(
         """,)),
         Paragraph(text=("""
             Arround 2200 hours, the ship was struck by an unknown weapon, causing a large circular breach above the waterline on the port side.
-            The explosion was unlike anything I’ve seen—no torpedo wake, no shell impact, just a sudden hole through the hull.
+            The explosion was unlike anything I've seen—no torpedo wake, no shell impact, just a sudden hole through the hull.
         """,)), # TODO: which side? Port, or starboard?
         Paragraph(text=("""
             The bosun and I investigated the cargo hold and found signs of a struggle.
@@ -190,7 +191,7 @@ PAGE = Page(blocks=(
             but it was eventually replaced by "port" to avoid confusion with "starboard."
         """,)),
         Paragraph(text=("""
-            This distinction became standardized to ensure clear communication on ships, regardless of a sailor’s orientation.
+            This distinction became standardized to ensure clear communication on ships, regardless of a sailor's orientation.
         """,)),
         Paragraph(text=("""
             Anyway, looks like the Germans tried to get their hands on the cargo, but luckilly, they didn't succeed.
