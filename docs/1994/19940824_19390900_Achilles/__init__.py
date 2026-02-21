@@ -14,9 +14,12 @@ With zig-zagging through the Atlantic, let's say (10'000 km) +75% distance compa
 We can expect faster ships at the end of 1930s.
 So let's say it would be 12-14 days for Achilles going straight and 14-16 days when zig-zagging through the Atlantic.
 
+The last course change was to 350. That is basically north.
+So the zig-zagging was huge and the travel duration could be even longer.
+
 "We'd be in Boston right now if we weren't zigzagging all over the bloody Atlantic."
-That means the Baal boarding hapens near to the end of the journey - arround day 12-14 with 2 days remaining.
-There could be some exageration in the statement, so maybe arround day 9-14 with 2-5 days remaining.
+That means the Baal boarding happens near to the end of the journey - around day 12-14 with 2 days remaining.
+There could be some exaggeration in the statement, so maybe around day 9-14 with 2-5 days remaining.
 That would be 1939-09-03 to 1939-09-08.
 It could be later if they departed later.
 
@@ -146,10 +149,10 @@ PAGE = Page(blocks=(
     )),
     PageBlock(parts=(
         Paragraph(text=("""
-            The Merchant Marine, including ships like the Achilles - commanded by Captain Mitchell - primarily transports cargo and passengers during peacetime,
+            The US Merchant Marine, including ships like the Achilles commanded by Captain Mitchell, primarily transports cargo and passengers during peacetime,
             operating vessels such as freighters, tugs, and ferries across oceans, lakes, and rivers.
             During wartime, it supports the U.S. Navy, delivering troops and military supplies, often under dangerous conditions.
-        """,)), # TODO: when was it established? Is it still active?
+        """,)),
     )),
     PageBlockTypeWriter(parts=(
         LiteralParagraph(text=("""
@@ -157,9 +160,9 @@ PAGE = Page(blocks=(
             September 6, 1939
         """,)),
         Paragraph(text=("""
-            Arround 2200 hours, the ship was struck by an unknown weapon, causing a large circular breach above the waterline on the port side.
+            Around 2200 hours, the ship was struck by an unknown weapon, causing a large circular breach above the waterline on the starboard side.
             The explosion was unlike anything I've seen - no torpedo wake, no shell impact, just a sudden hole through the hull.
-        """,)), # TODO: which side? Port, or starboard?
+        """,)),
         Paragraph(text=("""
             The bosun and I investigated the cargo hold and found signs of a struggle.
             A few armed men, not of any known navy, were neutralized.
@@ -194,7 +197,7 @@ PAGE = Page(blocks=(
             This distinction became standardized to ensure clear communication on ships, regardless of a sailor's orientation.
         """,)),
         Paragraph(text=("""
-            Anyway, looks like the Germans tried to get their hands on the cargo, but luckilly, they didn't succeed.
+            Anyway, looks like the Germans tried to get their hands on the cargo, but luckily, they didn't succeed.
         """,)),
     )),
 ))

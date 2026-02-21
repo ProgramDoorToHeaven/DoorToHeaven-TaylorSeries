@@ -86,7 +86,7 @@ whatever this cargo might bring. The war feels distant out here, but I know it's
 coming for us all, one way or another.
 ```
 
-The Merchant Marine, including ships like the Achilles - commanded by Captain Mitchell - primarily transports cargo and passengers during peacetime,
+The US Merchant Marine, including ships like the Achilles commanded by Captain Mitchell, primarily transports cargo and passengers during peacetime,
 operating vessels such as freighters, tugs, and ferries across oceans, lakes, and rivers.
 During wartime, it supports the U.S. Navy, delivering troops and military supplies, often under dangerous conditions.
 
@@ -95,8 +95,8 @@ Achilles - captain's journal
 September 6, 1939
 
 Arround 2200 hours, the ship was struck by an unknown weapon, causing a large
-circular breach above the waterline on the port side. The explosion was unlike
-anything I've seen - no torpedo wake, no shell impact, just a sudden hole
+circular breach above the waterline on the starboard side. The explosion was
+unlike anything I've seen - no torpedo wake, no shell impact, just a sudden hole
 through the hull.
 
 The bosun and I investigated the cargo hold and found signs of a struggle. A few
