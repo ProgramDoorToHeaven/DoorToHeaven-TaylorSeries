@@ -158,7 +158,7 @@ PAGE = Page(blocks=(
         """,)),
         Paragraph(text=("""
             Arround 2200 hours, the ship was struck by an unknown weapon, causing a large circular breach above the waterline on the port side.
-            The explosion was unlike anything I've seen—no torpedo wake, no shell impact, just a sudden hole through the hull.
+            The explosion was unlike anything I've seen - no torpedo wake, no shell impact, just a sudden hole through the hull.
         """,)), # TODO: which side? Port, or starboard?
         Paragraph(text=("""
             The bosun and I investigated the cargo hold and found signs of a struggle.
