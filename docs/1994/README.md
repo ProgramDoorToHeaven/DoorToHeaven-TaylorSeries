@@ -15,5 +15,6 @@ By years
 * [19940824_19360000_Cairo_letter](./19940824_19360000_Cairo_letter/index.html)
 * [19940824_19390822_Telegram](./19940824_19390822_Telegram/index.html)
 * [19940824_19390824_Incident](./19940824_19390824_Incident/index.html)
+* [19940824_19390900_Achilles](./19940824_19390900_Achilles/index.html)
 
 [⬅️ Back](../README.md)

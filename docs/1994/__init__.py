@@ -22,7 +22,7 @@ PAGE = Page(blocks=(
                         get_document_menu_item("19940824_19360000_Cairo_letter"),
                         get_document_menu_item("19940824_19390822_Telegram"),
                         get_document_menu_item("19940824_19390824_Incident"),
-                        # get_document_menu_item("19940824_19390900_Achilles"),
+                        get_document_menu_item("19940824_19390900_Achilles"),
                         # get_document_menu_item("19940824_19450000_Experiment"),
                     )),
                 ),
