@@ -57,6 +57,13 @@ first part-time job - cataloging items at the Cairo Museum. I've also been
 picking up odd jobs to bring in extra money. Just last week, I translated some
 Hebrew inscriptions for a French archeologist.
 
+A few months after moving into this warehouse, I had a dream. In the dream, I
+was walking through the warehouse at night, as I sometimes do when I can’t
+sleep. Suddenly, the ring began shaking and glowing, and a man jumped through
+it. He did a few rolls on the ground, looked at me, and then disappeared behind
+some crates. The dream felt so real and vivid that I wouldn’t have thought it
+was a dream if it hadn’t been so bizarre.
+
 I cannot bear the thought of losing the chance to study this ring - it is my
 life's work. It is precious to me. That's why I'm reaching out to you.
 

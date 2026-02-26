@@ -106,14 +106,19 @@ PAGE = Page(blocks=(
             To help with our financial situation, she even took her first part-time job - cataloging items at the Cairo Museum.
             I've also been picking up odd jobs to bring in extra money.
             Just last week, I translated some Hebrew inscriptions for a French archeologist.
-        """,)),
-        # Rene Belloq himself
+        """,)),  # Rene Belloq himself
+        Paragraph(text=("""
+            A few months after moving into this warehouse, I had a dream.
+            In the dream, I was walking through the warehouse at night, as I sometimes do when I can’t sleep.
+            Suddenly, the ring began shaking and glowing, and a man jumped through it.
+            He did a few rolls on the ground, looked at me, and then disappeared behind some crates.
+            The dream felt so real and vivid that I wouldn’t have thought it was a dream if it hadn’t been so bizarre.
+        """,)),  # Cameron Mitchell the time traveler
         Paragraph(text=("""
             I cannot bear the thought of losing the chance to study this ring - it is my life's work.
             It is precious to me.
             That's why I'm reaching out to you.
-        """,)),
-        # But this ring does not fit in any pocketses.
+        """,)),  # But this ring does not fit in any pocketses.
         Paragraph(text=("""
             You mentioned that the German government recently established the Ahnenerbe Institute, and that they're actively seeking ancient artifacts.
             While I deeply disagree with the path my fatherland has taken, this could be the only way to secure the money I need to continue my research.
