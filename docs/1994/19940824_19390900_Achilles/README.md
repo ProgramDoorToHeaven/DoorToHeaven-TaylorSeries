@@ -94,7 +94,7 @@ During wartime, it supports the U.S. Navy, delivering troops and military suppli
 Achilles - captain's journal
 September 6, 1939
 
-Arround 2200 hours, the ship was struck by an unknown weapon, causing a large
+Around 2200 hours, the ship was struck by an unknown weapon, causing a large
 circular breach above the waterline on the starboard side. The explosion was
 unlike anything I've seen - no torpedo wake, no shell impact, just a sudden hole
 through the hull.
@@ -124,6 +124,6 @@ but it was eventually replaced by "port" to avoid confusion with "starboard."
 
 This distinction became standardized to ensure clear communication on ships, regardless of a sailor's orientation.
 
-Anyway, looks like the Germans tried to get their hands on the cargo, but luckilly, they didn't succeed.
+Anyway, looks like the Germans tried to get their hands on the cargo, but luckily, they didn't succeed.
 
 [⬅️ Back](../index.html)
