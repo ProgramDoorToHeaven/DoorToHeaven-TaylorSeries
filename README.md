@@ -25,7 +25,7 @@ I'm aiming to:
 * Be funny or at least entertaining.
     * Primarily for myself, but hopefully also for you.
 
-My goal is not quantity, but rather quality.
+My goal is not quantity, but rather enjoying the process.
 So there might be just a few episodes released per year.
 This also depends on how many other side projects I currently have and how much I enjoy them.
 
