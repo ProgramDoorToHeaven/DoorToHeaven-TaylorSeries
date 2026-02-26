@@ -1,4 +1,4 @@
-[⬅️ Back](../index.html)
+[⬅️ Back](../README.md)
 
 ```
 Dear Deitrich,
@@ -109,4 +109,4 @@ though its findings were largely fabricated or distorted for propaganda purposes
 Anyway, I'm not writing any more summaries or access-restriction recommendations for now - until I find out what is going on here.
 Otherwise, I might also end up rewriting all of them later.
 
-[⬅️ Back](../index.html)
+[⬅️ Back](../README.md)

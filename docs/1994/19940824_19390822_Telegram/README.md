@@ -1,4 +1,4 @@
-[⬅️ Back](../index.html)
+[⬅️ Back](../README.md)
 
 A telegram...
 I’ve rarely encountered telegrams in my life.
@@ -38,4 +38,4 @@ I wonder what happened to Deitrich in Berlin.
 This was just a week before the outbreak of World War II,
 though the war itself didn’t reach Egypt until two years later, in 1940.
 
-[⬅️ Back](../index.html)
+[⬅️ Back](../README.md)

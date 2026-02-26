@@ -12,9 +12,13 @@ from tools.link import ButtonLink
 from tools.markdown_params import MarkDownParams
 from tools.page_block import PageBlock
 
-BACK_LINK = ButtonLink(
+BACK_LINK_HTML = ButtonLink(
     text="⬅️ Back",  # Some don't work on some platforms: ←🡐⇦⬅⇽⇐🔙⬅️
     link="../index.html",
+)
+BACK_LINK_MD = ButtonLink(
+    text=BACK_LINK_HTML.text,
+    link="../README.md",
 )
 
 
@@ -31,7 +35,7 @@ class Page(Printable):
 
         page = new_tag("div", class_="page")
         if self.can_go_back:
-            page.extend(BACK_LINK.get_html())
+            page.extend(BACK_LINK_HTML.get_html())
         else:
             page.append(new_tag("span", class_="line-height"))
 
@@ -39,7 +43,7 @@ class Page(Printable):
             page.extend(block.get_html())
 
         if self.can_go_back:
-            page.extend(BACK_LINK.get_html())
+            page.extend(BACK_LINK_HTML.get_html())
         else:
             page.append(new_tag("span", class_="line-height"))
 
@@ -53,13 +57,13 @@ class Page(Printable):
             first_line_special_prefix: str | None = None,
     ) -> Iterator[str]:
         if self.can_go_back:
-            yield from BACK_LINK.get_markdown(markdown_params, first_line_special_prefix)
+            yield from BACK_LINK_MD.get_markdown(markdown_params, first_line_special_prefix)
         for block in self.blocks:
             yield ""  # space between blocks
             yield from block.get_markdown()
         yield ""  # space between blocks
         if self.can_go_back:
-            yield from BACK_LINK.get_markdown(markdown_params, first_line_special_prefix)
+            yield from BACK_LINK_MD.get_markdown(markdown_params, first_line_special_prefix)
 
     def render(self, filename: str | None = None) -> None:
         file_path = Path(filename) if filename else Path(sys.argv[0]).absolute()

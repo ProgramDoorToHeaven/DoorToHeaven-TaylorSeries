@@ -1,4 +1,4 @@
-[⬅️ Back](../index.html)
+[⬅️ Back](../README.md)
 
 A captain's journal?
 Now I'm grateful my uncle is obsessed with ships and never stops talking about them - I might actually understand what this is about!
@@ -126,4 +126,4 @@ This distinction became standardized to ensure clear communication on ships, reg
 
 Anyway, looks like the Germans tried to get their hands on the cargo, but luckily, they didn't succeed.
 
-[⬅️ Back](../index.html)
+[⬅️ Back](../README.md)
