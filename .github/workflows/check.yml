@@ -1,4 +1,4 @@
-name: Render
+name: Check
 on:
   schedule:  # On a schedule - UTC
     - cron: '0 10 * * 4'
