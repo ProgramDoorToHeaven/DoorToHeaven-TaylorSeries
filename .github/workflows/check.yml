@@ -1,0 +1,45 @@
+name: Render
+on:
+  schedule:  # On a schedule - UTC
+    - cron: '0 10 * * 4'
+  workflow_dispatch:
+
+jobs:
+  check_job:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Required for git history and pushing changes
+
+      - name: Check for commits in the last 8 days
+        id: check-commits
+        run: |
+          EIGHT_DAYS_AGO="$(date -d '8 days ago' --iso-8601)"
+          LATEST_COMMIT_DATE="$(git log -1 --format='%aI')"
+          if [[ "${LATEST_COMMIT_DATE}" > "${EIGHT_DAYS_AGO}" ]]; then
+            echo "has_recent_commits=true" >>"${GITHUB_OUTPUT}"
+          else
+            echo "has_recent_commits=false" >>"${GITHUB_OUTPUT}"
+          fi
+
+      - name: Run checks
+        if: |
+          steps.check-commits.outputs.has_recent_commits == 'true' ||
+          github.event_name == 'workflow_dispatch'
+        run: |
+          if ! grep -ir \
+            -e 'artefact' \
+            -e '“' -e '”' \
+            -e '‘' -e '’' \
+            -e '—' -e '–' \
+            ./docs/
+          then
+            echo ""
+            echo "You should address the findings above."
+            exit 1
+          fi
