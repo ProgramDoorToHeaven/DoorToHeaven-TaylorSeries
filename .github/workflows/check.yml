@@ -1,7 +1,7 @@
 name: Check
 on:
   schedule:  # On a schedule - UTC
-    - cron: '0 10 * * 4'
+    - cron: '0 10 * * *'
   workflow_dispatch:
 
 jobs:
@@ -16,10 +16,10 @@ jobs:
         with:
           fetch-depth: 0  # Required for git history and pushing changes
 
-      - name: Check for commits in the last 8 days
+      - name: Check for commits in the last 2 days
         id: check-commits
         run: |
-          EIGHT_DAYS_AGO="$(date -d '8 days ago' --iso-8601)"
+          EIGHT_DAYS_AGO="$(date -d '2 days ago' --iso-8601)"
           LATEST_COMMIT_DATE="$(git log -1 --format='%aI')"
           [[ "${LATEST_COMMIT_DATE}" > "${EIGHT_DAYS_AGO}" ]] && has_recent_commits=true || has_recent_commits=false
           echo "has_recent_commits=${has_recent_commits}"
