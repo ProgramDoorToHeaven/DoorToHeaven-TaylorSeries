@@ -21,18 +21,16 @@ jobs:
         run: |
           EIGHT_DAYS_AGO="$(date -d '8 days ago' --iso-8601)"
           LATEST_COMMIT_DATE="$(git log -1 --format='%aI')"
-          if [[ "${LATEST_COMMIT_DATE}" > "${EIGHT_DAYS_AGO}" ]]; then
-            echo "has_recent_commits=true" >>"${GITHUB_OUTPUT}"
-          else
-            echo "has_recent_commits=false" >>"${GITHUB_OUTPUT}"
-          fi
+          [[ "${LATEST_COMMIT_DATE}" > "${EIGHT_DAYS_AGO}" ]] && has_recent_commits=true || has_recent_commits=false
+          echo "has_recent_commits=${has_recent_commits}"
+          echo "has_recent_commits=${has_recent_commits}" >>"${GITHUB_OUTPUT}"
 
       - name: Run checks
         if: |
           steps.check-commits.outputs.has_recent_commits == 'true' ||
           github.event_name == 'workflow_dispatch'
         run: |
-          if ! grep -ir \
+          if grep -ir \
             -e 'artefact' \
             -e '“' -e '”' \
             -e '‘' -e '’' \
