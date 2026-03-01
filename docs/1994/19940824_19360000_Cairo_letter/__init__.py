@@ -86,7 +86,7 @@ PAGE = Page(blocks=(
     )),
     PageBlock(parts=(
         Paragraph(text=("""
-            So they called it “Doorway to Heaven,” and we call it “Door to Heaven.”
+            So they called it "Doorway to Heaven," and we call it "Door to Heaven."
             Close enough, I suppose.
             I guess our translation is a bit more precise - half a century later.
         """,)),
@@ -109,10 +109,10 @@ PAGE = Page(blocks=(
         """,)),  # Rene Belloq himself
         Paragraph(text=("""
             A few months after moving into this warehouse, I had a dream.
-            In the dream, I was walking through the warehouse at night, as I sometimes do when I can’t sleep.
+            In the dream, I was walking through the warehouse at night, as I sometimes do when I can't sleep.
             Suddenly, the ring began shaking and glowing, and a man jumped through it.
             He did a few rolls on the ground, looked at me, and then disappeared behind some crates.
-            The dream felt so real and vivid that I wouldn’t have thought it was a dream if it hadn’t been so bizarre.
+            The dream felt so real and vivid that I wouldn't have thought it was a dream if it hadn't been so bizarre.
         """,)),  # Cameron Mitchell the time traveler
         Paragraph(text=("""
             I cannot bear the thought of losing the chance to study this ring - it is my life's work.

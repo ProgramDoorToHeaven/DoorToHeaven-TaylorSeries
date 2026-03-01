@@ -7,7 +7,7 @@ PAGE = Page(blocks=(
             Seriously, who names these things?
         """,)),
         Paragraph(text=("""
-            The name’s got me curious, though.
+            The name's got me curious, though.
             Is it about soaring into the sky?
             What else could it possibly mean?
             Guess I'll find out somewhere in this pile of reports.
@@ -131,7 +131,7 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             Nothing earth-shattering here.
             I doubt my boss will notice if I skip the full catalog of findings in the appendices.
-            Let's call it “applying the Pareto principle.”
+            Let's call it "applying the Pareto principle."
         """,)),
         Paragraph(text=("""
             A century ago, Vilfredo Pareto observed that 80% of Italy's wealth belonged to 20% of its people.

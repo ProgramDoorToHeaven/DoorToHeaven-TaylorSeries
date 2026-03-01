@@ -1,7 +1,7 @@
 [⬅️ Back](../README.md)
 
 A telegram...
-I’ve rarely encountered telegrams in my life.
+I've rarely encountered telegrams in my life.
 By around 1980 (when I went to primary school), telegrams had begun to fade as fax machines took over, with both methods seeing roughly equal use in that period.
 Soon after, fax machines were themselves overtaken by the rapid rise of internet-based e-mail.
 Today, while fax still exists and some companies still provide telegram services, e-mail has become the dominant form of written communication.
@@ -36,6 +36,6 @@ That is a strange message, considering they had been working together for years.
 I wonder what happened to Deitrich in Berlin.
 
 This was just a week before the outbreak of World War II,
-though the war itself didn’t reach Egypt until two years later, in 1940.
+though the war itself didn't reach Egypt until two years later, in 1940.
 
 [⬅️ Back](../README.md)

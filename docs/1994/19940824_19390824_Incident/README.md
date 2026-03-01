@@ -44,7 +44,7 @@ Memory loss among German researchers
 - Two German researchers involved in the incident (prof. Paul Langford and his
   daughter Catherine Langford) exhibited genuine memory loss covering the last
   two days, as confirmed by a medical professional. The suspected cause is the
-  psychological shock triggered by the German officer’s death.
+  psychological shock triggered by the German officer's death.
 - The researchers were unable to provide further details regarding the
   experiment or the artifact. They discovered it 10 years ago on the Giza
   plateau, and have been researching it since then without any significant

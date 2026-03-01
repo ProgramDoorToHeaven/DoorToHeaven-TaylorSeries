@@ -3,7 +3,7 @@
 Just got handed a new Air Force program to monitor - "Door to Heaven".
 Seriously, who names these things?
 
-The name’s got me curious, though.
+The name's got me curious, though.
 Is it about soaring into the sky?
 What else could it possibly mean?
 Guess I'll find out somewhere in this pile of reports.
@@ -125,7 +125,7 @@ religion, and artistry during the Old Kingdom.
 
 Nothing earth-shattering here.
 I doubt my boss will notice if I skip the full catalog of findings in the appendices.
-Let's call it “applying the Pareto principle.”
+Let's call it "applying the Pareto principle."
 
 A century ago, Vilfredo Pareto observed that 80% of Italy's wealth belonged to 20% of its people.
 Fifty years later, someone generalized it into: 80% of results come from 20% of causes.
