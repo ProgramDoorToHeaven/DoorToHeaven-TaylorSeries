@@ -164,4 +164,21 @@ purpose.
 
 I can't imagine how keeping this artifact secret could help the national security.
 
+--------
+
+I had lunch with Youssef again, and he shared a thought-provoking perspective on the metric system.
+His argument was that our resistance to it isn't inherent - it's just because we're forced to convert measurements to metric in school.
+If everything were already metric from the start, he believes we'd find it just as natural as any other system.
+And as he puts it, we've been inching towards the metric system anyway.
+
+The U.S. has actually used a base-10 currency system from the start - cents, dimes, and dollars - making it intuitive and consistent.
+In contrast, the British system only abandoned non-decimal units like shillings and sixpences relatively recently.
+Even in everyday technology, we see the metric system:
+camera lenses and film are measured in millimeters,
+and car engines, once sized in cubic inches, now use liters.
+
+Youssef made a hilarious - and oddly convincing - point:
+drug dealers have always used the metric system.
+He joked that if we'd just put drug lords in charge of the metric commission, the whole country would be metric (and high) right that afternoon.
+
 [⬅️ Back](../README.md)

@@ -162,6 +162,30 @@ PAGE = Page(blocks=(
     )),
     PageBlock(parts=(
         Paragraph(text=("I can't imagine how keeping this artifact secret could help the national security.",)),
+        HorizontalLine(),
+        # Neil deGrasse Tyson, StarTalk, Inching towards the metric system:
+        # https://youtu.be/3Z5KNzYhQ9g?si=rzQ4otohqkoPI8BA
+        # https://youtu.be/gYa1bvFO0uk?si=bkk5_AqA3_S0sQ6v
+        Paragraph(text=("""
+            I had lunch with Youssef again, and he shared a thought-provoking perspective on the metric system.
+            His argument was that our resistance to it isn't inherent - it's just because we're forced to convert measurements to metric in school.
+            If everything were already metric from the start, he believes we'd find it just as natural as any other system.
+            And as he puts it, we've been inching towards the metric system anyway.
+        """,)),
+        # I wanted to mention the Mars climate orbiter, but it will overshoot Mars (due to scientists using metric and engineers using freedom units) in 1998
+        Paragraph(text=("""
+            The U.S. has actually used a base-10 currency system from the start - cents, dimes, and dollars - making it intuitive and consistent.
+            In contrast, the British system only abandoned non-decimal units like shillings and sixpences relatively recently.
+            Even in everyday technology, we see the metric system:
+            camera lenses and film are measured in millimeters,
+            and car engines, once sized in cubic inches, now use liters.
+        """,)),
+        # I wanted to say that the British currency was even crazier than the Wizarding currency from Harry Potter ... but the first HP book will be released in 1997
+        Paragraph(text=("""
+            Youssef made a hilarious - and oddly convincing - point:
+            drug dealers have always used the metric system.
+            He joked that if we'd just put drug lords in charge of the metric commission, the whole country would be metric (and high) right that afternoon.
+        """,)),
     )),
 ))
 
