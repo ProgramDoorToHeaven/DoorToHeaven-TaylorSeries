@@ -36,7 +36,7 @@ PAGE = Page(blocks=(
         # HorizontalLine(),
         HeadLine(level=2, text="Key Findings"),
         HeadLine(level=3, text="Fatality of a German officer"),
-        ListOfItems(items=(
+        ListOfItems(items=(# TODO: this keeps its line breaks in HTML
             Paragraph(text=("""
                 A German officer, partially identified as Schutzstaffel Obersturmführer Heinrich (last name unknown),
                 was found deceased with severe burns on the right side of his chest.
@@ -48,7 +48,7 @@ PAGE = Page(blocks=(
                 Only a part of his dog tag remained readable.
             """,)),
         ), comment=(
-            Paragraph(text=("No last name mentioned anywhere in the canon - just Heinrich",)),
+            Paragraph(text=("No last name mentioned anywhere in the canon - just Heinrich.",)),
         )),
         HeadLine(level=3, text="Missing British and Egyptian personnel"),
         ListOfItems(items=(
