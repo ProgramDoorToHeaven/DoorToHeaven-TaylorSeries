@@ -94,8 +94,13 @@ body {
                     transform: rotate(0);
                 }
 
-                p::before {
+                p::before,
+                pre::before {
                     content: "ℹ️ ";
+                }
+
+                pre {
+                    font-family: var(--body-font-family), sans-serif;
                 }
             }
 

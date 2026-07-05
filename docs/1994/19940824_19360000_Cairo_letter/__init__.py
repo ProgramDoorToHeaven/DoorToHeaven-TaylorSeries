@@ -54,62 +54,62 @@ PAGE = Page(blocks=(
             The text mentions Ra - the god of the Sun - burying his "doorway to heaven" long ago.
             Therefore, the ring's name must be "Doorway to Heaven."
         """,)),
-    ), comment=(
-        LiteralParagraph(text=(
-            "Langford translation",
-            "SG1 s01e11 Torment of Tantalus",
-            "doorway to heaven'",
-        )),
-        HorizontalLine(),
-        LiteralParagraph(text=(
-            "Partial translation by Myers",
-            "time million sky Ra sun god",
-            "coffin forever to eternity",
-            "his door to heaven",
-        )),
-        HorizontalLine(),
-        LiteralParagraph(text=(
-            "Jackson's final translation:",
-            "million years into the sky is Ra Sun God",
-            "sealed and buried for all time",
-            "his Stargate",
-        )),
-        HorizontalLine(),
-        LiteralParagraph(text=(
-            "literal translation of the text from Wikipedia:",
-            "years million in sky this Ra as Aten (=sun disk)",
-            "sealed buried enduringly and repeatedly",
-            "door his to stars",
-        )),
-        HorizontalLine(),
-        ParagraphLink(
-            text="steemit.com - @laylahsophia - EGYPTOLOGY: The Perception of Egypt in Movies, Part# 1 – ‘In which Museum is the Stargate on Display?’",
-            link="https://steemit.com/steemstem/@laylahsophia/egyptology-the-perception-of-egypt-in-movies-part-1-in-which-museum-is-the-stargate-on-display"
-        ),
-        LiteralParagraph(text=(
-            "literal translation of the text from @laylahsophia:",
-            "million times up in the sky is Ra in the sun disk",
-            "by being sealed (and) buried for all time to eternity",
-            "his gate of the stars",
-        )),
-        HorizontalLine(),
-        ParagraphLink(
-            text="YouTube - EgyptologyLessons - Stargate Movie Hieroglyphs - Translation",
-            link="https://youtu.be/8_r-jB7tDlk"
-        ),
-        LiteralParagraph(text=(
-            "literal translation of the text from EgyptologyLessons:",
-            "years 100'000*10 in this sky, Ra in the sun disk",
-            "by his sealed and his burial forever to eternity",
-            "his gate of the stars",
-        )),
     )),
     PageBlock(parts=(
         Paragraph(text=("""
             So they called it "Doorway to Heaven," and we call it "Door to Heaven."
             Close enough, I suppose.
             I guess our translation is a bit more precise - half a century later.
+        """,), comment=(
+            LiteralParagraph(text=("""
+            Langford translation
+            SG1 s01e11 Torment of Tantalus
+            doorway to heaven
         """,)),
+            HorizontalLine(),
+            LiteralParagraph(text=("""
+            Partial translation by Myers
+            time million sky Ra sun god
+            coffin forever to eternity
+            his door to heaven
+        """,)),
+            HorizontalLine(),
+            LiteralParagraph(text=("""
+            Jackson's final translation:
+            million years into the sky is Ra Sun God
+            sealed and buried for all time
+            his Stargate
+            """,)),
+            HorizontalLine(),
+            LiteralParagraph(text=("""
+                literal translation of the text from Wikipedia:
+                years million in sky this Ra as Aten (=sun disk)
+                sealed buried enduringly and repeatedly
+                door his to stars
+            """,)),
+            HorizontalLine(),
+            ParagraphLink(
+                text="steemit.com - @laylahsophia - EGYPTOLOGY: The Perception of Egypt in Movies, Part# 1 – ‘In which Museum is the Stargate on Display?’",
+                link="https://steemit.com/steemstem/@laylahsophia/egyptology-the-perception-of-egypt-in-movies-part-1-in-which-museum-is-the-stargate-on-display"
+            ),
+            LiteralParagraph(text=("""
+                literal translation of the text from @laylahsophia:
+                million times up in the sky is Ra in the sun disk
+                by being sealed (and) buried for all time to eternity
+                his gate of the stars
+            """,)),
+            HorizontalLine(),
+            ParagraphLink(
+                text="YouTube - EgyptologyLessons - Stargate Movie Hieroglyphs - Translation",
+                link="https://youtu.be/8_r-jB7tDlk"
+            ),
+            LiteralParagraph(text=("""
+                literal translation of the text from EgyptologyLessons:
+                years 100'000*10 in this sky, Ra in the sun disk
+                by his sealed and his burial forever to eternity
+                his gate of the stars
+            """,)),
+        )),
     )),
     PageBlockTypeWriter(parts=(
         Paragraph(text=("""
@@ -127,7 +127,7 @@ PAGE = Page(blocks=(
             I've also been picking up odd jobs to bring in extra money.
             Just last week, I translated some Hebrew inscriptions for a French archeologist.
         """,), comment=(
-            Paragraph(text=("Rene Belloq himself",)),
+            Paragraph(text=("Must have been Rene Belloq himself.",)),
             ParagraphLink(
                 text="Wikipedia - Rene Belloq",
                 link="https://en.wikipedia.org/wiki/List_of_Indiana_Jones_characters#Ren%C3%A9_Belloq",
@@ -140,14 +140,14 @@ PAGE = Page(blocks=(
             He did a few rolls on the ground, looked at me, and then disappeared behind some crates.
             The dream felt so real and vivid that I wouldn't have thought it was a dream if it hadn't been so bizarre.
         """,), comment=(
-            Paragraph(text=("Cameron Mitchell, the time traveler from SG: Continuum",)),
+            Paragraph(text=("Cameron Mitchell, the time traveler from SG: Continuum.",)),
         )),
         Paragraph(text=("""
             I cannot bear the thought of losing the chance to study this ring - it is my life's work.
             It is precious to me.
             That's why I'm reaching out to you.
         """,), comment=(
-            Paragraph(text=("But this ring does not fit in any filthy pocketses.",)),
+            Paragraph(text=("But this ring with its 6.7 meters diameter does not fit in any filthy pocketses.",)),
         )),
         Paragraph(text=("""
             You mentioned that the German government recently established the Ahnenerbe Institute, and that they're actively seeking ancient artifacts.
