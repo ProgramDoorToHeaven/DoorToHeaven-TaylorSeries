@@ -47,8 +47,27 @@ PAGE = Page(can_go_back=False, blocks=(
                             This section of the N.I.D. IS contains all accessible information
                             about the government's "Door To Heaven" program that you are authorized to view.
                     """,)),
+                    ), comment=(
+                        Paragraph(text=("""
+                            "Taylor series" is a pun here.
+                            In mathematics, Taylor series approximates a target function using an infinite sum of simpler terms -
+                            each new term refining the approximation, bringing it closer to the original function.
+                        """,)),
+                        ParagraphLink(
+                            text="Wikipedia - Taylor series",
+                            link="https://en.wikipedia.org/wiki/Taylor_series",
+                        ),
+                        Paragraph(text=("""
+                            This story works the same way.
+                            Each layer -
+                            whether the baseline reality of StarGate,
+                            the documents Taylor processes,
+                            Taylor’s own thoughts,
+                            or my occasional explanations -
+                            adds depth, peeling back another layer to reveal what was in the author’s mind.
+                        """,)),
                     )),
-                ),
+                )
             ),
         )
     ),
