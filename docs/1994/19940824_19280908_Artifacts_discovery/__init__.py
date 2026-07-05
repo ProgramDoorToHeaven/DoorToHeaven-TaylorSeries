@@ -130,10 +130,10 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             On the other hand, Egyptian hieroglyphs were hybrid.
             They combined logographic symbols (pictures for whole words), phonemic signs (symbols for sounds), and determinatives (clarifying pictures).
-            Determinatives are like adding a picture of gift, clock, or projector after "present" to specify meaning.
+            Determinatives are like adding a picture of gift, clock, or projector after the word "present" in order to specify its meaning.
         """,), comment=(
             Paragraph(text=(
-                "The first set of emojis was from 1999, so no mentions of emojis here in 1994 😢 (emoji intended)",
+                "The first set of emojis was from 1999, so no mentions of emojis here in 1994 😢 (emoji intended).",
             )),
         )),
     )),
@@ -172,7 +172,7 @@ PAGE = Page(blocks=(
         HeadLine(level=2, text="Recommendation"),
         Paragraph(text=("""
             This document probably does not need to have any access restrictions.
-            The knowledge of the material might be worth protecting.
+            The knowledge about the material might be worth protecting.
         """,)),
     )),
     PageBlock(parts=(
@@ -202,10 +202,10 @@ PAGE = Page(blocks=(
             and car engines, once sized in cubic inches, now use liters.
         """,), comment=(
             Paragraph(text=(
-                "I wanted to mention the Mars climate orbiter, but it will overshoot Mars (due to scientists using metric and engineers using freedom units) in 1998",
+                "I wanted to mention the Mars climate orbiter, but it will overshoot Mars (due to scientists using metric and engineers using freedom units) in 1998.",
             )),
             Paragraph(text=(
-                "I wanted to say that the British currency was even crazier than the Wizarding currency from Harry Potter ... but the first HP book will be released in 1997",
+                "I wanted to say that the British currency was even crazier than the Wizarding currency from Harry Potter ... but the first HP book will be released in 1997.",
             )),
         )),
         Paragraph(text=("""

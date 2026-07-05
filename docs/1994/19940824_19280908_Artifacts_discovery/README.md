@@ -115,7 +115,7 @@ Because
 
 On the other hand, Egyptian hieroglyphs were hybrid.
 They combined logographic symbols (pictures for whole words), phonemic signs (symbols for sounds), and determinatives (clarifying pictures).
-Determinatives are like adding a picture of gift, clock, or projector after "present" to specify meaning.
+Determinatives are like adding a picture of gift, clock, or projector after the word "present" in order to specify its meaning.
 
 ```
 Buried guardians
@@ -160,7 +160,7 @@ purpose.
 > --------------
 >
 > This document probably does not need to have any access restrictions.
-> The knowledge of the material might be worth protecting.
+> The knowledge about the material might be worth protecting.
 
 I can't imagine how keeping this artifact secret could help the national security.
 
