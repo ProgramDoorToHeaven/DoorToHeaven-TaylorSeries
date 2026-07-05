@@ -82,7 +82,7 @@ body {
 
             div.comment {
                 border-color: blue;
-                opacity: 30%;
+                opacity: 20%;
                 font-family: var(--body-font-family), sans-serif;
 
                 hr {
@@ -91,6 +91,7 @@ body {
 
                 p {
                     margin: 1ex;
+                    transform: rotate(0);
                 }
 
                 p::before {

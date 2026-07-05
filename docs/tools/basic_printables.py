@@ -13,8 +13,8 @@ class Printable(ABC):
     omit_space_before: bool = False
     comment: tuple[Printable, ...] = ()
 
-    @staticmethod
-    def breaks_markdown_code_block() -> bool:
+    def breaks_markdown_code_block(self) -> bool:
+        # return bool(self.comment)
         return False
 
     @abstractmethod

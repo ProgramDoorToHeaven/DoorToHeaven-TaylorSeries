@@ -54,6 +54,7 @@ class ListOfItems(Printable):
         )
         paragraph = Paragraph(
             text=tuple(markdown),
+            comment=self.comment,
         )
         yield from paragraph.get_html()
 

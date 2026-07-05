@@ -19,32 +19,29 @@ PAGE = Page(blocks=(
         """,)),
     )),
     PageBlockTypeWriter(parts=(
-        #
-        #
-        #
         HeadLine(level=1, text="Archaeological Report: Discovery of the Tomb of Queen Meresankh III"),
         LiteralParagraph(text=("""
             Location:              Giza Plateau, East Field, Egypt
             Date of Discovery:     April 1927
             Excavation Director:   George Andrew Reisner, Ph.D
             Report prepared by:    Prof. Paul Langford, Deputy Field Director
-        """,), comment=(
-            Paragraph(text=(
-                "This one tries to be realistic - based on history.",
-            )),
-            Paragraph(text=(
-                "Dr. Reisner is a real archeologist leading excavations on the Giza Plateau at that time and his team really unearthed the Tomb of Queen Meresankh III on this date.",
-            )),
-            Paragraph(text=(
-                "The only added detail should be Prof. Langford who later discovered the StarGate.",
-            )),
-        )),
+        """,)),
         HeadLine(level=2, text="Introduction"),
         Paragraph(text=("""
             On April 23, 1927, during systematic excavations in the East Field of the Giza necropolis,
             the entrance to a previously unknown mastaba tomb was uncovered.
             The tomb was identified as belonging to Queen Meresankh III, granddaughter of Pharaoh Khufu and wife of Pharaoh Khafre, based on inscriptions found within the structure.
         """,)),
+    ), comment=(
+        Paragraph(text=(
+            "This one tries to be realistic - based on history.",
+        )),
+        Paragraph(text=(
+            "Dr. Reisner is a real archeologist leading excavations on the Giza Plateau at that time and his team really unearthed the Tomb of Queen Meresankh III on this date.",
+        )),
+        Paragraph(text=(
+            "The only added detail should be Prof. Langford who later discovered the StarGate.",
+        )),
     )),
     PageBlock(parts=(
         # The "international law" is negotiable. Could be changed in the future if we need Taylor to have some expertise.

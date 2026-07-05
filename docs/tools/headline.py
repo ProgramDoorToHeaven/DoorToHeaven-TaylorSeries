@@ -27,14 +27,14 @@ class HeadLine(Printable):
 
     def get_html_monospace(self) -> Iterator[HtmlTag]:
         if self.level >= 3:
-            paragraph = LiteralParagraph(text=(self.text,))
+            paragraph = LiteralParagraph(text=(self.text,), comment=self.comment)
         else:
             underline = "=" if self.level == 1 else "-"
             paragraph = LiteralParagraph(text=(f"""
                 {self.text}
                 {underline * len(self.text)}
-            """,))
-        yield from paragraph.get_html_content()
+            """,), comment=self.comment)
+        yield from paragraph.get_html()
 
     def get_markdown(
             self, markdown_params: MarkDownParams, first_line_special_prefix: str | None,

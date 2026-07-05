@@ -27,14 +27,14 @@ PAGE = Page(blocks=(
             While leading an archaeological expedition near the Great Pyramids, one of my teams lead by Sallah Mohammed Faisel el-Kahir uncovered a large, ring-shaped artifact buried beneath a substantial cover stone.
             Accompanying the artifact were two remains of human bodies, which we initially hypothesized could be remnants of an ancient burial ritual or guardians of the artifact.
             The artifact itself is composed of what appears to be melted meteorite, exhibiting a metallic structure unlike any known materials from the historical or geological record.
-        """,), comment=(
-            Paragraph(text=("Yes, the Sallah.",)),
-            Paragraph(text=("No camels!",)),
-            ParagraphLink(
-                text="Wikipedia - Sallah",
-                link="https://en.wikipedia.org/wiki/List_of_Indiana_Jones_characters#Sallah",
-            ),
-        )),
+        """,))
+    ), comment=(
+        Paragraph(text=("Yes, the Sallah.",)),
+        Paragraph(text=("No camels!",)),
+        ParagraphLink(
+            text="Wikipedia - Sallah",
+            link="https://en.wikipedia.org/wiki/List_of_Indiana_Jones_characters#Sallah",
+        ),
     )),
     PageBlock(parts=(
         Paragraph(text=("Maybe the Air Force isn't interested in history, but rather in the material?",)),

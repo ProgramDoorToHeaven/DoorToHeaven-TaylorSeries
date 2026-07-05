@@ -107,6 +107,7 @@ class Table(Printable):
                 for index, line in enumerate(markdown)
                 if (not self.header_is_empty) or (index not in (0, 1))
             ),
+            comment=self.comment,
         )
         yield from table.get_html()
 

@@ -15,8 +15,7 @@ class Image(Printable):
     alternative_text: str = ""
     title: str = ""
 
-    @staticmethod
-    def breaks_markdown_code_block() -> bool:
+    def breaks_markdown_code_block(self) -> bool:
         return True
 
     @cached_property
