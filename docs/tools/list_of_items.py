@@ -36,7 +36,7 @@ class ListOfItems(Printable):
         to_length = self.get_max_prefix_length() + 1
         return prefix.ljust(to_length)
 
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
         if self.html_ordered is None:
             result = new_tag("ul")
         else:

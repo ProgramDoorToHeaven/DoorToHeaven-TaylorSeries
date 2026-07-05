@@ -20,7 +20,7 @@ class HeadLine(Printable):
         if self.level <= 0:
             raise ValueError(f"Expected positive level {self.level} > 0.")
 
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
         result = new_tag(f"h{self.level}")
         result.append(self.text)
         yield result
@@ -34,7 +34,7 @@ class HeadLine(Printable):
                 {self.text}
                 {underline * len(self.text)}
             """,))
-        yield from paragraph.get_html()
+        yield from paragraph.get_html_content()
 
     def get_markdown(
             self, markdown_params: MarkDownParams, first_line_special_prefix: str | None,

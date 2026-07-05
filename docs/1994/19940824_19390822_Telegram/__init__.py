@@ -33,7 +33,6 @@ PAGE = Page(blocks=(
             But during that time, telegrams were a common and reliable way to send urgent messages.
         """,)),
     )),
-    # This is a transcript from SGO:Catherine 00:03:16
     PageBlockTypeWriter(parts=(
         LiteralParagraph(strip_spaces_from_line_starts_according_to_line=3, text=("""
               TRANSCONTINENTAL COMMUNICATION COMPANY, LTD.
@@ -58,7 +57,7 @@ PAGE = Page(blocks=(
 
                                     -- Deitrich
         """,)),
-    )),
+    ), comment=("This is a transcript from SGO: Catherine @ 00:03:16",)),
     PageBlock(parts=(
         Paragraph(text=("""
             That is a strange message, considering they had been working together for years.

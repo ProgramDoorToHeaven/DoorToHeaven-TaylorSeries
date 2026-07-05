@@ -11,7 +11,7 @@ from tools.markdown_params import MarkDownParams
 class MenuList(Printable):
     items: tuple[OptionalLink, ...] = ()
 
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
         result = new_tag("ul")
         for item in self.items:
             for tag in item.get_html():

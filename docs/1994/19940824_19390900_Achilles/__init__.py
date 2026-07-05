@@ -168,7 +168,7 @@ PAGE = Page(blocks=(
             A few armed men, not of any known navy, were neutralized.
             The cargo remains secure, though I cannot explain how the intruders boarded or what they intended.
         """,)),
-        # This is intentionally a bit off
+        # This is a bit off-canon
         Paragraph(text=("""
             An unexpected ally appeared during the confrontation - a man who spoke as if he knew more than he should.
             He vanished as quickly as he came, leaving only questions.
@@ -180,14 +180,15 @@ PAGE = Page(blocks=(
         """,)),
     )),
     PageBlock(parts=(
-        # https://en.wikipedia.org/wiki/Port_and_starboard
         Paragraph(text=("""
             The term starboard comes from Old English stēorbord, meaning "steering side."
             Ancient ships were steered using a large wooden oar or paddle (the "steerboard") mounted on the right side of the vessel.
             Since most sailors were right-handed, the steerboard was placed on the right, making it the natural side for steering.
             As ships evolved, the steerboard was replaced by a fixed rudder at the stern, but the name stuck.
             The right side of the ship became known as starboard.
-        """,)),
+        """,), comment_link=(
+            Link(text="Wikipedia - Port and starboard", link="https://en.wikipedia.org/wiki/Port_and_starboard"),
+        )),
         Paragraph(text=("""
             The left side of the ship, where ships would typically dock to avoid damaging the steerboard, became known as the port side.
             The word "port" itself comes from the practice of docking on the left side to face the harbor (or "port") - this side was called the larboard in Old English,

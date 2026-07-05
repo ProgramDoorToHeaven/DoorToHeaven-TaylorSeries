@@ -35,7 +35,7 @@ class Columns(Printable):
             result.append(self.spacing)
         return result
 
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
         columns_div = new_tag("div", class_=self.classes)
         for column in self.columns:
             column_div = new_tag("div", class_="column")

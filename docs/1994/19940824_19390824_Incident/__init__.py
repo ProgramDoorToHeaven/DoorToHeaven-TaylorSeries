@@ -43,11 +43,10 @@ PAGE = Page(blocks=(
                 The cause of death appears linked to an experiment with the artifact.
                 The damage was likely caused by an electrical current, since the ring was connected to a car generator via cables.
             """,)),
-            # No last name mentioned anywhere - just Heinrich
             Paragraph(text=("""
                 Unfortunately, he had his ID documents in the shirt pocket which was burned.
                 Only a part of his dog tag remained readable.
-            """,)),
+            """,), comment=("No last name mentioned anywhere in the canon - just Heinrich",)),
         )),
         HeadLine(level=3, text="Missing British and Egyptian personnel"),
         ListOfItems(items=(
@@ -64,7 +63,7 @@ PAGE = Page(blocks=(
         HeadLine(level=3, text="Memory loss among German researchers"),
         ListOfItems(items=(
             Paragraph(text=("""
-                Two German researchers involved in the incident (prof. Paul Langford and his daughter Catherine Langford)
+                Two German researchers involved in the incident (Prof. Paul Langford and his daughter Catherine Langford)
                 exhibited genuine memory loss covering the last two days, as confirmed by a medical professional.
                 The suspected cause is the psychological shock triggered by the German officer's death.
             """,)),
@@ -98,7 +97,7 @@ PAGE = Page(blocks=(
             Paragraph(text=("""
                 Artifact recovery:
                 The artifact remains at the incident site.
-                Immediate action is required to secure and transport it to the United States where prof. Langford will continue his research supervised by the U.S. intelligence agencies.
+                Immediate action is required to secure and transport it to the United States where Prof. Langford will continue his research supervised by the U.S. intelligence agencies.
                 Given the escalating tensions in Europe and the German interest in acquiring the artifact, its recovery must be treated with the utmost urgency to prevent it from being compromised.
             """,)),
             Paragraph(text=("""

@@ -16,7 +16,7 @@ class Paragraph(Printable):
         if not self.text:
             raise ValueError("Empty paragraph.")
 
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
         result = new_tag("p", omit_space_before=self.omit_space_before)
         for index, item in enumerate(self.text):
             if index != 0:
@@ -74,6 +74,8 @@ class LiteralParagraph(Paragraph):
         return line[strip_count:]
 
     def get_strip_count(self, lines: list[str]) -> int:
+        if self.strip_spaces_from_line_starts_according_to_line is None:
+            return 0
         length = len(lines)
         if not (0 <= self.strip_spaces_from_line_starts_according_to_line < length):
             raise ValueError(f"Expected 0 <= {self.strip_spaces_from_line_starts_according_to_line=} < {length=}.")
@@ -81,7 +83,7 @@ class LiteralParagraph(Paragraph):
         strip_count = len(etalon_line) - len(etalon_line.lstrip())
         return strip_count
 
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
         result = new_tag("pre")
         for item in self.text:
             result.extend(self._get_html_lines(item))

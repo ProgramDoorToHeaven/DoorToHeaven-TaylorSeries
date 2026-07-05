@@ -24,19 +24,19 @@ class Image(Printable):
         return self.alternative_text or self.relative_path
 
     @cached_property
-    def title_or_alternative_text_or_none(self) -> str | None:
-        return self.title or self.alternative_text or None
+    def title_or_alternative_text_or_empty(self) -> str:
+        return self.title or self.alternative_text or ""
 
     def __post_init__(self):
         if self.relative_path == "":
             raise ValueError("Empty relative path.")
 
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
         yield new_tag(
             "img",
             src=self.relative_path,
             alt=self.alternative_text_or_rel_path,
-            title=self.title_or_alternative_text_or_none
+            title=self.title_or_alternative_text_or_empty
         )
 
     def get_markdown(

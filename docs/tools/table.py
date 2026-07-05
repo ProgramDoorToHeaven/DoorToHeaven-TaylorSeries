@@ -71,7 +71,7 @@ class Table(Printable):
                 widths[index] = max(widths[index], len(item))
         return widths
 
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
         result = new_tag("table")
         if not self.header_is_empty:
             header = new_tag("thead")

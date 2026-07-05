@@ -19,16 +19,20 @@ PAGE = Page(blocks=(
         """,)),
     )),
     PageBlockTypeWriter(parts=(
-        # This one tries to be realistic - based on history.
-        # Dr. Reisner is a real archeologist leading excavations on the Giza Plateau at that time and his team really unearthed the Tomb of Queen Meresankh III on this date.
-        # The only added detail should be Prof. Langford who later discovered the StarGate.
+        #
+        #
+        #
         HeadLine(level=1, text="Archaeological Report: Discovery of the Tomb of Queen Meresankh III"),
         LiteralParagraph(text=("""
             Location:              Giza Plateau, East Field, Egypt
             Date of Discovery:     April 1927
             Excavation Director:   George Andrew Reisner, Ph.D
             Report prepared by:    Prof. Paul Langford, Deputy Field Director
-        """,)),
+        """,), comment=(
+            "This one tries to be realistic - based on history.",
+            "Dr. Reisner is a real archeologist leading excavations on the Giza Plateau at that time and his team really unearthed the Tomb of Queen Meresankh III on this date.",
+            "The only added detail should be Prof. Langford who later discovered the StarGate.",
+        )),
         HeadLine(level=2, text="Introduction"),
         Paragraph(text=("""
             On April 23, 1927, during systematic excavations in the East Field of the Giza necropolis,

@@ -27,8 +27,10 @@ PAGE = Page(blocks=(
             While leading an archaeological expedition near the Great Pyramids, one of my teams lead by Sallah Mohammed Faisel el-Kahir uncovered a large, ring-shaped artifact buried beneath a substantial cover stone.
             Accompanying the artifact were two remains of human bodies, which we initially hypothesized could be remnants of an ancient burial ritual or guardians of the artifact.
             The artifact itself is composed of what appears to be melted meteorite, exhibiting a metallic structure unlike any known materials from the historical or geological record.
-        """,)),
-        # Yes, the Sallah. No camels!
+        """,), comment=(
+            "Yes, the Sallah.",
+            "No camels!",
+        )),
     )),
     PageBlock(parts=(
         Paragraph(text=("Maybe the Air Force isn't interested in history, but rather in the material?",)),
@@ -46,7 +48,7 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             That's 65 000 pounds and 22 feet in the imperial units. 
             Egypt switched to the metric system in 1891.
-            And Germany (where prof. Langford was from) has been using metric since 1870s.
+            And Germany (where Prof. Langford was from) has been using metric since 1870s.
             The whole world went crazy and switched to this abstract system instead of the natural and relatable one.
         """,)),
         Paragraph(text=("""
@@ -71,8 +73,15 @@ PAGE = Page(blocks=(
         """,)),
     )),
     PageBlockTypeWriter(parts=(
-        # Many thanks to the almighty Rebet for casting his knowledge upon me https://www.youtube.com/watch?v=90An1dnvwyc / https://www.youtube.com/@RobWords
-        HeadLine(level=3, text="Symbol Inscriptions"),
+        HeadLine(level=3, text="Symbol Inscriptions", comment=(
+            "Many thanks to the almighty Rebet for casting his knowledge upon me.",
+        ), comment_link=(
+            Link(
+                text="YouTube - RobWords - Hieroglyphs are easier than they look",
+                link="https://www.youtube.com/watch?v=90An1dnvwyc"
+            ),
+            Link(text="YouTube - RobWords", link="https://www.youtube.com/@RobWords"),
+        )),
         Paragraph(text=("""
             The artifact is inscribed with a series of complex symbols arranged in a circular pattern around its perimeter.
             These symbols do not correspond to any known writing system.
@@ -119,8 +128,9 @@ PAGE = Page(blocks=(
             On the other hand, Egyptian hieroglyphs were hybrid.
             They combined logographic symbols (pictures for whole words), phonemic signs (symbols for sounds), and determinatives (clarifying pictures).
             Determinatives are like adding a picture of gift, clock, or projector after "present" to specify meaning.
-        """,)),
-        # The first set of emojis was from 1999, so no mentions of emojis here in 1994 😢 (emoji intended)
+        """,), comment=(
+            "The first set of emojis was from 1999, so no mentions of emojis here in 1994 😢 (emoji intended)",
+        )),
     )),
     PageBlockTypeWriter(parts=(
         HeadLine(level=3, text="Buried guardians"),
@@ -151,7 +161,7 @@ PAGE = Page(blocks=(
             year=1928, month=9, day=8,
         ),
         Paragraph(text=("""
-            In 1928, prof. Langford discovered a circular artifact in Egypt.
+            In 1928, Prof. Langford discovered a circular artifact in Egypt.
             It was made of an interesting metal.
         """,)),
         HeadLine(level=2, text="Recommendation"),
@@ -163,24 +173,33 @@ PAGE = Page(blocks=(
     PageBlock(parts=(
         Paragraph(text=("I can't imagine how keeping this artifact secret could help the national security.",)),
         HorizontalLine(),
-        # Neil deGrasse Tyson, StarTalk, Inching towards the metric system:
-        # https://youtu.be/3Z5KNzYhQ9g?si=rzQ4otohqkoPI8BA
-        # https://youtu.be/gYa1bvFO0uk?si=bkk5_AqA3_S0sQ6v
         Paragraph(text=("""
             I had lunch with Youssef again, and he shared a thought-provoking perspective on the metric system.
             His argument was that our resistance to it isn't inherent - it's just because we're forced to convert measurements to metric in school.
             If everything were already metric from the start, he believes we'd find it just as natural as any other system.
             And as he puts it, we've been inching towards the metric system anyway.
-        """,)),
-        # I wanted to mention the Mars climate orbiter, but it will overshoot Mars (due to scientists using metric and engineers using freedom units) in 1998
+        """,), comment=(
+            "Neil deGrasse Tyson, StarTalk, Inching towards the metric system",
+        ), comment_link=(
+            Link(
+                text="YouTube - StarTalk - 2023 - Will the U.S. Adopt the Metric System?",
+                link="https://youtu.be/3Z5KNzYhQ9g?si=rzQ4otohqkoPI8BA"
+            ),
+            Link(
+                text="YouTube - StarTalk - 2021 - Neil deGrasse Tyson Explains the Metric System",
+                link="https://youtu.be/gYa1bvFO0uk?si=bkk5_AqA3_S0sQ6v"
+            ),
+        )),
         Paragraph(text=("""
             The U.S. has actually used a base-10 currency system from the start - cents, dimes, and dollars - making it intuitive and consistent.
             In contrast, the British system only abandoned non-decimal units like shillings and sixpences relatively recently.
             Even in everyday technology, we see the metric system:
             camera lenses and film are measured in millimeters,
             and car engines, once sized in cubic inches, now use liters.
-        """,)),
-        # I wanted to say that the British currency was even crazier than the Wizarding currency from Harry Potter ... but the first HP book will be released in 1997
+        """,), comment=(
+            "I wanted to mention the Mars climate orbiter, but it will overshoot Mars (due to scientists using metric and engineers using freedom units) in 1998",
+            "I wanted to say that the British currency was even crazier than the Wizarding currency from Harry Potter ... but the first HP book will be released in 1997",
+        )),
         Paragraph(text=("""
             Youssef made a hilarious - and oddly convincing - point:
             drug dealers have always used the metric system.

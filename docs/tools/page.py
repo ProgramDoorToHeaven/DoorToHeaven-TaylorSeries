@@ -31,7 +31,7 @@ class Page(Printable):
         if not self.blocks:
             raise ValueError("Empty page.")
 
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
 
         page = new_tag("div", class_="page")
         if self.can_go_back:

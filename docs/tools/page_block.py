@@ -22,7 +22,7 @@ class PageBlock(Printable):
         if not self.parts:
             raise ValueError("Empty block.")
 
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
         contents: list[HtmlTag | str] = []
         for part_index, part in enumerate(self.parts):
             if (part_index != 0) and (not part.omit_space_before):

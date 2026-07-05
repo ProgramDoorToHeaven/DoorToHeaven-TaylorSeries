@@ -15,35 +15,6 @@ PAGE = Page(blocks=(
         # MdC script
         #   https://oraec.github.io/corpus/mdc_to_unicode_converter.html
         #   https://www.leskoff.com/s01775-0
-        #
-        # Langford translation
-        # SG1 s01e11 Torment of Tantalus
-        # "doorway to heaven"
-        #
-        # Partial translation by Myers
-        # time million sky Ra sun god
-        # coffin forever to eternity
-        # his door to heaven
-        #
-        # Jackson's final translation:
-        # million years into the sky is Ra Sun God
-        # sealed and buried for all time
-        # his Stargate
-        #
-        # literal translation of the text from Wikipedia:
-        # years million in sky this Ra as Aten (=sun disk)
-        # sealed buried enduringly and repeatedly
-        # door his to stars
-        #
-        # literal translation of the text from https://steemit.com/steemstem/@laylahsophia/egyptology-the-perception-of-egypt-in-movies-part-1-in-which-museum-is-the-stargate-on-display :
-        # million times up in the sky is Ra in the sun disk
-        # by being sealed (and) buried for all time to eternity
-        # his gate of the stars
-        #
-        # literal translation of the text from https://www.youtube.com/watch?v=8_r-jB7tDlk :
-        # years 100'000*10 in this sky, Ra in the sun disk
-        # by his sealed and his burial forever to eternity
-        # his gate of the stars
 
         # LiteralParagraph(text=("""
         #     𓂋𓈖𓊪 𓆳 𓏏𓏥 𓆐𓎆 𓂋𓈎 𓃀 𓎛 𓅱 𓏁 𓇯𓈉 𓊪 𓅱 𓂋𓂝 𓁚 𓅓 𓇋 𓏏𓈖 𓇶
@@ -82,7 +53,45 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             The text mentions Ra - the god of the Sun - burying his "doorway to heaven" long ago.
             Therefore, the ring's name must be "Doorway to Heaven."
-        """,)),
+        """,), comment=(
+            "Langford translation",
+            "SG1 s01e11 Torment of Tantalus",
+            "doorway to heaven'",
+            "----",
+            "Partial translation by Myers",
+            "time million sky Ra sun god",
+            "coffin forever to eternity",
+            "his door to heaven",
+            "----",
+            "Jackson's final translation:",
+            "million years into the sky is Ra Sun God",
+            "sealed and buried for all time",
+            "his Stargate",
+            "----",
+            "literal translation of the text from Wikipedia:",
+            "years million in sky this Ra as Aten (=sun disk)",
+            "sealed buried enduringly and repeatedly",
+            "door his to stars",
+            "----",
+            "literal translation of the text from @laylahsophia:",
+            "million times up in the sky is Ra in the sun disk",
+            "by being sealed (and) buried for all time to eternity",
+            "his gate of the stars",
+            "----",
+            "literal translation of the text from EgyptologyLessons:",
+            "years 100'000*10 in this sky, Ra in the sun disk",
+            "by his sealed and his burial forever to eternity",
+            "his gate of the stars",
+        ), comment_link=(
+            Link(
+                text="steemit.com - @laylahsophia - EGYPTOLOGY: The Perception of Egypt in Movies, Part# 1 – ‘In which Museum is the Stargate on Display?’",
+                link="https://steemit.com/steemstem/@laylahsophia/egyptology-the-perception-of-egypt-in-movies-part-1-in-which-museum-is-the-stargate-on-display"
+            ),
+            Link(
+                text="YouTube - EgyptologyLessons - Stargate Movie Hieroglyphs - Translation",
+                link="https://www.youtube.com/watch?v=8_r-jB7tDlk"
+            ),
+        )),
     )),
     PageBlock(parts=(
         Paragraph(text=("""
@@ -106,19 +115,19 @@ PAGE = Page(blocks=(
             To help with our financial situation, she even took her first part-time job - cataloging items at the Cairo Museum.
             I've also been picking up odd jobs to bring in extra money.
             Just last week, I translated some Hebrew inscriptions for a French archeologist.
-        """,)),  # Rene Belloq himself
+        """,), comment=("Rene Belloq himself",)),
         Paragraph(text=("""
             A few months after moving into this warehouse, I had a dream.
             In the dream, I was walking through the warehouse at night, as I sometimes do when I can't sleep.
             Suddenly, the ring began shaking and glowing, and a man jumped through it.
             He did a few rolls on the ground, looked at me, and then disappeared behind some crates.
             The dream felt so real and vivid that I wouldn't have thought it was a dream if it hadn't been so bizarre.
-        """,)),  # Cameron Mitchell the time traveler
+        """,), comment=("Cameron Mitchell, the time traveler from SG: Continuum",)),
         Paragraph(text=("""
             I cannot bear the thought of losing the chance to study this ring - it is my life's work.
             It is precious to me.
             That's why I'm reaching out to you.
-        """,)),  # But this ring does not fit in any pocketses.
+        """,), comment=("But this ring does not fit in any filthy pocketses.",)),
         Paragraph(text=("""
             You mentioned that the German government recently established the Ahnenerbe Institute, and that they're actively seeking ancient artifacts.
             While I deeply disagree with the path my fatherland has taken, this could be the only way to secure the money I need to continue my research.

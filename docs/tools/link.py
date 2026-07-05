@@ -23,7 +23,7 @@ class Link(Printable):
             return self.link
         return self.link[:-len(suffix_readme)] + "/index.html"
 
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
         yield new_tag("a", self.text, href=self.replaced_link, class_=self.html_class)
 
     def get_markdown(
@@ -45,9 +45,9 @@ class OptionalLink(Link):
     def is_link(self) -> bool:
         return bool(self.link)
 
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
         if self.is_link:
-            yield from super().get_html()
+            yield from super().get_html_content()
         else:
             yield new_tag("span", self.text)
 

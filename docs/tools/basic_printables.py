@@ -2,26 +2,35 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
-from typing import Iterator
+from typing import Iterator, TYPE_CHECKING
 
 from tools.html_builder import new_tag, HtmlTag
 from tools.markdown_params import MarkDownParams
+
+if TYPE_CHECKING:
+    from tools.link import Link
 
 
 @dataclass(frozen=True)
 class Printable(ABC):
     omit_space_before: bool = False
+    comment: tuple[str, ...] = ()
+    comment_link: tuple[Link, ...] = ()
 
     @staticmethod
     def breaks_markdown_code_block() -> bool:
         return False
 
     @abstractmethod
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
         raise NotImplementedError()
 
+    def get_html(self) -> Iterator[HtmlTag]:
+        yield from self.get_html_content()
+        # TODO yield comment
+
     def get_html_monospace(self) -> Iterator[HtmlTag]:
-        return self.get_html()
+        return self.get_html_content()
 
     @abstractmethod
     def get_markdown(
@@ -33,7 +42,7 @@ class Printable(ABC):
 @dataclass(frozen=True)
 class HorizontalLine(Printable):
 
-    def get_html(self) -> Iterator[HtmlTag]:
+    def get_html_content(self) -> Iterator[HtmlTag]:
         yield new_tag("hr")
 
     def get_markdown(
