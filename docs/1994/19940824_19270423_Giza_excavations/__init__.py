@@ -9,7 +9,7 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             The name's got me curious, though.
             Is it about soaring into the sky?
-            What else could it possibly mean?
+            Because what else could it possibly mean?
             Guess I'll find out somewhere in this pile of reports.
         """,)),
         HorizontalLine(),
@@ -34,7 +34,7 @@ PAGE = Page(blocks=(
         """,)),
     ), comment=(
         Paragraph(text=(
-            "This one tries to be realistic - based on history.",
+            "This report tries to be realistic - based on history.",
         )),
         Paragraph(text=(
             "Dr. Reisner is a real archeologist leading excavations on the Giza Plateau at that time and his team really unearthed the Tomb of Queen Meresankh III on this date.",

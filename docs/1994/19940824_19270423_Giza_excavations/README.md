@@ -5,7 +5,7 @@ Seriously, who names these things?
 
 The name's got me curious, though.
 Is it about soaring into the sky?
-What else could it possibly mean?
+Because what else could it possibly mean?
 Guess I'll find out somewhere in this pile of reports.
 
 --------
