@@ -113,7 +113,7 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             Almost a year earlier, Germany had seized the Sudetenland from Czechoslovakia without resistance,
             backed by Britain and France, who hoped this concession would satisfy Hitler's territorial ambitions.
-            The Sudetenland - Czechoslovakia's border regions, home to a mostly German population and its key fortifications - fell easily, leaving the country vulnerable.
+            The Sudetenland - Czechoslovakia's border regions, home to a mostly German population and the Republic's key fortifications - fell easily, leaving the country vulnerable.
             Thus, when Germany invaded the rest of Czechoslovakia in March 1939, there was little resistance left.
         """,)),
         Paragraph(text=("""
@@ -152,7 +152,9 @@ PAGE = Page(blocks=(
             The US Merchant Marine, including ships like the Achilles commanded by Captain Mitchell, primarily transports cargo and passengers during peacetime,
             operating vessels such as freighters, tugs, and ferries across oceans, lakes, and rivers.
             During wartime, it supports the U.S. Navy, delivering troops and military supplies, often under dangerous conditions.
-        """,)),
+        """,), comment=(
+            ParagraphLink(text="Wikipedia - Merchant marine", link="https://en.wikipedia.org/wiki/Merchant_navy"),
+        )),
     )),
     PageBlockTypeWriter(parts=(
         LiteralParagraph(text=("""

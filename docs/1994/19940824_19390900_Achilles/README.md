@@ -60,7 +60,7 @@ steel and secrets.
 
 Almost a year earlier, Germany had seized the Sudetenland from Czechoslovakia without resistance,
 backed by Britain and France, who hoped this concession would satisfy Hitler's territorial ambitions.
-The Sudetenland - Czechoslovakia's border regions, home to a mostly German population and its key fortifications - fell easily, leaving the country vulnerable.
+The Sudetenland - Czechoslovakia's border regions, home to a mostly German population and the Republic's key fortifications - fell easily, leaving the country vulnerable.
 Thus, when Germany invaded the rest of Czechoslovakia in March 1939, there was little resistance left.
 
 On September 1, 1939, Germany and the Soviet Union invaded Poland from opposite sides, using a staged attack as a pretext.
