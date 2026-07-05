@@ -30,7 +30,7 @@ class Link(Printable):
             self, markdown_params: MarkDownParams, first_line_special_prefix: str | None,
     ) -> Iterator[str]:
         prefix = markdown_params.get_line_prefix(0, first_line_special_prefix)
-        yield f"{prefix}[{self.text}]({self.replaced_link})"
+        yield f"{prefix}[{self.text}]({self.link})"
 
 
 @dataclass(frozen=True)
