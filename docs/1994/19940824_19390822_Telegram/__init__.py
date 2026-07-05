@@ -58,7 +58,7 @@ PAGE = Page(blocks=(
                                     -- Deitrich
         """,)),
     ), comment=(
-        Paragraph(text=("This is a transcript from SGO: Catherine @ 00:03:16",)),
+        Paragraph(text=("This is a transcript from SGO: Catherine @ 00:03:16.",)),
     )),
     PageBlock(parts=(
         Paragraph(text=("""
