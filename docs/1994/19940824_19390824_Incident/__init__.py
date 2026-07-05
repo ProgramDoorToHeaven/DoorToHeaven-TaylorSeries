@@ -36,7 +36,7 @@ PAGE = Page(blocks=(
         # HorizontalLine(),
         HeadLine(level=2, text="Key Findings"),
         HeadLine(level=3, text="Fatality of a German officer"),
-        ListOfItems(items=(# TODO: this keeps its line breaks in HTML
+        ListOfItems(items=(
             Paragraph(text=("""
                 A German officer, partially identified as Schutzstaffel Obersturmführer Heinrich (last name unknown),
                 was found deceased with severe burns on the right side of his chest.

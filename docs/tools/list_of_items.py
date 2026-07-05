@@ -49,7 +49,7 @@ class ListOfItems(Printable):
 
     def get_html_monospace(self) -> Iterator[HtmlTag]:
         markdown = self.get_markdown(
-            markdown_params=MarkDownParams(),
+            markdown_params=MarkDownParams(is_monospace=True),
             first_line_special_prefix=None,
         )
         paragraph = Paragraph(

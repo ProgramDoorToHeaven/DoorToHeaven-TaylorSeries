@@ -51,8 +51,9 @@ class MarkDownParams:
         if is_literal:
             return line
         line = line.strip()
-        if is_literal or (self.break_lines is None):
-            return '\n'.join(row.strip() for row in line.splitlines(keepends=False))
+        if self.break_lines is None:
+            joiner=" " if self.is_monospace else "\n"
+            return joiner.join(row.strip() for row in line.splitlines(keepends=False))
         line = line.strip()
         prefix_length = len(self.line_prefix)
         line = re.sub(r'\s+', ' ', line).strip()
