@@ -28,8 +28,12 @@ PAGE = Page(blocks=(
             Accompanying the artifact were two remains of human bodies, which we initially hypothesized could be remnants of an ancient burial ritual or guardians of the artifact.
             The artifact itself is composed of what appears to be melted meteorite, exhibiting a metallic structure unlike any known materials from the historical or geological record.
         """,), comment=(
-            "Yes, the Sallah.",
-            "No camels!",
+            Paragraph(text=("Yes, the Sallah.",)),
+            Paragraph(text=("No camels!",)),
+            ParagraphLink(
+                text="Wikipedia - Sallah",
+                link="https://en.wikipedia.org/wiki/List_of_Indiana_Jones_characters#Sallah",
+            ),
         )),
     )),
     PageBlock(parts=(
@@ -74,13 +78,12 @@ PAGE = Page(blocks=(
     )),
     PageBlockTypeWriter(parts=(
         HeadLine(level=3, text="Symbol Inscriptions", comment=(
-            "Many thanks to the almighty Rebet for casting his knowledge upon me.",
-        ), comment_link=(
-            Link(
+            Paragraph(text=("Many thanks to the almighty Rebet for casting his knowledge upon me.",)),
+            ParagraphLink(
                 text="YouTube - RobWords - Hieroglyphs are easier than they look",
-                link="https://www.youtube.com/watch?v=90An1dnvwyc"
+                link="https://youtu.be/90An1dnvwyc"
             ),
-            Link(text="YouTube - RobWords", link="https://www.youtube.com/@RobWords"),
+            ParagraphLink(text="YouTube - RobWords", link="https://www.youtube.com/@RobWords"),
         )),
         Paragraph(text=("""
             The artifact is inscribed with a series of complex symbols arranged in a circular pattern around its perimeter.
@@ -129,7 +132,9 @@ PAGE = Page(blocks=(
             They combined logographic symbols (pictures for whole words), phonemic signs (symbols for sounds), and determinatives (clarifying pictures).
             Determinatives are like adding a picture of gift, clock, or projector after "present" to specify meaning.
         """,), comment=(
-            "The first set of emojis was from 1999, so no mentions of emojis here in 1994 😢 (emoji intended)",
+            Paragraph(text=(
+                "The first set of emojis was from 1999, so no mentions of emojis here in 1994 😢 (emoji intended)",
+            )),
         )),
     )),
     PageBlockTypeWriter(parts=(
@@ -179,15 +184,14 @@ PAGE = Page(blocks=(
             If everything were already metric from the start, he believes we'd find it just as natural as any other system.
             And as he puts it, we've been inching towards the metric system anyway.
         """,), comment=(
-            "Neil deGrasse Tyson, StarTalk, Inching towards the metric system",
-        ), comment_link=(
-            Link(
+            Paragraph(text=("Neil deGrasse Tyson, StarTalk, Inching towards the metric system",)),
+            ParagraphLink(
                 text="YouTube - StarTalk - 2023 - Will the U.S. Adopt the Metric System?",
-                link="https://youtu.be/3Z5KNzYhQ9g?si=rzQ4otohqkoPI8BA"
+                link="https://youtu.be/3Z5KNzYhQ9g"
             ),
-            Link(
+            ParagraphLink(
                 text="YouTube - StarTalk - 2021 - Neil deGrasse Tyson Explains the Metric System",
-                link="https://youtu.be/gYa1bvFO0uk?si=bkk5_AqA3_S0sQ6v"
+                link="https://youtu.be/gYa1bvFO0uk"
             ),
         )),
         Paragraph(text=("""
@@ -197,8 +201,12 @@ PAGE = Page(blocks=(
             camera lenses and film are measured in millimeters,
             and car engines, once sized in cubic inches, now use liters.
         """,), comment=(
-            "I wanted to mention the Mars climate orbiter, but it will overshoot Mars (due to scientists using metric and engineers using freedom units) in 1998",
-            "I wanted to say that the British currency was even crazier than the Wizarding currency from Harry Potter ... but the first HP book will be released in 1997",
+            Paragraph(text=(
+                "I wanted to mention the Mars climate orbiter, but it will overshoot Mars (due to scientists using metric and engineers using freedom units) in 1998",
+            )),
+            Paragraph(text=(
+                "I wanted to say that the British currency was even crazier than the Wizarding currency from Harry Potter ... but the first HP book will be released in 1997",
+            )),
         )),
         Paragraph(text=("""
             Youssef made a hilarious - and oddly convincing - point:

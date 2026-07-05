@@ -186,8 +186,11 @@ PAGE = Page(blocks=(
             Since most sailors were right-handed, the steerboard was placed on the right, making it the natural side for steering.
             As ships evolved, the steerboard was replaced by a fixed rudder at the stern, but the name stuck.
             The right side of the ship became known as starboard.
-        """,), comment_link=(
-            Link(text="Wikipedia - Port and starboard", link="https://en.wikipedia.org/wiki/Port_and_starboard"),
+        """,), comment=(
+            ParagraphLink(
+                text="Wikipedia - Port and starboard",
+                link="https://en.wikipedia.org/wiki/Port_and_starboard",
+            ),
         )),
         Paragraph(text=("""
             The left side of the ship, where ships would typically dock to avoid damaging the steerboard, became known as the port side.

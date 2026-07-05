@@ -46,7 +46,9 @@ PAGE = Page(blocks=(
             Paragraph(text=("""
                 Unfortunately, he had his ID documents in the shirt pocket which was burned.
                 Only a part of his dog tag remained readable.
-            """,), comment=("No last name mentioned anywhere in the canon - just Heinrich",)),
+            """,), comment=(
+                Paragraph(text=("No last name mentioned anywhere in the canon - just Heinrich",)),
+            )),
         )),
         HeadLine(level=3, text="Missing British and Egyptian personnel"),
         ListOfItems(items=(

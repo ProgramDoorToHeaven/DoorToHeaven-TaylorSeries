@@ -2,20 +2,16 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
-from typing import Iterator, TYPE_CHECKING
+from typing import Iterator
 
 from tools.html_builder import new_tag, HtmlTag
 from tools.markdown_params import MarkDownParams
-
-if TYPE_CHECKING:
-    from tools.link import Link
 
 
 @dataclass(frozen=True)
 class Printable(ABC):
     omit_space_before: bool = False
-    comment: tuple[str, ...] = ()
-    comment_link: tuple[Link, ...] = ()
+    comment: tuple[Printable, ...] = ()
 
     @staticmethod
     def breaks_markdown_code_block() -> bool:
@@ -27,10 +23,14 @@ class Printable(ABC):
 
     def get_html(self) -> Iterator[HtmlTag]:
         yield from self.get_html_content()
-        # TODO yield comment
+        if self.comment:
+            comments_div = new_tag("div", class_="comment")
+            for comment in self.comment:
+                comments_div.extend(comment.get_html())
+            yield comments_div
 
     def get_html_monospace(self) -> Iterator[HtmlTag]:
-        return self.get_html_content()
+        return self.get_html()
 
     @abstractmethod
     def get_markdown(

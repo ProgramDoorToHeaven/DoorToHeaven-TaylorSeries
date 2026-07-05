@@ -57,7 +57,9 @@ PAGE = Page(blocks=(
 
                                     -- Deitrich
         """,)),
-    ), comment=("This is a transcript from SGO: Catherine @ 00:03:16",)),
+    ), comment=(
+        Paragraph(text=("This is a transcript from SGO: Catherine @ 00:03:16",)),
+    )),
     PageBlock(parts=(
         Paragraph(text=("""
             That is a strange message, considering they had been working together for years.

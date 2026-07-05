@@ -29,9 +29,15 @@ PAGE = Page(blocks=(
             Excavation Director:   George Andrew Reisner, Ph.D
             Report prepared by:    Prof. Paul Langford, Deputy Field Director
         """,), comment=(
-            "This one tries to be realistic - based on history.",
-            "Dr. Reisner is a real archeologist leading excavations on the Giza Plateau at that time and his team really unearthed the Tomb of Queen Meresankh III on this date.",
-            "The only added detail should be Prof. Langford who later discovered the StarGate.",
+            Paragraph(text=(
+                "This one tries to be realistic - based on history.",
+            )),
+            Paragraph(text=(
+                "Dr. Reisner is a real archeologist leading excavations on the Giza Plateau at that time and his team really unearthed the Tomb of Queen Meresankh III on this date.",
+            )),
+            Paragraph(text=(
+                "The only added detail should be Prof. Langford who later discovered the StarGate.",
+            )),
         )),
         HeadLine(level=2, text="Introduction"),
         Paragraph(text=("""

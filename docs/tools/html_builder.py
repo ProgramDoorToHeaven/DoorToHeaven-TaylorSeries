@@ -55,6 +55,7 @@ def build_html(
     tools_directory = ("../" * levels_up_to_tools_parent) + "tools"
     html_doc = new_tag("html", lang="en")
     html_head = new_tag("head")
+    html_head.append(new_tag("script", src=f"{tools_directory}/main.js"))
     html_head.append(new_tag("link", rel="stylesheet", href=f"{tools_directory}/main.css"))
     html_head.append(new_tag("link", rel="shortcut icon", type="image/png", href=f"{tools_directory}/favicon.png"))
     html_head.append(new_tag("title", string="Door To Heaven"))

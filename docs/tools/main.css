@@ -1,8 +1,9 @@
 body {
-    font-family: Helvetica Neue,
+    --body-font-family: Helvetica Neue,
     Helvetica,
     Arial,
     sans-serif;
+    font-family: var(--body-font-family), sans-serif;
     line-height: 1.5;
 
     div.page-wrapper {
@@ -64,10 +65,43 @@ body {
                 }
             }
 
+            div.comment,
             div.quotation {
-                border: 1px solid grey;
+                border: 1px solid;
                 border-left-width: 0.4em;
                 padding: 0 2em;
+
+                hr {
+                    border-color: inherit;
+                }
+            }
+
+            div.quotation {
+                border-color: grey;
+            }
+
+            div.comment {
+                border-color: blue;
+                opacity: 30%;
+                font-family: var(--body-font-family), sans-serif;
+
+                hr {
+                    margin: 0;
+                }
+
+                p {
+                    margin: 1ex;
+                }
+
+                p::before {
+                    content: "ℹ️ ";
+                }
+            }
+
+            div.comment:active,
+            div.comment:focus,
+            div.comment:hover {
+                opacity: 100%;
             }
 
             div.monospace-modern {
@@ -112,6 +146,7 @@ body {
             a.button-link {
                 display: inline-block;
                 padding: 6px 12px;
+                margin-right: 12px;
                 font-family: "MS Sans Serif", Arial, sans-serif;
                 font-size: 12px;
                 font-weight: normal;

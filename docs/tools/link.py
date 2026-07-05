@@ -59,3 +59,19 @@ class OptionalLink(Link):
         else:
             prefix = markdown_params.get_line_prefix(0, first_line_special_prefix)
             yield prefix + self.text
+
+
+@dataclass(frozen=True)
+class ParagraphLink(Link):
+
+    def get_html_content(self) -> Iterator[HtmlTag]:
+        p = new_tag("p")
+        p.extend(super().get_html_content())
+        yield p
+
+    def get_markdown(
+            self, markdown_params: MarkDownParams, first_line_special_prefix: str | None,
+    ) -> Iterator[str]:
+        yield ""
+        yield from super().get_markdown(markdown_params, first_line_special_prefix)
+        yield ""

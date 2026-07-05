@@ -20,6 +20,14 @@ BACK_LINK_MD = ButtonLink(
     text=BACK_LINK_HTML.text,
     link="../README.md",
 )
+COMMENTS_SHOW_LINK_HTML = ButtonLink(
+    text="📌 Show comments",  # 📌📝📄💭💡💬✍️
+    link="./index.html?comments=true",
+)
+COMMENTS_HIDE_LINK_HTML = ButtonLink(
+    text="📌 Hide comments",  # 📌📝📄💭💡💬✍️
+    link="./index.html?comments=false",
+)
 
 
 @dataclass(frozen=True)
@@ -34,22 +42,22 @@ class Page(Printable):
     def get_html_content(self) -> Iterator[HtmlTag]:
 
         page = new_tag("div", class_="page")
-        if self.can_go_back:
-            page.extend(BACK_LINK_HTML.get_html())
-        else:
-            page.append(new_tag("span", class_="line-height"))
-
+        self.header_footer_buttons(page)
         for block in self.blocks:
             page.extend(block.get_html())
-
-        if self.can_go_back:
-            page.extend(BACK_LINK_HTML.get_html())
-        else:
-            page.append(new_tag("span", class_="line-height"))
+        self.header_footer_buttons(page)
 
         wrapper = new_tag("div", class_="page-wrapper")
         wrapper.append(page)
         yield wrapper
+
+    def header_footer_buttons(self, page: HtmlTag):
+        if self.can_go_back:
+            page.extend(BACK_LINK_HTML.get_html())
+        else:
+            page.append(new_tag("span", class_="line-height"))
+        page.extend(COMMENTS_SHOW_LINK_HTML.get_html())
+        page.extend(COMMENTS_HIDE_LINK_HTML.get_html())
 
     def get_markdown(
             self,
