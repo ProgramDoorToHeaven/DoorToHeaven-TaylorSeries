@@ -133,7 +133,7 @@ PAGE = Page(blocks=(
             Determinatives are like adding a picture of gift, clock, or projector after the word "present" in order to specify its meaning.
         """,), comment=(
             Paragraph(text=(
-                "The first set of emojis was from 1999, so no mentions of emojis here in 1994 😢 (emoji intended).",
+                "The first set of emojis was from 1999, so no mentions of emojis here in 1996 😢 (emoji intended).",
             )),
         )),
     )),

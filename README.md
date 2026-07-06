@@ -14,7 +14,7 @@ I'm aiming to:
 * Slightly educate on various topics and broaden the reader's horizons.
 * Stay in-character - I'm writing this 30 years after the events,
   so I have to check what knowledge is too modern and what Taylor Jones could have known back then.
-    * Like for example, I wanted to compare hieroglyphs to emojis in 1994, but the first set of emojis was from 1999.
+    * Like for example, I wanted to compare hieroglyphs to emojis in 1996, but the first set of emojis was from 1999.
 * Make as many Indiana Jones crossovers as possible.
     * This gets difficult outside the 1930s.
       Suggestions wanted.
