@@ -62,9 +62,9 @@ PAGE = Page(can_go_back=False, blocks=(
                             Each layer -
                             whether the baseline reality of StarGate,
                             the documents Taylor processes,
-                            Taylor’s own thoughts,
+                            Taylor's own thoughts,
                             or my occasional explanations -
-                            adds depth, peeling back another layer to reveal what was in the author’s mind.
+                            adds depth, peeling back another layer to reveal what was in the author's mind.
                         """,)),
                     )),
                 )

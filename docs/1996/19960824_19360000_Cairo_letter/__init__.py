@@ -89,7 +89,7 @@ PAGE = Page(blocks=(
             """,)),
             HorizontalLine(),
             ParagraphLink(
-                text="steemit.com - @laylahsophia - EGYPTOLOGY: The Perception of Egypt in Movies, Part# 1 – ‘In which Museum is the Stargate on Display?’",
+                text="steemit.com - @laylahsophia - EGYPTOLOGY: The Perception of Egypt in Movies, Part# 1 - 'In which Museum is the Stargate on Display?'",
                 link="https://steemit.com/steemstem/@laylahsophia/egyptology-the-perception-of-egypt-in-movies-part-1-in-which-museum-is-the-stargate-on-display"
             ),
             LiteralParagraph(text=("""

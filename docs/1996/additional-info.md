@@ -24,7 +24,7 @@ https://www.gateworld.net/news/2022/08/10-things-stargate-tv-show-changed-from-m
 
 - The reverse funnel effect that appears behind the Stargate after kawoosh.
 - Travelers are thrown out of the gate. Ice crystals on their faces.
- (In Season Five’s “Red Sky” Carter explains that the rough ride was caused by the margin of error in calculating planetary shift,
+ (In Season Five's "Red Sky" Carter explains that the rough ride was caused by the margin of error in calculating planetary shift,
   stating that it had been fixed.)
 - Dialing the gate caused the whole base to shake violently in the movie.
-  In the show, frequency dampeners had been installed that reduce the shaking to a slight vibration (“Solitudes”).
+  In the show, frequency dampeners had been installed that reduce the shaking to a slight vibration ("Solitudes").
