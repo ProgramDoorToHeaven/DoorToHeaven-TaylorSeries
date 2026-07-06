@@ -90,3 +90,62 @@ HELIOPOLIS = 027 007 ??? ??? ??? ??? = https://stargate.fandom.com/wiki/Heliopol
 @ time 11:35-11:39, it seems like Glyph 15 is #3 on the next paper
 @ time 41:43, the Abydos address is unsuccessfully dialed on-screen
 """
+
+from tools import *
+
+PAGE = Page(blocks=(
+    PageBlock(parts=(
+        Paragraph(text=("""
+            I’ve been sifting through Egyptian artifacts,
+            while some of my colleagues got assigned to similarly ancient UFO cases.
+            Youssef, for instance, currently has evidence related to the 1947 Roswell incident on his desk -
+            it's a shame that he can't tell me whether it actually happened.
+            Our boss seems to have run out of meaningful work for us.
+        """,)),
+        Paragraph(text=("""
+            Yesterday, I was tasked with convincing our research department to transfer footage from old 16mm films to VHS.
+            Today, my job was to watch and label all of it.
+            I skimmed through about half on fast-forward.
+            Without timestamps or date labels - just a wall clock in the background - it’s hard to piece together a timeline.
+            I’m assuming the footage on each tape is in chronological order, but who knows?
+        """,), comment=(
+            Paragraph(text=("""
+                Fun fact: The camera used in Torment of Tantalus 0:00:40 is probably Bolex H16.
+            """,)),
+            ParagraphLink(text="Wikipedia - Bolex", link="https://en.wikipedia.org/wiki/Bolex"),
+        )),
+        Paragraph(text=("""
+            Honestly, it doesn’t matter.
+            Most of the videos are painfully dull:
+            men in lab coats or uniforms flipping switches, triggering the occasional power malfunction, and endlessly spinning an artifact.
+            The only mildly interesting detail is that the inner circle of the artifact rotates - but then again, it’s round, so why wouldn’t it?
+        """,), comment=(
+            Paragraph(text=("""
+                Hammond:
+                "What? It has to spin, it's round!
+                Spinning is so much cooler than not spinning.
+                I'm the general, I want it to spin. Now!"
+            """,)),
+        )),
+        Paragraph(text=("""
+            I think I’ll skip the rest.
+            They believed it could be weaponized—after all,
+            it allegedly killed a Nazi in 1939 and wiped the memories of the Langfords.
+            So, they hooked it up to electrical cables and tried to replicate the experiment from Egypt.
+            Unsuccessfully, it seems.
+        """,)),
+        Paragraph(text=("""
+            Later that summer, the first nuclear bomb tests took place.
+            And since those went rather better than the artifact experiments,
+            the bomb won out as the ultimate tool of fear and war-ending intimidation.
+        """,)),
+    )),
+))
+
+
+def main():
+    PAGE.render(filename=__file__)
+
+
+if __name__ == "__main__":
+    main()
