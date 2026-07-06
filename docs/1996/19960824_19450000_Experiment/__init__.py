@@ -13,6 +13,8 @@ Surrender of Japan:   1945-09
 
 So the experiments are probably from the first half of 1945.
 
+--------------------------------
+
 SG-1 01x11 Torment of Tantalus:
 
 DANIEL: This was transferred from film of experiments done on the gate in 1945
@@ -27,7 +29,6 @@ CATHERINE: Thousands of Stargates. Planetary shifts. Didn't anyone think that I 
 CATHERINE: My father worked on the research team that worked on the gate during the war. Actually, they didn't know what
 it was then. But President Roosevelt was like that, curious. They suspected the gate was a weapon, could be used as one.
 Nothing ever came of it...
-# Expected to be a weapon as it killed a nazi and wiped memories of the Langfords in 1939.
 
 DANIEL:
 The Pentagon has recently been declassifying old materials. They ran across a number of file boxes that dealt with the
@@ -67,11 +68,6 @@ LANGFORD: There was an accident today. An explosion in the lab.
 
 CATHERINE: My father must have lied to me. He said Ernest died in an accident. An explosion.
 
-# After this, the research project was discontinued and the stargate was placed in a storage in an armory in Washington, D.C. (2.21 "1969").
-# Stargate location:
-# Movie: Creek Mountain
-# Series: Cheyenne Mountain silo
-
 CATHERINE: Not Abydos?
 DANIEL: No. Another planet with similar coordinates.…And, we can go there.
 
@@ -89,6 +85,14 @@ ABYDOS     = 027 007 015 032 012 030 = https://stargate.fandom.com/wiki/Abydos
 HELIOPOLIS = 027 007 ??? ??? ??? ??? = https://stargate.fandom.com/wiki/Heliopolis
 @ time 11:35-11:39, it seems like Glyph 15 is #3 on the next paper
 @ time 41:43, the Abydos address is unsuccessfully dialed on-screen
+
+--------------------------------
+
+SG-1 02x21 1969:
+CATHERINE:
+When the war ended, my father and I were told never to speak of it again. It is simply…locked away.
+Some old armory in Washington, D.C., gathering dust. But it's pointless. The military won't even acknowledge its
+existence.
 """
 
 from tools import *
@@ -133,7 +137,11 @@ PAGE = Page(blocks=(
             it allegedly killed a Nazi in 1939 and wiped the memories of the Langfords.
             So, they hooked it up to electrical cables and tried to replicate the experiment from Egypt.
             Unsuccessfully, it seems.
+        """,), comment=(
+            Paragraph(text=("""
+            Daniel: There's no conclusion to the file. There's no summary; no notes. No reason to explain why they gave up.
         """,)),
+        )),
         Paragraph(text=("""
             Later that summer, the first nuclear bomb tests took place.
             And since those went rather better than the artifact experiments,
@@ -141,7 +149,7 @@ PAGE = Page(blocks=(
         """,)),
     )),
     PageBlock(block_type=PageBlockType.QUOTATION, parts=(
-        HeadLine(level=1, text="Box content summary"),
+        HeadLine(level=1, text="Archive content summary"),
         Table.new_nid_table_for_document_summary(
             document_name='Filmed "Door to Heaven" experiments',
             document_author="Prof. Paul Langford; Dr. Ernest Littlefield",
@@ -149,8 +157,12 @@ PAGE = Page(blocks=(
         ),
         Paragraph(text=("""
             In 1945, Prof. Langford and Dr. Littlefield
-            conducted Unsuccessful experiments with the "Door to Heaven" artifact.
+            conducted unsuccessful experiments with the "Door to Heaven" artifact.
             This box contains recordings of said experiments transferred from 16 mm films to VHS.
+        """,)),
+        Paragraph(text=("""
+            The research was commissioned by president Roosevelt but was ultimately abandoned after a period of no progress,
+            particularly following Dr. Ernest Littlefield’s fatal accident.
         """,)),
     )),
 ))

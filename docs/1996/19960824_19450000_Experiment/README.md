@@ -27,8 +27,8 @@ Later that summer, the first nuclear bomb tests took place.
 And since those went rather better than the artifact experiments,
 the bomb won out as the ultimate tool of fear and war-ending intimidation.
 
-> Box content summary
-> ===================
+> Archive content summary
+> =======================
 >
 > |          |                                             |
 > |----------|---------------------------------------------|
@@ -37,7 +37,10 @@ the bomb won out as the ultimate tool of fear and war-ending intimidation.
 > | Author   | Prof. Paul Langford; Dr. Ernest Littlefield |
 >
 > In 1945, Prof. Langford and Dr. Littlefield
-> conducted Unsuccessful experiments with the "Door to Heaven" artifact.
+> conducted unsuccessful experiments with the "Door to Heaven" artifact.
 > This box contains recordings of said experiments transferred from 16 mm films to VHS.
+>
+> The research was commissioned by president Roosevelt but was ultimately abandoned after a period of no progress,
+> particularly following Dr. Ernest Littlefield’s fatal accident.
 
 [⬅️ Back](../README.md)

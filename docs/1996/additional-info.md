@@ -1,3 +1,9 @@
+Timeline
+========
+
+- They analyzed the Abydos cartouche and compensated for the stellar drift AFTER Catherine was out of the SG project.
+    - The cartouche is introduced in Children of Gods?
+
 D.H.D.
 ======
 
