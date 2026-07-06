@@ -140,6 +140,19 @@ PAGE = Page(blocks=(
             the bomb won out as the ultimate tool of fear and war-ending intimidation.
         """,)),
     )),
+    PageBlock(block_type=PageBlockType.QUOTATION, parts=(
+        HeadLine(level=1, text="Box content summary"),
+        Table.new_nid_table_for_document_summary(
+            document_name='Filmed "Door to Heaven" experiments',
+            document_author="Prof. Paul Langford; Dr. Ernest Littlefield",
+            year=1945, month="xx",
+        ),
+        Paragraph(text=("""
+            In 1945, Prof. Langford and Dr. Littlefield
+            conducted Unsuccessful experiments with the "Door to Heaven" artifact.
+            This box contains recordings of said experiments transferred from 16 mm films to VHS.
+        """,)),
+    )),
 ))
 
 

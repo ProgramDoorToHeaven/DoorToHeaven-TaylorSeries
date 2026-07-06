@@ -27,4 +27,17 @@ Later that summer, the first nuclear bomb tests took place.
 And since those went rather better than the artifact experiments,
 the bomb won out as the ultimate tool of fear and war-ending intimidation.
 
+> Box content summary
+> ===================
+>
+> |          |                                             |
+> |----------|---------------------------------------------|
+> | Document | Filmed "Door to Heaven" experiments         |
+> | Date     | 1945-xx-xx                                  |
+> | Author   | Prof. Paul Langford; Dr. Ernest Littlefield |
+>
+> In 1945, Prof. Langford and Dr. Littlefield
+> conducted Unsuccessful experiments with the "Door to Heaven" artifact.
+> This box contains recordings of said experiments transferred from 16 mm films to VHS.
+
 [⬅️ Back](../README.md)
