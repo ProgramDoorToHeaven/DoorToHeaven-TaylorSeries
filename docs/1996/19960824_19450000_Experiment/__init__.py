@@ -117,6 +117,9 @@ PAGE = Page(blocks=(
                 Fun fact: The camera used in Torment of Tantalus 0:00:40 is probably Bolex H16.
             """,)),
             ParagraphLink(text="Wikipedia - Bolex", link="https://en.wikipedia.org/wiki/Bolex"),
+            Paragraph(text=("""
+            Daniel: There's no conclusion to the file. There's no summary; no notes. No reason to explain why they gave up.
+        """,)),
         )),
         Paragraph(text=("""
             Honestly, it doesn't matter.
@@ -137,11 +140,7 @@ PAGE = Page(blocks=(
             it allegedly killed a Nazi in 1939 and wiped the memories of the Langfords.
             So, they hooked it up to electrical cables and tried to replicate the experiment from Egypt.
             Unsuccessfully, it seems.
-        """,), comment=(
-            Paragraph(text=("""
-            Daniel: There's no conclusion to the file. There's no summary; no notes. No reason to explain why they gave up.
         """,)),
-        )),
         Paragraph(text=("""
             Later that summer, the first nuclear bomb tests took place.
             And since those went rather better than the artifact experiments,

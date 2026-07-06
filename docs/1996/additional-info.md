@@ -3,6 +3,20 @@ Timeline
 
 - They analyzed the Abydos cartouche and compensated for the stellar drift AFTER Catherine was out of the SG project.
     - The cartouche is introduced in Children of Gods?
+- 1961:
+    - Construction begins on the Cheyenne Mountain Complex
+- 1969:
+    - Cheyenne Mountain
+    - Washington D.C. armory
+- 1982:
+    - SG in Cheyenne Mountain, Gen West, Cathrine Langford
+    - Dialing computer development begins
+- 1994:
+    - Dr. Meyers and Dr. Shore begin working on the SG project (2 years before the movie)
+- 1996:
+    - Ra is killed on Abydos
+- 1997:
+    - SG-1
 
 D.H.D.
 ======
