@@ -1,11 +1,4 @@
 """
-Torment of Tantalus
-It wasn't until 1945 when President Roosevelt gave funding for Professor Langford to study the stargate. The President thought that the device might be a weapon.
-Expected to be a weapon as it killed a nazi and wiped memories of the Langfords.
-Langford told Catherine, who was engaged to be married to Ernest, that Ernest had died in an explosion in the lab.
-Not long after this, the research project was discontinued and the stargate was placed in storage in an armory in Washington, D.C. (2.21 "1969").
-... The Pentagon found the film from Langford's research and sent it to Stargate Command.
-
 Nuclear bomb research:
 https://en.wikipedia.org/wiki/Manhattan_Project
 Britain - project Tube Alloys - started 1941, later absorbed by the US Manhattan Project
@@ -28,12 +21,13 @@ DANIEL: Yes, just like you could have told me there were experiments done on the
 DANIEL: There's no conclusion to the file. There's no summary; no notes. No reason to explain why they gave up.
 
 CATHERINE: Thousands of Stargates. Planetary shifts. Didn't anyone think that I might be interested?
-# That means they analyzed the Abydos cartouche and compensated for the planetary shift AFTER Catherine was out of the SG project.
+# That means they analyzed the Abydos cartouche and compensated for the stellar drift AFTER Catherine was out of the SG project.
 # The cartouche is introduced in Children of Gods?
 
 CATHERINE: My father worked on the research team that worked on the gate during the war. Actually, they didn't know what
 it was then. But President Roosevelt was like that, curious. They suspected the gate was a weapon, could be used as one.
 Nothing ever came of it...
+# Expected to be a weapon as it killed a nazi and wiped memories of the Langfords in 1939.
 
 DANIEL:
 The Pentagon has recently been declassifying old materials. They ran across a number of file boxes that dealt with the
@@ -72,6 +66,11 @@ CATHERINE: No. I never knew they turned it on. My father never told me. It wasn'
 LANGFORD: There was an accident today. An explosion in the lab.
 
 CATHERINE: My father must have lied to me. He said Ernest died in an accident. An explosion.
+
+# After this, the research project was discontinued and the stargate was placed in a storage in an armory in Washington, D.C. (2.21 "1969").
+# Stargate location:
+# Movie: Creek Mountain
+# Series: Cheyenne Mountain silo
 
 CATHERINE: Not Abydos?
 DANIEL: No. Another planet with similar coordinates.…And, we can go there.
