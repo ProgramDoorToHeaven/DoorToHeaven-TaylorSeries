@@ -9,7 +9,7 @@ PAGE = Page(blocks=(
             Paragraph(text=("""
                 Dr. Gary Meyers does.
                 Somewhere between 0-2 years before the original movie.
-            """)),
+            """,)),
         )),
         Paragraph(text=("""
             The name's got me curious, though.
