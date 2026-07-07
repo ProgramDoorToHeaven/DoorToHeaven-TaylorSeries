@@ -62,13 +62,13 @@ PAGE = Page(blocks=(
             I guess our translation is a bit more precise - half a century later.
         """,), comment=(
             LiteralParagraph(text=("""
-            Langford translation
-            SG1 s01e11 Torment of Tantalus
+            Langford translation from
+            SG1 s01e11 Torment of Tantalus:
             doorway to heaven
         """,)),
             HorizontalLine(),
             LiteralParagraph(text=("""
-            Partial translation by Myers
+            Partial translation by Dr. Myers:
             time million sky Ra sun god
             coffin forever to eternity
             his door to heaven
@@ -81,6 +81,10 @@ PAGE = Page(blocks=(
             his Stargate
             """,)),
             HorizontalLine(),
+            ParagraphLink(
+                text="Wikipedia - Stargate (film) - Production",
+                link="https://en.wikipedia.org/wiki/Stargate_(film)#Production",
+            ),
             LiteralParagraph(text=("""
                 literal translation of the text from Wikipedia:
                 years million in sky this Ra as Aten (=sun disk)
