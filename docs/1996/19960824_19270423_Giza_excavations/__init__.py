@@ -5,7 +5,12 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             Just got handed a new Air Force program to monitor - \"Door to Heaven\".
             Seriously, who names these things?
-        """,)),
+        """,), comment=(
+            Paragraph(text=("""
+                Dr. Gary Meyers does.
+                Somewhere between 0-2 years before the original movie.
+            """)),
+        )),
         Paragraph(text=("""
             The name's got me curious, though.
             Is it about soaring into the sky?
