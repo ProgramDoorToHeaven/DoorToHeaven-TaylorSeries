@@ -142,9 +142,9 @@ PAGE = Page(blocks=(
         HeadLine(level=3, text="Buried guardians"),
         Paragraph(text=("""
             The two buried bodies were discovered with unhealed broken bones, suggesting they may have met a violent end.
-            Their jackal masks are made of metal and they contain mechanical parts which used to move.
+            Their jackal masks are made of metal, and they contain mechanical parts which used to move.
             Such level of craftsmanship also doesn't match anything known from this historical period.
-            The ornamental staffs are well preserved and don't have any sharp edges.
+            The ornamental staffs are well-preserved and don't have any sharp edges.
             Although they could be used as blunt weapons, their primary use was probably purely decorative or an indication of social status.
         """,)),
         Paragraph(text=("""
