@@ -29,8 +29,7 @@ PAGE = Page(blocks=(
             The artifact itself is composed of what appears to be melted meteorite, exhibiting a metallic structure unlike any known materials from the historical or geological record.
         """,))
     ), comment=(
-        Paragraph(text=("Yes, the Sallah.",)),
-        Paragraph(text=("No camels!",)),
+        Paragraph(text=("Yes, that Sallah. - No camels!",)),
         ParagraphLink(
             text="Wikipedia - Sallah",
             link="https://en.wikipedia.org/wiki/List_of_Indiana_Jones_characters#Sallah",
