@@ -84,14 +84,17 @@ body {
                 border-color: blue;
                 opacity: 20%;
                 font-family: var(--body-font-family), sans-serif;
+                text-align: left;
 
                 hr {
                     margin: 0;
                 }
 
-                p {
+                p,
+                pre {
                     margin: 1ex;
                     transform: rotate(0);
+                    padding: 0 1ex;
                 }
 
                 p::before,
