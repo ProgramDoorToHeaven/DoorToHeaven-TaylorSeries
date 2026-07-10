@@ -48,6 +48,23 @@ PAGE = Page(blocks=(
             ----------------------------------------------------
             Doctor Langford --
 
+        """,)),
+    )),
+    PageBlock(parts=(
+        Paragraph(text=("""
+            Doctor? I thought he was a professor.
+        """,), comment=(
+            Paragraph(text=("""
+                This is a transcript from SGO: Catherine @ 00:03:16.
+                And that's what the telegram says.
+                Even though he is called "professor" in all the dialogues with Dr. Brücke.
+            """,)),
+        )),
+    )),
+    PageBlockTypeWriter(parts=(
+        LiteralParagraph(text=("""
+            Doctor Langford --
+
             I regret to inform that our contacts in
             Germany have not come through as
             we had hoped.
@@ -57,8 +74,6 @@ PAGE = Page(blocks=(
 
                                     -- Deitrich
         """,)),
-    ), comment=(
-        Paragraph(text=("This is a transcript from SGO: Catherine @ 00:03:16.",)),
     )),
     PageBlock(parts=(
         Paragraph(text=("""

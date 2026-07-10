@@ -21,6 +21,12 @@ TO Receiver's Name:  DOCTOR PAUL LANGFORD
 THIS TELEGRAM WILL BE CHARGED AT FULL RATE
 ----------------------------------------------------
 Doctor Langford --
+```
+
+Doctor? I thought he was a professor.
+
+```
+Doctor Langford --
 
 I regret to inform that our contacts in
 Germany have not come through as
