@@ -60,7 +60,7 @@ PAGE = Page(blocks=(
             But you usually don't need to do any unit conversions anyway.
             And in the rare occasions when 5-to-mat-oes are necessary, calculator has your back.
         """,), comment=(
-            Paragraph(text=('“5 tomatoes" is a mnemonic to remember that there are 5280 feet in a mile.',)),
+            Paragraph(text=('"5 tomatoes" is a mnemonic to remember that there are 5280 feet in a mile.',)),
         )),
         Paragraph(text=("""
             We even had the Metric Conversion Act of 1975 as an effort to join the rest of the world. 
