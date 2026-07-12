@@ -9,12 +9,48 @@ body {
     div.page-wrapper {
         text-align: center;
 
+        div.buttons-row,
         div.page {
             text-align: left;
             display: inline-block;
             width: 100%;
             max-width: 90ch;
+        }
 
+        div.buttons-row {
+            position: fixed;
+            overflow-x: auto;
+            height: 34px;
+            z-index: 100;
+            /*backdrop-filter: blur(10px);*/
+
+            a.button-link {
+                display: inline-block;
+                padding: 6px 12px;
+                margin-right: 12px;
+                font-family: "MS Sans Serif", Arial, sans-serif;
+                font-size: 12px;
+                font-weight: normal;
+                color: black;
+                text-decoration: none;
+                text-align: center;
+                background-color: #C0C0C0; /* Classic gray */
+                border-top: 2px solid #FFFFFF;
+                border-left: 2px solid #FFFFFF;
+                border-right: 2px solid #808080;
+                border-bottom: 2px solid #808080;
+                cursor: pointer;
+            }
+
+            a.button-link:active {
+                border-top: 2px solid #808080;
+                border-left: 2px solid #808080;
+                border-right: 2px solid #FFFFFF;
+                border-bottom: 2px solid #FFFFFF;
+            }
+        }
+
+        div.page {
             table {
                 margin: 2em 0;
                 border-collapse: collapse;
@@ -145,36 +181,6 @@ body {
 
             div.columns-1-2 {
                 grid-template-columns: 1fr 2fr;
-            }
-
-            span.line-height {
-                display: inline-block;
-                line-height: 1em;
-            }
-
-            a.button-link {
-                display: inline-block;
-                padding: 6px 12px;
-                margin-right: 12px;
-                font-family: "MS Sans Serif", Arial, sans-serif;
-                font-size: 12px;
-                font-weight: normal;
-                color: black;
-                text-decoration: none;
-                text-align: center;
-                background-color: #C0C0C0; /* Classic gray */
-                border-top: 2px solid #FFFFFF;
-                border-left: 2px solid #FFFFFF;
-                border-right: 2px solid #808080;
-                border-bottom: 2px solid #808080;
-                cursor: pointer;
-            }
-
-            a.button-link:active {
-                border-top: 2px solid #808080;
-                border-left: 2px solid #808080;
-                border-right: 2px solid #FFFFFF;
-                border-bottom: 2px solid #FFFFFF;
             }
         }
     }

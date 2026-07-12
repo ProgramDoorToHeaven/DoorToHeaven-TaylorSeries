@@ -22,11 +22,11 @@ BACK_LINK_MD = ButtonLink(
 )
 COMMENTS_SHOW_LINK_HTML = ButtonLink(
     text="📌 Show comments",  # 📌📝📄💭💡💬✍️
-    link="./index.html?comments=true",
+    link="#comments=true",
 )
 COMMENTS_HIDE_LINK_HTML = ButtonLink(
     text="📌 Hide comments",  # 📌📝📄💭💡💬✍️
-    link="./index.html?comments=false",
+    link="#comments=false",
 )
 
 
@@ -40,24 +40,21 @@ class Page(Printable):
             raise ValueError("Empty page.")
 
     def get_html_content(self) -> Iterator[HtmlTag]:
-
+        wrapper = new_tag("div", class_="page-wrapper")
+        wrapper.append(self.get_buttons_div())
         page = new_tag("div", class_="page")
-        self.header_footer_buttons(page)
         for block in self.blocks:
             page.extend(block.get_html())
-        self.header_footer_buttons(page)
-
-        wrapper = new_tag("div", class_="page-wrapper")
         wrapper.append(page)
         yield wrapper
 
-    def header_footer_buttons(self, page: HtmlTag):
+    def get_buttons_div(self) -> HtmlTag:
+        buttons_div = new_tag("div", class_="buttons-row")
         if self.can_go_back:
-            page.extend(BACK_LINK_HTML.get_html())
-        else:
-            page.append(new_tag("span", class_="line-height"))
-        page.extend(COMMENTS_SHOW_LINK_HTML.get_html())
-        page.extend(COMMENTS_HIDE_LINK_HTML.get_html())
+            buttons_div.extend(BACK_LINK_HTML.get_html())
+        buttons_div.extend(COMMENTS_SHOW_LINK_HTML.get_html())
+        buttons_div.extend(COMMENTS_HIDE_LINK_HTML.get_html())
+        return buttons_div
 
     def get_markdown(
             self,
