@@ -120,6 +120,10 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             All operatives are instructed to report any further developments immediately to the British Embassy or relevant intelligence channels.
         """,)),
+    ), comment=(
+        Paragraph(text=(
+            "This corresponds to the Stargate Origins movie.",
+        )),
     )),
     PageBlock(parts=(
         Paragraph(text=("""
