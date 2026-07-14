@@ -18,6 +18,7 @@ men in lab coats or uniforms flipping switches, triggering the occasional power 
 The only mildly interesting detail is that the inner circle of the artifact rotates - but then again, it's round, so why wouldn't it?
 
 I think I'll skip the rest.
+
 They believed it could be weaponized - after all,
 it allegedly killed a Nazi in 1939 and wiped the memories of the Langfords.
 So, they hooked it up to electrical cables and tried to replicate the experiment from Egypt.
