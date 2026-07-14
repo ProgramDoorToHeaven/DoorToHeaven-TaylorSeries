@@ -32,10 +32,10 @@ PAGE = Page(can_go_back=False, blocks=(
                         Table(
                             header=("", ""),
                             items=(
-                                ("User logged in", "Taylor Jones"),
+                                ("User logged in", "Taylor Jones"),  # facts about Taylor
                                 ("N.I.D. division", "Military projects oversight"),
-                                ("National security clearance", "Top secret"),
-                                ("NATO security clearance", "NATO CTS"),
+                                ("National security clearance", "Top secret"),  # facts about Taylor
+                                ("NATO security clearance", "NATO CTS"),  # facts about Taylor
                                 ("", ""),
                                 ("Current agenda", "Program \"Door To Heaven\""),
                                 ("Agenda classification", "Top secret - do not obtain copies"),
