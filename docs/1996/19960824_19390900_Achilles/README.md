@@ -75,10 +75,11 @@ What began as a European conflict soon engulfed the world, leaving nothing uncha
 Achilles - captain's journal
 September 5, 1939
 
-The moon is full tonight, casting silver paths on the water. The crew is on
-edge. We've spotted nothing but empty ocean, yet the tension is thick enough to
-cut. The bosun asked again about the cargo. I told him what I always do: "No
-need to know." He didn't push, but I saw the frustration in his eyes.
+The moon, now a week past full, hangs half-lit in the sky, casting silver paths
+on the water. The crew is on edge. We've spotted nothing but empty ocean, yet
+the tension is thick enough to cut. The bosun asked again about the cargo. I
+told him what I always do: "No need to know." He didn't push, but I saw the
+frustration in his eyes.
 
 I've taken to walking the deck at night, listening to the creaks and groans of
 the ship. The Achilles is old, but she's sturdy. Still, I wonder if she's up for

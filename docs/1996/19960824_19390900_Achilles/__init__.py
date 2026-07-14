@@ -133,13 +133,13 @@ PAGE = Page(blocks=(
             September 5, 1939
         """,)),
         Paragraph(text=("""
-            The moon is full tonight, casting silver paths on the water.
+            The moon, now a week past full, hangs half-lit in the sky, casting silver paths on the water.
             The crew is on edge.
             We've spotted nothing but empty ocean, yet the tension is thick enough to cut.
             The bosun asked again about the cargo.
             I told him what I always do: "No need to know."
             He didn't push, but I saw the frustration in his eyes.
-        """,)),
+        """,)), # full moon = Aug 29
         Paragraph(text=("""
             I've taken to walking the deck at night, listening to the creaks and groans of the ship.
             The Achilles is old, but she's sturdy.
@@ -180,6 +180,8 @@ PAGE = Page(blocks=(
             We will make temporary repairs and continue straight to Boston.
             No word of this to the crew beyond what is necessary.
         """,)),
+    ), comment=(
+        Paragraph(text=("This is almost the timeline from the end of the StarGate Continuum movie.",)),
     )),
     PageBlock(parts=(
         Paragraph(text=("""
