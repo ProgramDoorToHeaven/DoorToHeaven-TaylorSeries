@@ -49,6 +49,7 @@ PAGE = Page(blocks=(
         )),
     )),
     PageBlock(parts=(
+        # facts about Taylor
         # The "international law" is negotiable. Could be changed in the future if we need Taylor to have some expertise.
         # But it should be some social studies - oversight job, learnt about Ponzi, ...
         Paragraph(text=("""

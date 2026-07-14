@@ -28,7 +28,7 @@ PAGE = Page(blocks=(
             By around 1980 (when I went to primary school), telegrams had begun to fade as fax machines took over, with both methods seeing roughly equal use in that period.
             Soon after, fax machines were themselves overtaken by the rapid rise of internet-based e-mail.
             Today, while fax still exists and some companies still provide telegram services, e-mail has become the dominant form of written communication.
-        """,)),
+        """,)),  # facts about Taylor
         Paragraph(text=("""
             But during that time, telegrams were a common and reliable way to send urgent messages.
         """,)),
