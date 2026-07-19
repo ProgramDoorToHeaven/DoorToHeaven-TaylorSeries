@@ -13,6 +13,7 @@ Timeline
     - Dialing computer development begins
 - 1994:
     - Dr. Meyers and Dr. Shore begin working on the SG project (2 years before the movie)
+    - Captain Samantha Carter begins work studying Stargate technology.
 - 1996:
     - Ra is killed on Abydos
 - 1997:
