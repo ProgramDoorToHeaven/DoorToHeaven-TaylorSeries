@@ -118,10 +118,17 @@ body {
             }
 
             div.comment {
+                height: auto;
                 border-color: blue;
                 opacity: 20%;
                 font-family: var(--body-font-family), sans-serif;
                 text-align: left;
+                transition:
+                    height 0.3s ease,
+                    width 0.3s ease,
+                    margin 0.3s ease,
+                    padding 0.3s ease,
+                    opacity 0.3s ease;
 
                 hr {
                     margin: 0;
