@@ -35,7 +35,7 @@ PAGE = Page(blocks=(
         Paragraph(text=("""
             On April 23, 1927, during systematic excavations in the East Field of the Giza necropolis,
             the entrance to a previously unknown mastaba tomb was uncovered.
-            The tomb was identified as belonging to Queen Meresankh III, granddaughter of Pharaoh Khufu and wife of Pharaoh Khafre, based on inscriptions found within the structure.
+            The tomb was identified as belonging to Queen Meresankh III, granddaughter of Pharaoh Khufu and probably wife of Pharaoh Khafre, based on inscriptions found within the structure.
         """,)),
     ), comment=(
         Paragraph(text=(
@@ -124,7 +124,7 @@ PAGE = Page(blocks=(
                 "Statues: Alabaster and limestone statues of the queen, including a notable statue depicting her mother, Queen Hetepheres II, embracing her.",
             )),
             Paragraph(text=(
-                "Canopic Jars: Among the earliest known examples, these jars were inscribed with the queen's titles and contained her viscerally preserved organs.",
+                "Canopic Jars: Among the earliest known examples, these jars were inscribed with the queen's titles and contained her mummified viscera.",
             )),
         )),
         Paragraph(omit_space_before=True, text=("See appendices B-1 to B-4.",)),

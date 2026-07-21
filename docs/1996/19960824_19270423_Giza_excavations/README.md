@@ -28,8 +28,8 @@ Introduction
 On April 23, 1927, during systematic excavations in the East Field of the Giza
 necropolis, the entrance to a previously unknown mastaba tomb was uncovered. The
 tomb was identified as belonging to Queen Meresankh III, granddaughter of
-Pharaoh Khufu and wife of Pharaoh Khafre, based on inscriptions found within the
-structure.
+Pharaoh Khufu and probably wife of Pharaoh Khafre, based on inscriptions found
+within the structure.
 ```
 
 Reading a report on Egyptian excavations isn't exactly what I pictured when I got my international law degree - but it's an interesting detour.
@@ -82,7 +82,7 @@ discovered, along with a variety of funerary goods:
 - Statues: Alabaster and limestone statues of the queen, including a notable
   statue depicting her mother, Queen Hetepheres II, embracing her.
 - Canopic Jars: Among the earliest known examples, these jars were inscribed
-  with the queen's titles and contained her viscerally preserved organs.
+  with the queen's titles and contained her mummified viscera.
 See appendices B-1 to B-4.
 
 Inscription Chamber: A stela was found detailing Meresankh III's lineage,
