@@ -58,26 +58,32 @@ PAGE = Page(blocks=(
             I always wondered why the curriculum obsessed over medieval Europe and barely touched the rest of the world or what happened here before Columbus.
         """,)),
         Paragraph(text=("""
-            The only pyramids I've learned about were ones like the Ponzi scheme.
-            Coincidentally, Carlo Ponzi carried out his fraud as well in the 1920s.
-            His pyramid scheme was neither the first one, nor the last one, but he got a lot of media attention, because it was colossal.
-            His business began legitimately - he claimed to invest in international postage stamps, or something along those lines.
-            But he quickly realized the venture wasn't sustainable.
-            To maintain the illusion of profitability, he resorted to paying returns to earlier investors using the funds from new ones.
-        """,)),
+            The only pyramids I knew much about were the illegal kind.
+            Carlo Ponzi made his name in the 1920s too,
+            promising safe returns until the math collapsed under its own weight.
+            Ancient Egypt had better engineering and, presumably, fewer investors demanding withdrawals.
+        """,), comment=(
+            ParagraphLink(text="Wikipedia - Ponzi scheme", link="https://en.wikipedia.org/wiki/Ponzi_scheme"),
+            Paragraph(text=("""
+                Coincidentally, Carlo Ponzi carried out his fraud as well in the 1920s.
+                His pyramid scheme was neither the first one, nor the last one, but he got a lot of media attention, because it was colossal.
+                His business began legitimately - he claimed to invest in international postage stamps, or something along those lines.
+                But he quickly realized the venture wasn't sustainable.
+                To maintain the illusion of profitability, he resorted to paying returns to earlier investors using the funds from new ones.
+            """,)),
+            Paragraph(text=("""
+                In general, this is how a pyramid scheme works:
+                They offer you an investment opportunity with suspiciously high and stable interest rates and little or even no risk at all.
+                They lack proper financial licensing, but they have a new secret complicated idea that supposedly guarantees wealth.
+                At first, early investors receive their promised payouts - this builds trust and attracts new participants.
+                The scheme grows as each new wave of investors funds the returns for the previous ones.
+                As long as the pyramid keeps expanding, with each new layer larger than the last, the illusion holds.
+                But the cracks appear when investors try to withdraw their money.
+                The scheme simply doesn't have enough funds to cover everyone's payouts.
+                Once trust collapses and withdrawals surge, the fraudster vanishes with all the remaining money boarding a one-way flight to an exotic country with no extradition treaty.
+            """,)),
+        )),
         Paragraph(text=("""
-            In general, this is how a pyramid scheme works:
-            They offer you an investment opportunity with suspiciously high and stable interest rates and little or even no risk at all.
-            They lack proper financial licensing, but they have a new secret complicated idea that supposedly guarantees wealth.
-            At first, early investors receive their promised payouts - this builds trust and attracts new participants.
-            The scheme grows as each new wave of investors funds the returns for the previous ones.
-            As long as the pyramid keeps expanding, with each new layer larger than the last, the illusion holds.
-            But the cracks appear when investors try to withdraw their money.
-            The scheme simply doesn't have enough funds to cover everyone's payouts.
-            Once trust collapses and withdrawals surge, the fraudster vanishes with all the remaining money boarding a one-way flight to an exotic country with no extradition treaty.
-        """,)),
-        Paragraph(text=("""
-            Back to the Egyptian pyramids.
             I hope I won't fall asleep on the report.
             I'd rather not spend my lunch break dozing at my desk.
             Luckily, I'm meeting my colleague Youssef for lunch today.
