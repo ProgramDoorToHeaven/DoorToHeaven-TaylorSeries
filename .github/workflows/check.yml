@@ -36,6 +36,7 @@ jobs:
             -e '‘' -e '’' \
             -e '—' -e '–' \
             -e 'archaeolog' \
+            -e 'learnt' \
             ./docs/
           then
             echo ""

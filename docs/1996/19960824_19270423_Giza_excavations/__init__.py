@@ -51,14 +51,14 @@ PAGE = Page(blocks=(
     PageBlock(parts=(
         # facts about Taylor
         # The "international law" is negotiable. Could be changed in the future if we need Taylor to have some expertise.
-        # But it should be some social studies - oversight job, learnt about Ponzi, ...
+        # But it should be some social studies - oversight job, learned about Ponzi, ...
         Paragraph(text=("""
             Reading a report on Egyptian excavations isn't exactly what I pictured when I got my international law degree - but it's an interesting detour.
             Ancient history wasn't my strongest subject in school.
             I always wondered why the curriculum obsessed over medieval Europe and barely touched the rest of the world or what happened here before Columbus.
         """,)),
         Paragraph(text=("""
-            The only pyramids I've learnt about were ones like the Ponzi scheme.
+            The only pyramids I've learned about were ones like the Ponzi scheme.
             Coincidentally, Carlo Ponzi carried out his fraud as well in the 1920s.
             His pyramid scheme was neither the first one, nor the last one, but he got a lot of media attention, because it was colossal.
             His business began legitimately - he claimed to invest in international postage stamps, or something along those lines.

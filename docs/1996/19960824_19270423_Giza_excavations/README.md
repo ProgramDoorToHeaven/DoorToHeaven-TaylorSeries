@@ -36,7 +36,7 @@ Reading a report on Egyptian excavations isn't exactly what I pictured when I go
 Ancient history wasn't my strongest subject in school.
 I always wondered why the curriculum obsessed over medieval Europe and barely touched the rest of the world or what happened here before Columbus.
 
-The only pyramids I've learnt about were ones like the Ponzi scheme.
+The only pyramids I've learned about were ones like the Ponzi scheme.
 Coincidentally, Carlo Ponzi carried out his fraud as well in the 1920s.
 His pyramid scheme was neither the first one, nor the last one, but he got a lot of media attention, because it was colossal.
 His business began legitimately - he claimed to invest in international postage stamps, or something along those lines.
