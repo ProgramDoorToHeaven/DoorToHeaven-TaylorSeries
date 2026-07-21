@@ -37,6 +37,10 @@ jobs:
             -e '—' -e '–' \
             -e 'archaeolog' \
             -e 'learnt' \
+            -e 'star gate' \
+            ./docs/ || grep -r \
+            -e 'StarGate' \
+            -e 'stargate' \
             ./docs/
           then
             echo ""

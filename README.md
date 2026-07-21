@@ -1,9 +1,9 @@
 Program Door To Heaven - The Taylor Series
 ==========================================
 
-This is a StarGate fan fiction.
+This is a Stargate fan fiction.
 The premise is that an N.I.D. employee (Taylor Jones)
-is going through all available documents about the StarGate program.
+is going through all available documents about the Stargate program.
 
 I'm aiming to:
 

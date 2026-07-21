@@ -60,7 +60,7 @@ PAGE = Page(can_go_back=False, blocks=(
                         Paragraph(text=("""
                             This story works the same way.
                             Each layer -
-                            whether the baseline reality of StarGate,
+                            whether the baseline reality of Stargate,
                             the documents Taylor processes,
                             Taylor's own thoughts,
                             or my occasional explanations -

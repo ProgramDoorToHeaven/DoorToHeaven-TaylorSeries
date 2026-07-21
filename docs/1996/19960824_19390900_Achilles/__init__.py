@@ -181,7 +181,7 @@ PAGE = Page(blocks=(
             No word of this to the crew beyond what is necessary.
         """,)),
     ), comment=(
-        Paragraph(text=("This is almost the timeline from the end of the StarGate Continuum movie.",)),
+        Paragraph(text=("This is almost the timeline from the end of the Stargate Continuum movie.",)),
     )),
     PageBlock(parts=(
         Paragraph(text=("""

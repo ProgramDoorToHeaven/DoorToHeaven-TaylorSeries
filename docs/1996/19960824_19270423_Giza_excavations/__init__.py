@@ -45,7 +45,7 @@ PAGE = Page(blocks=(
             "Dr. Reisner is a real archeologist leading excavations on the Giza Plateau at that time and his team really unearthed the Tomb of Queen Meresankh III on this date.",
         )),
         Paragraph(text=(
-            "The only added detail should be Prof. Langford who later discovered the StarGate.",
+            "The only added detail should be Prof. Langford who later discovered the Stargate.",
         )),
     )),
     PageBlock(parts=(
