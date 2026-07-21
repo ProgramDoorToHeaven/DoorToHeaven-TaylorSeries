@@ -18,7 +18,7 @@ Archeological Report: Discovery of the Tomb of Queen Meresankh III
 ==================================================================
 
 Location:              Giza Plateau, East Field, Egypt
-Date of Discovery:     April 1927
+Date of Discovery:     April 23, 1927
 Excavation Director:   George Andrew Reisner, Ph.D
 Report prepared by:    Prof. Paul Langford, Deputy Field Director
 
@@ -44,7 +44,7 @@ But he quickly realized the venture wasn't sustainable.
 To maintain the illusion of profitability, he resorted to paying returns to earlier investors using the funds from new ones.
 
 In general, this is how a pyramid scheme works:
-They offer you an investment opportunity with suspiciously high and stable interest rate and little or even no risk at all.
+They offer you an investment opportunity with suspiciously high and stable interest rates and little or even no risk at all.
 They lack proper financial licensing, but they have a new secret complicated idea that supposedly guarantees wealth.
 At first, early investors receive their promised payouts - this builds trust and attracts new participants.
 The scheme grows as each new wave of investors funds the returns for the previous ones.
