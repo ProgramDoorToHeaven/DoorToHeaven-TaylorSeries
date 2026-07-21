@@ -6,11 +6,11 @@ PAGE = Page(blocks=(
         LiteralParagraph(text=("""
             Location:              Giza Plateau, Egypt
             Date:                  September 8, 1928
-            Report prepared by:    Prof. Paul Langford, Lead Archaeologist
+            Report prepared by:    Prof. Paul Langford, Lead Archeologist
         """,)),
         HeadLine(level=2, text="Introduction"),
         Paragraph(text=("""
-            A significant archaeological discovery was made near the Great Pyramids in Giza, Egypt.
+            A significant archeological discovery was made near the Great Pyramids in Giza, Egypt.
             This report details the unearthing and initial analysis of a large, ring-shaped artifact found beneath a circular cover stone,
             accompanied by 2 buried human bodies in ritual armor with jackal heads and decorated staffs.
         """,)),
@@ -24,7 +24,7 @@ PAGE = Page(blocks=(
     PageBlockTypeWriter(parts=(
         HeadLine(level=2, text="Discovery"),
         Paragraph(text=("""
-            While leading an archaeological expedition near the Great Pyramids, one of my teams lead by Sallah Mohammed Faisel el-Kahir uncovered a large, ring-shaped artifact buried beneath a substantial cover stone.
+            While leading an archeological expedition near the Great Pyramids, one of my teams lead by Sallah Mohammed Faisel el-Kahir uncovered a large, ring-shaped artifact buried beneath a substantial cover stone.
             Accompanying the artifact were two remains of human bodies, which we initially hypothesized could be remnants of an ancient burial ritual or guardians of the artifact.
             The artifact itself is composed of what appears to be melted meteorite, exhibiting a metallic structure unlike any known materials from the historical or geological record.
         """,))

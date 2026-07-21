@@ -101,7 +101,7 @@ Adolf Hitler rose to power in the early 1930s by exploiting Germany's economic d
 Appointed Chancellor in 1933, he used propaganda, legal maneuvers, and violent suppression of opponents to consolidate absolute control.
 Central to Nazi ideology was the myth of the Aryan "master race" (and Germans being descendants of Aryans), which Hitler promoted to justify German dominance, territorial expansion, and the persecution of nations deemed "inferior."
 To lend pseudoscientific credibility to these racial theories, the SS founded the Ahnenerbe in 1935,
-a research organization that conducted global expeditions to "prove" Aryan supremacy through archaeology and history,
+a research organization that conducted global expeditions to "prove" Aryan supremacy through archeology and history,
 though its findings were largely fabricated or distorted for propaganda purposes.
 
 --------

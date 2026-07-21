@@ -24,7 +24,7 @@ PAGE = Page(blocks=(
         """,)),
     )),
     PageBlockTypeWriter(parts=(
-        HeadLine(level=1, text="Archaeological Report: Discovery of the Tomb of Queen Meresankh III"),
+        HeadLine(level=1, text="Archeological Report: Discovery of the Tomb of Queen Meresankh III"),
         LiteralParagraph(text=("""
             Location:              Giza Plateau, East Field, Egypt
             Date of Discovery:     April 1927
@@ -93,7 +93,7 @@ PAGE = Page(blocks=(
         """,)),
         HeadLine(level=2, text="Methodology"),
         Paragraph(text=("""
-            The excavation followed the standard archaeological practices of the modern time:
+            The excavation followed the standard archeological practices of the modern time:
             careful stratigraphic excavation, documentation through photography and sketches, and meticulous cataloging of artifacts.
             The site was divided into a grid system to ensure systematic exploration and recording.
         """,)),
@@ -136,7 +136,7 @@ PAGE = Page(blocks=(
         """,)),
         HeadLine(level=2, text="Conclusion"),
         Paragraph(text=("""
-            The tomb of Queen Meresankh III remains one of the most significant archaeological finds from the Giza plateau so far.
+            The tomb of Queen Meresankh III remains one of the most significant archeological finds from the Giza plateau so far.
             The preservation of the tomb and its contents has allowed scholars to reconstruct aspects of royal life, religion, and artistry during the Old Kingdom.
         """,)),
     )),
@@ -157,12 +157,12 @@ PAGE = Page(blocks=(
         HeadLine(level=1, text="Document summary"),
         Paragraph(text=("by Taylor Jones",)),
         Table.new_nid_table_for_document_summary(
-            document_name="Archaeological Report: Discovery of the Tomb of Queen Meresankh III",
+            document_name="Archeological Report: Discovery of the Tomb of Queen Meresankh III",
             document_author="Prof. Paul Langford",
             year=1927, month=4,
         ),
         Paragraph(text=("""
-            In 1927, Dr. Reisner and Prof. Langford conducted an archaeological dig in Egypt.
+            In 1927, Dr. Reisner and Prof. Langford conducted an archeological dig in Egypt.
             No indication of any Air Force-related activity.
         """,)),
         HeadLine(level=2, text="Recommendation"),
@@ -171,7 +171,7 @@ PAGE = Page(blocks=(
     PageBlock(parts=(
         HorizontalLine(),
         Paragraph(text=("""
-            When I asked Youssef about these archaeologists, he told me they went their separate ways after the 1927 season.
+            When I asked Youssef about these archeologists, he told me they went their separate ways after the 1927 season.
             Dr. Reisner continued his previous work - excavating mummies and broken vases from the sand.
             Prof. Langford also conducted digs for a year, but on a different part of the Giza plateau.
             After that, he spent a decade researching and cataloging artifacts at the Cairo Museum.

@@ -14,8 +14,8 @@ Alright, another report to read.
 Once I'm done with this one, I can finally go for lunch.
 
 ```
-Archaeological Report: Discovery of the Tomb of Queen Meresankh III
-===================================================================
+Archeological Report: Discovery of the Tomb of Queen Meresankh III
+==================================================================
 
 Location:              Giza Plateau, East Field, Egypt
 Date of Discovery:     April 1927
@@ -71,8 +71,8 @@ a descending corridor leading to a series of decorated chambers.
 Methodology
 -----------
 
-The excavation followed the standard archaeological practices of the modern
-time: careful stratigraphic excavation, documentation through photography and
+The excavation followed the standard archeological practices of the modern time:
+careful stratigraphic excavation, documentation through photography and
 sketches, and meticulous cataloging of artifacts. The site was divided into a
 grid system to ensure systematic exploration and recording.
 
@@ -118,7 +118,7 @@ Conclusion
 ----------
 
 The tomb of Queen Meresankh III remains one of the most significant
-archaeological finds from the Giza plateau so far. The preservation of the tomb
+archeological finds from the Giza plateau so far. The preservation of the tomb
 and its contents has allowed scholars to reconstruct aspects of royal life,
 religion, and artistry during the Old Kingdom.
 ```
@@ -137,13 +137,13 @@ Chasing the remaining 20% of results would take five times longer - and probably
 >
 > by Taylor Jones
 >
-> |          |                                                                     |
-> |----------|---------------------------------------------------------------------|
-> | Document | Archaeological Report: Discovery of the Tomb of Queen Meresankh III |
-> | Date     | 1927-04-xx                                                          |
-> | Author   | Prof. Paul Langford                                                 |
+> |          |                                                                    |
+> |----------|--------------------------------------------------------------------|
+> | Document | Archeological Report: Discovery of the Tomb of Queen Meresankh III |
+> | Date     | 1927-04-xx                                                         |
+> | Author   | Prof. Paul Langford                                                |
 >
-> In 1927, Dr. Reisner and Prof. Langford conducted an archaeological dig in Egypt.
+> In 1927, Dr. Reisner and Prof. Langford conducted an archeological dig in Egypt.
 > No indication of any Air Force-related activity.
 >
 > Recommendation
@@ -153,7 +153,7 @@ Chasing the remaining 20% of results would take five times longer - and probably
 
 --------
 
-When I asked Youssef about these archaeologists, he told me they went their separate ways after the 1927 season.
+When I asked Youssef about these archeologists, he told me they went their separate ways after the 1927 season.
 Dr. Reisner continued his previous work - excavating mummies and broken vases from the sand.
 Prof. Langford also conducted digs for a year, but on a different part of the Giza plateau.
 After that, he spent a decade researching and cataloging artifacts at the Cairo Museum.
