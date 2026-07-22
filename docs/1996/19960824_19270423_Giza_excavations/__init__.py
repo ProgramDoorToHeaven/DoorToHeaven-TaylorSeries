@@ -96,7 +96,13 @@ PAGE = Page(blocks=(
             The tomb, designated G 7530-7540, was located near the pyramid complex of Khafre.
             The entrance was sealed with a limestone slab, indicating the tomb had remained undisturbed since its original sealing.
             Upon entry, the team discovered a descending corridor leading to a series of decorated chambers.
-        """,)),
+        """,), comment=(
+            Paragraph(text=("""
+                Nothing earth-shattering here.
+                You can skip the rest of the report.
+                That's what Taylor would like to do anyway.
+            """,)),
+        )),
         HeadLine(level=2, text="Methodology"),
         Paragraph(text=("""
             The excavation followed the standard archeological practices of the modern time:
@@ -178,7 +184,11 @@ PAGE = Page(blocks=(
         HorizontalLine(),
         Paragraph(text=("""
             When I asked Youssef about these archeologists, he told me they went their separate ways after the 1927 season.
-            Dr. Reisner continued his previous work - excavating mummies and broken vases from the sand.
+            And as it seems, they didn't part their ways on good terms as Prof. Langford is not even mentioned in the final publication.
+            His name appears only in this version of the report.
+        """,)),
+        Paragraph(text=("""
+            During the following years, Dr. Reisner continued his previous work - excavating mummies and broken vases from the sand.
             Prof. Langford also conducted digs for a year, but on a different part of the Giza plateau.
             After that, he spent a decade researching and cataloging artifacts at the Cairo Museum.
             Just before the war, he moved to the United States, where he carried out some minor research that went largely unnoticed.

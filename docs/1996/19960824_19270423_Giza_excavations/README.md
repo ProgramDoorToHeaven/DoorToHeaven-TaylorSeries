@@ -141,7 +141,10 @@ Chasing the remaining 20% of results would take five times longer - and probably
 --------
 
 When I asked Youssef about these archeologists, he told me they went their separate ways after the 1927 season.
-Dr. Reisner continued his previous work - excavating mummies and broken vases from the sand.
+And as it seems, they didn't part their ways on good terms as Prof. Langford is not even mentioned in the final publication.
+His name appears only in this version of the report.
+
+During the following years, Dr. Reisner continued his previous work - excavating mummies and broken vases from the sand.
 Prof. Langford also conducted digs for a year, but on a different part of the Giza plateau.
 After that, he spent a decade researching and cataloging artifacts at the Cairo Museum.
 Just before the war, he moved to the United States, where he carried out some minor research that went largely unnoticed.
